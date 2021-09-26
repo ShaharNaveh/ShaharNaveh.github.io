@@ -1,0 +1,59 @@
+title: snaveh
+email: snaveh@protonmail.com
+description: >-
+  A place for me to shout my thoughts into the void
+baseurl: "/"
+url: "https://shaharnaveh.github.io/"
+domain: shaharnaveh.github.io
+github_username: ShaharNaveh
+
+minimal_mistakes_skin: dark
+search: true
+
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+
+include:
+  - _pages
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+      path: "posts"
+    values:
+      author: "ShaharNaveh"
