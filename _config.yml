@@ -1,9 +1,9 @@
 title: snaveh
 email: snaveh@protonmail.com
-description: >-
-  A place for me to shout my thoughts into the void
+description: A place for me to shout my thoughts into the void
 baseurl: "/"
 url: "https://shaharnaveh.github.io/"
+repository: "ShaharNaveh/ShaharNaveh.github.io"
 domain: shaharnaveh.github.io
 github_username: ShaharNaveh
 
