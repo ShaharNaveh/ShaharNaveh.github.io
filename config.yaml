@@ -2,3 +2,17 @@ baseURL: https://shaharnaveh.github.io/
 languageCode: en-us
 title: snaveh
 theme: "PaperMod"
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
