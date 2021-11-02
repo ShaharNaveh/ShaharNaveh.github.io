@@ -1,6 +1,5 @@
 ---
 
-layout: post
 title: Python venv under the hood
 tags: [python,venv]
 
@@ -69,4 +68,3 @@ The solution is to create a virtual environment.
 ## What is a python virtual environment
 
 Python virtual environmet is a self-contained directory, that include an installation of python of a specific version (defaults to the version of python that was used to create the virtual environment), and usually comes with pre-installed packages like: pip and setuptools
-
