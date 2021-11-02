@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on snaveh</title><link>https://shaharnaveh.github.io/posts/</link><description>Recent content in Posts on snaveh</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 03 Nov 2021 00:56:09 +0200</lastBuildDate><atom:link href="https://shaharnaveh.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Venv in Depth</title><link>https://shaharnaveh.github.io/posts/venv-in-depth/</link><pubDate>Wed, 03 Nov 2021 00:56:09 +0200</pubDate><guid>https://shaharnaveh.github.io/posts/venv-in-depth/</guid><description>Venv in depth In this post we are going to talk about:
+Why we need virtual environments
+What are virtual environments
+How to work with virtual environments
+How the virtual environment works under the hood
+Why virtual environmet Python project will sometimes use packages that are not part of the python stdlib. Also, projects will sometimes need a specific version of a package, because they are relying on a ~bug~ feature that only exists in that specific version of that package, maybe they use the specific version for stability reasons.</description></item></channel></rss>
