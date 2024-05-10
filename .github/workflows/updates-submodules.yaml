@@ -10,7 +10,11 @@ jobs:
           submodules: recursive
       - name: Update module
         run: |
-          git submodule update --init --recursive --checkout -f --remote
+          ls
+          git submodule foreach 'git reset --hard && git checkout . && git clean -fdx'
+          git submodule update --init --recursive --rebase --force
+          #git submodule update --init --recursive --checkout -f --remote
+          ls
           git config --global user.name "GitHub Action"
           git config --global user.email "noreply@github.com"
           git status
