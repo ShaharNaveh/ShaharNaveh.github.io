@@ -24,7 +24,7 @@ jobs:
         run: |
           pwd
           cd $RUNNER_TEMP
-          git clone https://github.com/ShaharNaveh/ShaharNaveh.github.io this
+          git clone https://github.com/ShaharNaveh/ShaharNaveh.github.io this --recursive
           cd this
           pwd
           ls -Alh
