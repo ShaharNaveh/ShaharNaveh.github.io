@@ -27,10 +27,10 @@ jobs:
           git clone https://github.com/ShaharNaveh/ShaharNaveh.github.io this --recursive
           cd this
           pwd
-          ls -Alh
+          ls themes/ -Alh
           git submodule update --init --recursive --remote
           echo "After Update"
-          ls -Alh
+          ls themes/ -Alh
           pwd
          
     # Checkout the repository to the GitHub Actions runner
