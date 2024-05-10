@@ -1,15 +1,32 @@
 baseURL: https://shaharnaveh.github.io/
 theme: "PaperMod"
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
+paginate: 5
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections:
+  - posts
+
 languages:
   en:
-    contentDir: content/en
     disabled: false
     languageCode: en-US
     languageDirection: ltr
     languageName: English
-    params:
-      subtitle: Reference, Tutorials, and Explanations
-    title: Shahar Naveh
     weight: 1
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
