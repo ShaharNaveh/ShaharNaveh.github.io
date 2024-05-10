@@ -16,9 +16,11 @@ jobs:
           echo A
           ls
           echo B
-          git submodule foreach 'git reset --hard && git checkout . && git clean -fdx'
+          #git submodule foreach 'git reset --hard && git checkout . && git clean -fdx'
+          git submodule init
           echo C
-          git submodule update --init --recursive --rebase --force
+          #git submodule update --init --recursive --rebase --force
+          git submodule update --init --recursive --force
           echo D
           #git submodule update --init --recursive --checkout -f --remote
           ls
