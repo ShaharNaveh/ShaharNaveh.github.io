@@ -1,5 +1,5 @@
 baseURL: https://shaharnaveh.github.io/
-# theme: "PaperMod"
+theme: "PaperMod"
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 languages:
