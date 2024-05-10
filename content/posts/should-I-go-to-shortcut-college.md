@@ -14,4 +14,4 @@ You're probably seeing this post because you asked:
 and someone linked this post as answer.
 
 ## What are "shortcut colleges"?
-Shortcut colleges offer a condensed, hands-on approach to tech education, promising quick entry into the workforce with programs priced between $4000 to $10,000 (depends on where you're from).
+Shortcut colleges offer a condensed, hands-on approach to tech education, promising quick entry into the workforce with very expensive priced programs.
