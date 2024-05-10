@@ -1,5 +1,8 @@
 name: Update git submodules
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 jobs:
   update:
@@ -10,13 +13,23 @@ jobs:
           submodules: recursive
       - name: Update module
         run: |
+          echo A
           ls
+          echo B
           git submodule foreach 'git reset --hard && git checkout . && git clean -fdx'
+          echo C
           git submodule update --init --recursive --rebase --force
+          echo D
           #git submodule update --init --recursive --checkout -f --remote
           ls
+          echo E
           git config --global user.name "GitHub Action"
+          echo F
           git config --global user.email "noreply@github.com"
+          echo G
           git status
+          echo H
           git commit -am "Update git submodules"
+          echo J
           git push
+          echo K
