@@ -28,12 +28,14 @@ But the truth is, there's no magic bullet that guarantees success.
 ## Why Not?
 Your goal is probably getting a high paying job with good working conditions and high-tech positions do offer that, but as this blog post will explain, shortcut-colleges can't give you what you're really after 😮
 
-### There Are No Shortcuts 
-insert text
+### You Need To Study On Your Own
+There are no shortcuts, putting an effort for self-studies will be required to pass any decent technical interview.
 
 ## FAQ 
 ### But It's Hard For Me To Study On My Own 
 Motivation and self-discipline are a must for any high-tech position.
+
+If you **really** can't do it then you need to rethink your career choices.
 
 ### But My Contract With Them Requires Them To Get Me A Job
 Some shortcut-colleges are promising an entry-level position upon course completion, with the sweet benefits of getting:
