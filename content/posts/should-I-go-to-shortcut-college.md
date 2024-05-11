@@ -40,7 +40,6 @@ There are a lot of fine-print you need to lookout for such as:
 
 - They are only responsible for getting you a job interview, not an actual offer 
 - They are doing their side by giving you an offer, if you don't sign it. It's on you
-
-And there are much, much more...
+- \<INSERT EVERY SCUMMY METHOD KNOWN TO MEN\>
 
 Not so fun to spending your life savings for a certification that's better used as a toilet paper.
