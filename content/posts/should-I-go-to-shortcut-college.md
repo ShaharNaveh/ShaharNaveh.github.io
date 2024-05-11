@@ -43,4 +43,4 @@ There are a lot of fine-print you need to lookout for such as:
 
 And there are much, much more...
 
-Not so fun to spend your life savings for a certification that's better used as a toilet paper.
+Not so fun to spending your life savings for a certification that's better used as a toilet paper.
