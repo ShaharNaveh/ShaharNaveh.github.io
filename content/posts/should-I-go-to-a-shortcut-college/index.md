@@ -3,7 +3,6 @@ title: "Should I Go To A Shortcut-College For A Technical Role?"
 date: 2024-05-10T00:00:00-12:00
 draft: false
 ---
-
 ## Should I?
 **The short answer is no, don't.**
 
@@ -34,7 +33,7 @@ In the fast-paced world of technology, adaptability and independent learning are
 
 Even if a single course would bring you to be at the forefront of the industry (and it will never do so), your knowledge would be outdated in less than a year; you need to keep pace by learning on your own.
 
-### Shallow Skillset 
+### Shallow Skillset
 Tech is more than just coding. It's about problem-solving, creativity, and adaptability. Many shortcut-colleges focus narrowly on teaching specific commands/languages/frameworks/etc, while neglecting the broader skills and knowledge needed to thrive in the industry.
 
 > give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime
@@ -46,8 +45,13 @@ Because the requirements for obtaining the certification are very easy, it does 
 
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
 
-## FAQ 
-### But It's Hard For Me To Study On My Own 
+## FAQ
+## But I Got A Scholarship From Them
+Those are lousy marketing tactics.
+
+They inflate the price, then giving you a test to see "if you are worthy". Regardless of your grade, you will get a discount/scholarship from them for you high intellect. Giving you the feeling of appreciation while all they care about is the money (capitalism in a nutshell).
+
+### But It's Hard For Me To Study On My Own
 Motivation and self-discipline are a must for any tech related position.
 
 If you **really** can't do it then you need to rethink your career choices.
@@ -65,4 +69,4 @@ There are a lot of fine-print you need to lookout for such as:
 - They are doing their side by giving you an offer, if you don't sign it. It's on you
 - \<INSERT EVERY SCUMMY METHOD KNOWN TO MEN\>
 
-Not so fun to spending your life savings for a certification that's better used as a toilet paper.
+Not so fun to spending your life savings for a certification that's better used as toilet paper.
