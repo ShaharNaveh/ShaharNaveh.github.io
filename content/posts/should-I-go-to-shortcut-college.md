@@ -1,5 +1,5 @@
 ---
-title: "Should I Go To A Shortcut College For A Technical Role?"
+title: "Should I Go To A Shortcut-College For A Technical Role?"
 date: 2024-05-10T00:00:00-12:00
 draft: false
 ---
@@ -7,18 +7,22 @@ draft: false
 ## Should I?
 **The short answer is no, don't.**
 
-You're probably seeing this post because you asked:
+You're probably seeing this post because you asked something like:
 
 > Do you guys recommend \<SHORTCUT COLLEGE\> for \<JOB ROLE\>?
 
-and someone linked this post as answer.
+and someone linked this post as an answer.
 
-## What Are "shortcut colleges"?
-Shortcut colleges offer a condensed, hands-on approach to tech education, promising quick entry into the workforce with very expensive priced programs.
+## What Are Shortcut-Colleges?
+Shortcut-colleges offer a condensed, hands-on approach to tech education, promising quick entry into the workforce with highly priced programs.
 
-## But Why?
+## Why Not?
 ### If It Sounds Too Good To Be True It Probably Isn't
 
 > Get our course, and land yourself your dream job.
 
-The truth is, there's no magic bullet that guarantees success.
+Is usually the marketing slogan for these courses, the truth is, there's no magic bullet that guarantees success.
+
+### But My Contract With Them Requires Them To Get Me A Job
+
+I saw few shortcut-colleges saying that 100% of it's students are in the workforce.
