@@ -24,10 +24,18 @@ Their marketing slogan is:
 
 But the truth is, there's no magic bullet that guarantees success.
 
-## Why Not?
-Your goal is probably to get a high paying job with good working conditions and high-tech positions do offer that, but as this blog post will explain, shortcut-colleges can't give you what you're really after 😮
 
-## But My Contract With Them Requires Them To Get Me A Job
+## Why Not?
+Your goal is probably getting a high paying job with good working conditions and high-tech positions do offer that, but as this blog post will explain, shortcut-colleges can't give you what you're really after 😮
+
+### There Are No Shortcuts 
+insert text
+
+## FAQ 
+### But It's Hard For Me To Study On My Own 
+Motivation and self-discipline are a must for any high-tech position.
+
+### But My Contract With Them Requires Them To Get Me A Job
 Some shortcut-colleges are promising an entry-level position upon course completion, with the sweet benefits of getting:
 
 - Extremely underpaid
