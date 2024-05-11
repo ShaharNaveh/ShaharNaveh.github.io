@@ -17,7 +17,7 @@ and someone linked this post as an answer.
 Shortcut-colleges offer a condensed, hands-on approach to tech education, promising quick entry into the workforce with highly priced programs.
 
 ## Why Not?
-Your goal is probably to get a high paying job with good working condition, and high-tech positions do offer that.
+Your goal is probably to get a high paying job with good working condition and high-tech positions do offer that.
 
 But, those shortcut-colleges can't provide you that luxury lifestyle that you are after 😲 for reasons I'm going to layout in this post.
 
