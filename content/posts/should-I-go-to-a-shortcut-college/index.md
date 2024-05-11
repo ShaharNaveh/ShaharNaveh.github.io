@@ -24,7 +24,6 @@ Their marketing slogan is:
 
 But the truth is, there's no magic bullet that guarantees success.
 
-
 ## Why Not?
 Your goal is probably getting a high paying job with good working conditions and high-tech positions do offer that, but as this blog post will explain, shortcut-colleges can't give you what you're really after 😮
 
@@ -44,6 +43,8 @@ Tech is more than just coding. It's about problem-solving, creativity, and adapt
 You might think that the graduation certificate worth something to your future employer. think again...
 
 Because the requirements for obtaining the certification are very easy, it does not show hard work or knowledge, so anyone can get it and it doesn't make you special.
+
+![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
 
 ## FAQ 
 ### But It's Hard For Me To Study On My Own 
