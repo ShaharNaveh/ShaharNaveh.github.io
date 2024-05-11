@@ -32,13 +32,17 @@ But as this blog post will explain, shortcut-colleges can't give you what you're
 Some shortcut-colleges are promising an entry-level position upon course completion, with the sweet benefits of getting:
 
 - Extremely underpaid
+  
 - Exploited
+
 - No promises of not getting fired after a month
 
 There are a lot of fine-print you need to lookout for such as:
 
 - They are only responsible for getting you a job interview, not an actual offer
+  
 - They are doing their side by giving you an offer, if you don't sign it. It's on you
 
 And there are much, much more...
+
 Not so fun to spend your life savings for a certification that's better used as a toilet paper.
