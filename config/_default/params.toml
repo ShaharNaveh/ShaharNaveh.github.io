@@ -33,7 +33,7 @@ disableTextInHeader = false
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = true
-  showScrollToTop = true
+  showScrollToTop = false
 
 [homepage]
   layout = "page" # valid options: page, profile, hero, card, background, custom
