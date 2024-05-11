@@ -41,7 +41,7 @@ Tech is more than just coding. It's about problem-solving, creativity, and adapt
 ### Expensive Toilet Paper
 You might think that the graduation certificate worth something to your future employer. think again...
 
-Because the requirements for obtaining the certification are very easy, it does not show hard work or knowledge, so anyone can get it and it doesn't make you special.
+Because the requirements for obtaining the certification are zero to none, it does not show hard work or knowledge, so anyone can get it and it doesn't make you special.
 
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
 
