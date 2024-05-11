@@ -17,12 +17,22 @@ and someone linked this post as an answer.
 Shortcut-colleges offer a condensed, hands-on approach to tech education, promising quick entry into the workforce with highly priced programs.
 
 ## Why Not?
-### If It Sounds Too Good To Be True It Probably Isn't
+Your goal is probably to get a high paying job with good working condition, and high-tech positions do offer that.
 
+But, those shortcut-colleges can't provide you that luxury lifestyle that you are after 😲 for reasons I'm going to layout in this post.
+
+### If It Sounds Too Good To Be True It Probably Isn't
 > Get our course, and land yourself your dream job.
 
-Is usually the marketing slogan for these courses, the truth is, there's no magic bullet that guarantees success.
+Is usually the marketing slogan for these courses.
+The truth is, there's no magic bullet that guarantees success.
 
 ### But My Contract With Them Requires Them To Get Me A Job
 
-I saw few shortcut-colleges saying that 100% of it's students are in the workforce.
+Some shortcut-colleges are promising an entry-level position upon course completion, with the sweet benefits of getting:
+
+- Extremely underpaid
+- Exploited
+
+
+saying that 100% of it's students are in the workforce.
