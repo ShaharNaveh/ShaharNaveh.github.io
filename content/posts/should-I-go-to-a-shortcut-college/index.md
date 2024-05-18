@@ -40,7 +40,10 @@ Even if a single course would bring you to be at the forefront of the industry (
 ### Shallow Skillset
 Tech is more than just coding. It's about problem-solving, creativity and adaptability. Many shortcut-colleges focus narrowly on teaching specific commands/languages/frameworks/etc, while neglecting the broader skills and knowledge needed to thrive in the industry.
 
-> give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime
+{{< lead >}}
+Give a man a fish and you feed him for a day.
+Teach a man to fish and you feed him for a lifetime
+{{< /lead >}}
 
 ### Expensive Toilet Paper
 You might think that the graduation certificate worth something to your future employer. think again...
