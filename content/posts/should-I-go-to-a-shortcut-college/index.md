@@ -37,7 +37,7 @@ Certificates from these programs are often not valued by employers, as they do n
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
 
 ## FAQ
-## But I Got A Scholarship From Them
+## But I Got A Scholarship
 Those are lousy marketing tactics.
 
 They inflate the price, then giving you a test to see "if you are worthy". Regardless of your grade, you will get a discount/scholarship from them for your high intellect. Giving you the feeling of appreciation while all they care about is the money (capitalism in a nutshell).
