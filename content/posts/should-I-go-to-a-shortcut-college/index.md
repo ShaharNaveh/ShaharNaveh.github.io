@@ -49,7 +49,7 @@ Because the requirements for obtaining the certification are zero to none, it do
 ## But I Got A Scholarship From Them
 Those are lousy marketing tactics.
 
-They inflate the price, then giving you a test to see "if you are worthy". Regardless of your grade, you will get a discount/scholarship from them for you high intellect. Giving you the feeling of appreciation while all they care about is the money (capitalism in a nutshell).
+They inflate the price, then giving you a test to see "if you are worthy". Regardless of your grade, you will get a discount/scholarship from them for your high intellect. Giving you the feeling of appreciation while all they care about is the money (capitalism in a nutshell).
 
 ### But It's Hard For Me To Study On My Own
 Motivation and self-discipline are a must for any tech related position.
