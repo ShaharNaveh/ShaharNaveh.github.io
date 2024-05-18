@@ -1,16 +1,12 @@
 ---
-title: "Should I Go To A Shortcut-College For A Technical Role?"
+title: "Should I Attend a Shortcut College for a Technical Role?"
 date: 2024-05-10T00:00:00-12:00
 draft: false
 ---
+
 ## Should I?
-**The short answer is no, don't.**
 
-You're probably seeing this post because you asked something like:
-
-> Do you guys recommend \<SHORTCUT COLLEGE\> for \<JOB ROLE\>?
-
-And someone linked this post as an answer.
+The short answer is no.
 
 ---
 
