@@ -43,7 +43,7 @@ These are marketing tactics. They inflate prices and offer discounts to create a
 ### But It's Hard For Me To Study On My Own
 Self-discipline and motivation are essential in tech. If you struggle with independent learning, reconsider your career path.
 
-### But My Contract With Them Requires Them To Get Me A Job
+### But My Contract Guarantees A Job
 Some shortcut-colleges are promising an entry-level position upon course completion, with the sweet benefits of getting:
 
 - Extremely underpaid
