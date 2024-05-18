@@ -33,7 +33,9 @@ Certificates from these programs are often not valued by employers, as they do n
 
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
 
-### a
+### The Scam of Shortcut Colleges
+
+
 ## FAQ
 ### But I Got A Scholarship
 These are marketing tactics. They inflate prices and offer discounts to create a false sense of value.
