@@ -10,7 +10,9 @@ The short answer is no.
 ---
 
 ## What Are Shortcut Colleges?
-Shortcut colleges offer fast-tracked, hands-on tech education with the promise of quick job placement, often at a high cost. They claim that completing their course guarantees job offers without additional effort.
+Shortcut colleges offer fast-tracked, hands-on tech education with the promise of quick job placement, often at a high cost.
+
+They claim that completing their course guarantees job offers without additional effort.
 
 ## Why Not?
 ### It's A Scam
