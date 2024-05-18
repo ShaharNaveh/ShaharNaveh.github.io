@@ -36,7 +36,7 @@ Give a man a fish and you feed him for a day.
 Teach a man to fish and you feed him for a lifetime.
 {{< /lead >}}
 
-### Expensive Certification
+### Expensive And Low-Value Certification
 Certificates from these programs are often not valued by employers, as they do not demonstrate substantial effort or knowledge.
 
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
