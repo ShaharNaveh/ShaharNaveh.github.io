@@ -44,16 +44,4 @@ These are marketing tactics. They inflate prices and offer discounts to create a
 Self-discipline and motivation are essential in tech. If you struggle with independent learning, reconsider your career path.
 
 ### But My Contract Guarantees A Job
-Some shortcut-colleges are promising an entry-level position upon course completion, with the sweet benefits of getting:
-
-- Extremely underpaid
-- Exploited
-- No promises of not getting fired after a month
-
-There are a lot of fine-print you need to lookout for such as:
-
-- They are only responsible for getting you a job interview, not an actual offer 
-- They are doing their side by giving you an offer, if you don't sign it. It's on you
-- \<INSERT EVERY SCUMMY METHOD KNOWN TO MAN\>
-
-Not so fun to spending your life savings for a certification that's better used as toilet paper.
+Some programs promise job placement but often lead to underpaid, exploitative positions. Be wary of fine print, such as guarantees only for job interviews, not actual employment offers.
