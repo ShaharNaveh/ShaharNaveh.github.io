@@ -13,14 +13,6 @@ The short answer is no.
 Shortcut colleges offer fast-tracked, hands-on tech education with the promise of quick job placement, often at a high cost. They claim that completing their course guarantees job offers without additional effort. These institutions typically provide condensed courses aimed at rapid employment but often lack depth.
 
 ## Why Not?
-### It's A Scam
-Shortcut colleges often charge exorbitant fees for programs that deliver limited value.
-They rely on aggressive marketing tactics, such as inflated job placement rates and "scholarships" to lure students.
-
-These programs can leave graduates underprepared for the job market, with skills that don't meet industry standards.
-
-In many cases, the promised job placements either don't materialize or are in low-paying, unstable positions, leading to disappointment and financial strain.
-
 ### Shortcut Colleges and Employment
 Relying on shortcut colleges for employment is misguided. Employers look for a deep understanding of concepts, critical thinking, and problem-solving abilities-skills that are rarely cultivated in fast-tracked programs. Instead, focus on building a robust skill set through consistent learning and practical experience.
 
@@ -41,6 +33,7 @@ Certificates from these programs are often not valued by employers, as they do n
 
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
 
+### a
 ## FAQ
 ### But I Got A Scholarship
 These are marketing tactics. They inflate prices and offer discounts to create a false sense of value.
