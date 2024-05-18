@@ -23,6 +23,10 @@ Their marketing slogan is:
 
 But the truth is, there's no magic bullet that guarantees success.
 
+{{< alert "circle-info" >}}
+"shortcut-colleges" can be any course that sells you the idea that just by attending that course, you will get amazing job offers, and there is no need to put any effort of your own.
+{{< /alert >}}
+
 ## Why Not?
 Your goal is probably getting a high paying job with good working conditions and high-tech positions do offer that, but as this blog post will explain, shortcut-colleges can't give you what you're really after 😮
 
