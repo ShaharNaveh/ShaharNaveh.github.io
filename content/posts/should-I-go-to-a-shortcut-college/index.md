@@ -12,10 +12,6 @@ The short answer is no.
 ## What Are Shortcut Colleges?
 Shortcut colleges offer fast-tracked, hands-on tech education with the promise of quick job placement, often at a high cost. They claim that completing their course guarantees job offers without additional effort.
 
-{{< alert "circle-info" >}}
-"shortcut-colleges" can be any course that sells you the idea that just by attending that course, you will get amazing job offers, and there is no need to put any effort of your own.
-{{< /alert >}}
-
 ## Why Not?
 ### Shortcut Colleges and Employment
 Relying on shortcut colleges for employment is misguided. Employers look for a deep understanding of concepts, critical thinking, and problem-solving abilities-skills that are rarely cultivated in fast-tracked programs. Instead, focus on building a robust skill set through consistent learning and practical experience.
