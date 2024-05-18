@@ -34,7 +34,7 @@ Certificates from these programs are often not valued by employers, as they do n
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
 
 ### The Scam of Shortcut Colleges
-
+Shortcut colleges charge high fees for programs that deliver limited value, using aggressive marketing tactics to attract students. They often promise job placements that either don't materialize or are in low-paying, unstable positions, leading to disappointment and financial strain.
 
 ## FAQ
 ### But I Got A Scholarship
