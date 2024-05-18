@@ -38,7 +38,7 @@ In the fast-paced world of technology, adaptability and independent learning are
 Even if a single course would bring you to be at the forefront of the industry (and it will never do so), your knowledge would be outdated in less than a year; you need to keep pace by learning on your own.
 
 ### Shallow Skillset
-Tech is more than just coding. It's about problem-solving, creativity, and adaptability. Many shortcut-colleges focus narrowly on teaching specific commands/languages/frameworks/etc, while neglecting the broader skills and knowledge needed to thrive in the industry.
+Tech is more than just coding. It's about problem-solving, creativity and adaptability. Many shortcut-colleges focus narrowly on teaching specific commands/languages/frameworks/etc, while neglecting the broader skills and knowledge needed to thrive in the industry.
 
 > give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime
 
