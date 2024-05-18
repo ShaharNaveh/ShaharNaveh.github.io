@@ -31,10 +31,8 @@ Give a man a fish and you feed him for a day.
 Teach a man to fish and you feed him for a lifetime.
 {{< /lead >}}
 
-### Expensive Toilet Paper
-You might think that the graduation certificate worth something to your future employer. think again...
-
-Because the requirements for obtaining the certification are zero to none, it does not show hard work or knowledge, so anyone can get it and it doesn't make you special.
+### Expensive Certification
+Certificates from these programs are often not valued by employers, as they do not demonstrate substantial effort or knowledge.
 
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
 
