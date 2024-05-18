@@ -19,12 +19,6 @@ Success in tech requires continuous self-learning and adaptability. No single co
 ### Shallow Skillset
 Tech is more than just coding; it involves problem-solving, creativity, and adaptability. Shortcut colleges often focus narrowly on specific tools, neglecting broader essential skills. This limited approach can leave you unprepared for the diverse challenges of the industry.
 
-{{< lead >}}
-Give a man a fish and you feed him for a day.
-
-Teach a man to fish and you feed him for a lifetime.
-{{< /lead >}}
-
 ### Expensive And Low-Value Certification
 Certificates from these programs are often not valued by employers, as they do not demonstrate substantial effort or knowledge. The requirements for obtaining such certifications are minimal, making them essentially worthless in proving your capabilities.
 
