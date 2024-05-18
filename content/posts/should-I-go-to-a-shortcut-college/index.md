@@ -23,7 +23,7 @@ Your goal is probably getting a high paying job with good working conditions and
 Success in tech requires continuous self-learning and adaptability. No single course can provide all the knowledge you need for a sustainable career.
 
 ### Shallow Skillset
-Tech is more than just coding. It's about problem-solving, creativity and adaptability. Many shortcut-colleges focus narrowly on teaching specific commands/languages/frameworks/etc, while neglecting the broader skills and knowledge needed to thrive in the industry.
+Tech involves more than just coding; it requires problem-solving, creativity, and adaptability. Shortcut colleges often focus narrowly on specific tools, neglecting broader essential skills.
 
 {{< lead >}}
 Give a man a fish and you feed him for a day.
