@@ -5,7 +5,6 @@ draft: false
 ---
 
 ## Should I?
-
 The short answer is no.
 
 ---
