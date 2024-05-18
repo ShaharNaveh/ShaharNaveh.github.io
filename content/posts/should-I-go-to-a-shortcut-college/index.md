@@ -10,7 +10,7 @@ You're probably seeing this post because you asked something like:
 
 > Do you guys recommend \<SHORTCUT COLLEGE\> for \<JOB ROLE\>?
 
-and someone linked this post as an answer.
+And someone linked this post as an answer.
 
 ---
 
