@@ -42,7 +42,7 @@ Tech is more than just coding. It's about problem-solving, creativity and adapta
 
 {{< lead >}}
 Give a man a fish and you feed him for a day.
-Teach a man to fish and you feed him for a lifetime
+Teach a man to fish and you feed him for a lifetime.
 {{< /lead >}}
 
 ### Expensive Toilet Paper
