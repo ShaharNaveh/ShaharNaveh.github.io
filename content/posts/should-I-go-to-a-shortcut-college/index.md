@@ -41,9 +41,7 @@ Certificates from these programs are often not valued by employers, as they do n
 These are marketing tactics. They inflate prices and offer discounts to create a false sense of value.
 
 ### But It's Hard For Me To Study On My Own
-Motivation and self-discipline are a must for any tech related position.
-
-If you **really** can't do it then you need to rethink your career choices.
+Self-discipline and motivation are essential in tech. If you struggle with independent learning, reconsider your career path.
 
 ### But My Contract With Them Requires Them To Get Me A Job
 Some shortcut-colleges are promising an entry-level position upon course completion, with the sweet benefits of getting:
