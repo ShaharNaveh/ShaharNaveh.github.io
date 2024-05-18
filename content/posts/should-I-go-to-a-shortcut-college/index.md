@@ -14,7 +14,7 @@ Shortcut colleges offer fast-tracked, hands-on tech education with the promise o
 
 ## Why Not?
 ### It's A Scam
-
+Shortcut colleges often charge exorbitant fees for programs that deliver limited value. They rely on aggressive marketing tactics, such as inflated job placement rates and "scholarships" to lure students. These programs can leave graduates underprepared for the job market, with skills that don't meet industry standards. In many cases, the promised job placements either don't materialize or are in low-paying, unstable positions, leading to disappointment and financial strain.
 
 ### Shortcut Colleges and Employment
 Relying on shortcut colleges for employment is misguided. Employers look for a deep understanding of concepts, critical thinking, and problem-solving abilities-skills that are rarely cultivated in fast-tracked programs. Instead, focus on building a robust skill set through consistent learning and practical experience.
