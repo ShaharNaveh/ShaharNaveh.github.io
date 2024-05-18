@@ -37,7 +37,7 @@ Teach a man to fish and you feed him for a lifetime.
 {{< /lead >}}
 
 ### Expensive And Low-Value Certification
-Certificates from these programs are often not valued by employers, as they do not demonstrate substantial effort or knowledge.
+Certificates from these programs are often not valued by employers, as they do not demonstrate substantial effort or knowledge. The requirements for obtaining such certifications are minimal, making them essentially worthless in proving your capabilities.
 
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
 
