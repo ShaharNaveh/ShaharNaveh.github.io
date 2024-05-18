@@ -17,7 +17,6 @@ They claim that completing their course guarantees job offers without additional
 ## Why Not?
 ### It's A Scam
 Shortcut colleges often charge exorbitant fees for programs that deliver limited value.
-
 They rely on aggressive marketing tactics, such as inflated job placement rates and "scholarships" to lure students.
 
 These programs can leave graduates underprepared for the job market, with skills that don't meet industry standards.
