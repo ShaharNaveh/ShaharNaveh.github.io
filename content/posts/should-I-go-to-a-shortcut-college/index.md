@@ -10,14 +10,8 @@ The short answer is no.
 
 ---
 
-## What Are Shortcut-Colleges?
-Shortcut-colleges offer a condensed, hands-on approach to tech education, promising quick entry into the workforce with highly priced programs.
-
-Their marketing slogan is:
-
-> Get our course, and land yourself your dream job.
-
-But the truth is, there's no magic bullet that guarantees success.
+## What Are Shortcut Colleges?
+Shortcut colleges offer fast-tracked, hands-on tech education with the promise of quick job placement, often at a high cost. They claim that completing their course guarantees job offers without additional effort.
 
 {{< alert "circle-info" >}}
 "shortcut-colleges" can be any course that sells you the idea that just by attending that course, you will get amazing job offers, and there is no need to put any effort of your own.
