@@ -9,3 +9,21 @@ text
 
 # Title 2
 foo
+
+{{< tabs title="hello." >}}
+{{% tab title="py" %}}
+```python
+print("Hello World!")
+```
+{{% /tab %}}
+{{% tab title="sh" %}}
+```bash
+echo "Hello World!"
+```
+{{% /tab %}}
+{{% tab title="c" %}}
+```c
+printf"Hello World!");
+```
+{{% /tab %}}
+{{< /tabs >}}
