@@ -10,20 +10,49 @@ text
 # Title 2
 foo
 
-{{< tabs title="hello." >}}
-{{% tab title="py" %}}
-```python
-print("Hello World!")
+### Simple Tabs
+
+{{< tabs tabTotal="3">}}
+{{< tab tabName="Tab 1" >}}
+
+**Tab 1 Content**
+
+{{< /tab >}}
+{{< tab tabName="Tab 2" >}}
+
+**Tab 2 Content**
+
+{{< /tab >}}
+{{< tab tabName="Tab 3">}}
+
+**Tab 3 Content**
+
+{{< /tab >}}
+{{< /tabs >}}
+
+### Right Aligned Tab
+
+{{< tabs tabTotal="3" tabRightAlign="2">}}
+{{< tab tabName="Tab 1" >}}
+
+**Tab 1 Content**
+
+{{< /tab >}}
+{{< tab tabName="Tab 2" >}}
+
+**Tab 2 Content**
+```yaml
+foo: bar
 ```
-{{% /tab %}}
-{{% tab title="sh" %}}
-```bash
-echo "Hello World!"
+
+{{< /tab >}}
+{{< tab tabName="Tab 3">}}
+
+**Tab 3 Content**
+
+```python3
+print("Sup")
 ```
-{{% /tab %}}
-{{% tab title="c" %}}
-```c
-printf"Hello World!");
-```
-{{% /tab %}}
+
+{{< /tab >}}
 {{< /tabs >}}
