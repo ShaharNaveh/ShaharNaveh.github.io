@@ -1,11 +1,10 @@
-{{ if .Parent }}
-	{{ $name := trim (.Get "name") " " }}
-	{{ if not (.Parent.Scratch.Get "tabs") }}
-	    {{ .Parent.Scratch.Set "tabs" slice }}
-	{{ end }}
-	{{ with .Inner }}
-        {{ $.Parent.Scratch.Add "tabs" (dict "name" $name "content" . ) }}
-	{{ end }}
-{{ else }}
-	{{- errorf "[%s] %q: tab shortcode missing its parent" site.Language.Lang .Page.Path -}}
-{{ end}}
+{{ $tabName := .Get "tabName" }}
+{{ $tabID := delimit (shuffle (slice "a" "b" "c" "d" "e" "f")) "" }}
+{{ .Parent.Scratch.Add "tabName" (slice $tabName) }}
+{{ .Parent.Scratch.Add "tabID" (slice $tabID) }}
+
+<div class="tab-pane fade show {{ if eq .Ordinal 0 }}active {{ end }}" id="{{ $tabID }}" role="tabpanel" aria-labelledby="nav-1">
+
+	{{ $.Inner | markdownify }}
+
+</div>
