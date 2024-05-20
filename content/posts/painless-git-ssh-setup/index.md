@@ -1,5 +1,5 @@
 ---
-title: "Painless Git+Ssh Setup"
+title: Painless Git+Ssh Setup
 date: 2024-05-20T00:00:00-12:00
 draft: false 
 ---
