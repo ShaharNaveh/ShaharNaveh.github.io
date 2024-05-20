@@ -3,91 +3,42 @@ title: Painless Git+Ssh Setup
 date: 2024-05-20T00:00:00-12:00
 draft: false 
 ---
+### Simple Tabs
 
-# Title 1
-text 
+{{< tabs tabTotal="3">}}
+{{< tab tabName="Tab 1" >}}
 
-# Title 2
-foo
+**Tab 1 Content**
 
-{{< tabs >}}
-{{% tab name="python" %}}
-```python
-print("Hello World!")
-```
-{{% /tab %}}
-{{% tab name="R" %}}
-```R
-> print("Hello World!")
-```
-{{% /tab %}}
-{{% tab name="Bash" %}}
-```Bash
-echo "Hello World!"
-```
-{{% /tab %}}
+{{< /tab >}}
+{{< tab tabName="Tab 2" >}}
+
+**Tab 2 Content**
+
+{{< /tab >}}
+{{< tab tabName="Tab 3">}}
+
+**Tab 3 Content**
+
+{{< /tab >}}
 {{< /tabs >}}
 
-Tab views with the same tabs that belong to the same group sychronize their selection:
+### Right Aligned Tab
 
-{{< tabs >}}
-{{% tab name="python" %}}
-```python
-print("Hello World!")
-```
-{{% /tab %}}
-{{% tab name="R" %}}
-```R
-> print("Hello World!")
-```
-{{% /tab %}}
-{{% tab name="Bash" %}}
-```Bash
-echo "Hello World!"
-```
-{{% /tab %}}
-{{< /tabs >}}
+{{< tabs tabTotal="3" tabRightAlign="2">}}
+{{< tab tabName="Tab 1" >}}
 
-## Config example
+**Tab 1 Content**
 
-	{{</* tabs groupId="config" */>}}
-	{{%/* tab name="json" */%}}
-	```json
-	{
-	  "Hello": "World"
-	}
-	```
-	{{%/* /tab */%}}
-	{{%/* tab name="XML" */%}}
-	```xml
-	<Hello>World</Hello>
-	```
-	{{%/* /tab */%}}
-	{{%/* tab name="properties" */%}}
-	```properties
-	Hello = World
-	```
-	{{%/* /tab */%}}
-	{{</* /tabs */>}}
+{{< /tab >}}
+{{< tab tabName="Tab 2" >}}
 
-Renders as:
+**Tab 2 Content**
 
-{{< tabs groupId="config" >}}
-{{% tab name="json" %}}
-```json
-{
-  "Hello": "World"
-}
-```
-{{% /tab %}}
-{{% tab name="XML" %}}
-```xml
-<Hello>World</Hello>
-```
-{{% /tab %}}
-{{% tab name="properties" %}}
-```properties
-Hello = World
-```
-{{% /tab %}}
+{{< /tab >}}
+{{< tab tabName="Tab 3">}}
+
+**Tab 3 Content**
+
+{{< /tab >}}
 {{< /tabs >}}
