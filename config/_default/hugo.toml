@@ -1,4 +1,11 @@
-baseURL = 'https://shaharnaveh.github.io/'
-languageCode = 'en-us'
-title = 'Mediocre Blog'
+baseURL = "https://shaharnaveh.github.io"
 defaultContentLanguage = "en"
+title = "Mediocre Blog"
+
+baseURL = "https://hugodoit.pages.dev"
+enableRobotsTXT = true 
+
+enableGitInfo = false # whether to use git commit log
+enableEmoji = true 
+
+theme = "DoIt"
