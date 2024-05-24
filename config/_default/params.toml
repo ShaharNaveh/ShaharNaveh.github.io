@@ -21,7 +21,6 @@ bundle = false
 # [Experimental] cache remote images in markdown, more info: https://github.com/HEIGE-PCloud/DoIt/pull/860#issue-1574342372
 cacheRemoteImages = true
 # [Experimental] generate image srcset attribute with hugo image processing feature.
-# [试验性功能] 使用 hugo 自带的图片处理功能生成 srcset 属性
 optimizeImages = true
 # [Experimental] resize method for srcset attribute in optimizeImages, more info: https://gohugo.io/content-management/image-processing/#image-processing-options
 srcsetSmallResizeMethod = "400x webp Lanczos q75"
@@ -106,31 +105,26 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   # whether to show link to Raw Markdown content of the content
   linkToMarkdown = true
   # configure the link to view source the post
-  # 配置文章原始文件的链接
-  linkToSource = "https://github.com/ShaharNaveh/ShaharNaveh.github.io/blob/main/content/{path}/index.md"
+  linkToSource = "https://github.com/ShaharNaveh/ShaharNaveh.github.io/blob/main/content/{path}"
   # "https://github.com/user/repo/blob/main/{path}"
   # configure the link to edit the post
-  linkToEdit = "https://github.com/ShaharNaveh/ShaharNaveh.github.io/edit/main/content/{path}/index.md"
+  linkToEdit = "https://github.com/ShaharNaveh/ShaharNaveh.github.io/edit/main/content/{path}"
   # https://github.com/user/repo/edit/main/{path}
   # https://gitlab.com/user/repo/-/edit/main/{path}
   # https://bitbucket.org/user/repo/src/main/{path}?mode=edit
   # configure the link to report issue for the post
-  # 配置提交错误的链接
-  linkToReport = "https://github.com/ShaharNaveh/ShaharNaveh.github.io/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/ShaharNaveh/ShaharNaveh.github.io/blob/main/content/{path}/index.md|"
+  linkToReport = "https://github.com/ShaharNaveh/ShaharNaveh.github.io/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/ShaharNaveh/ShaharNaveh.github.io/blob/main/content/{path}|"
   # https://github.com/user/repo/issues/new?title=[bug]%20{title}&body=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://github.com/user/repo/blob/main/{path}|"
   # https://gitlab.com/user/repo/-/issues/new?issue[title]=[bug]%20{title}&issue[description]=|Field|Value|%0A|-|-|%0A|Title|{title}|%0A|Url|{url}|%0A|Filename|https://gitlab.com/user/repo/-/edit/main/{path}|
   # whether to show the full text content in RSS
-  # 是否在 RSS 中显示全文内容
   rssFullText = false
   # whether to enable series navigation
   seriesNavigation = true
   # whether to enable last modified time
   enableLastMod = false
   # whether to enable word count
-  # 是否启用字数统计
   enableWordCount = false
   # whether to enable reading time estimation
-  # 是否启用阅读时间估计
   enableReadingTime = true
   # Display a message at the beginning of an article to warn the reader that its content might be outdated.
   # instant.page config
@@ -139,13 +133,10 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   [page.outdatedArticleReminder]
     enable = false
     # Display the reminder if the last modified time is more than 90 days ago.
-    # 如果文章最后更新于这天数之前，显示提醒
     reminder = 90
     # Display warning if the last modified time is more than 180 days ago.
-    # 如果文章最后更新于这天数之前，显示警告
     warning = 180
   # Table of the contents config
-  # 目录配置
   [page.toc]
     # whether to enable the table of the contents
     # 是否使用目录
