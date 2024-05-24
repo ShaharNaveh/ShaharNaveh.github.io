@@ -3,3 +3,7 @@
   user-select: none; /* prevent selection of the text */
   font-size: 0;
 }
+
+.hidden-summary:after {
+    content: '';
+}
