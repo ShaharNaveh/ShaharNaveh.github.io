@@ -26,6 +26,8 @@ optimizeImages = true
 srcsetSmallResizeMethod = "400x webp Lanczos q75"
 srcsetDefaultResizeMethod = "600x webp Lanczos q75"
 srcsetLargeResizeMethod = "800x webp Lanczos q75"
+
+authors = false
 # Header config
 [header]
   # theme change mode ("switch", "select")
