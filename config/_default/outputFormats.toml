@@ -5,7 +5,7 @@
   isPlainText = true
   isHTML = false
 
-[JsonFeed]
-  mediaType = "application/feed+json"
-  isPlainText = true
-  notAlternative = true
+#[JsonFeed]
+  #mediaType = "application/feed+json"
+  #isPlainText = true
+  #notAlternative = true
