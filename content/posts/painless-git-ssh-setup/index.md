@@ -42,6 +42,11 @@ draft: false
   
 </style>
 
+<script type="text/javascript">
+
+  
+</script>
+
 
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'London')">London</button>
