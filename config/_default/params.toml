@@ -501,7 +501,7 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
 # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
 # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
 [verification]
-  google = "MQ8DNu27ayX6B_4ObiEDK09vGr1fdy7kOAnbd09hJk4"
+  google = ""
   bing = ""
   yandex = ""
   pinterest = ""
@@ -531,7 +531,6 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   [analytics.google]
     id = ""
     # whether to anonymize IP
-    # 是否匿名化用户 IP
     anonymizeIP = true
   # Fathom Analytics
   [analytics.fathom]
