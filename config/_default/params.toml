@@ -27,7 +27,6 @@ srcsetSmallResizeMethod = "400x webp Lanczos q75"
 srcsetDefaultResizeMethod = "600x webp Lanczos q75"
 srcsetLargeResizeMethod = "800x webp Lanczos q75"
 
-authors = false
 # Header config
 [header]
   # theme change mode ("switch", "select")
@@ -59,7 +58,6 @@ authors = false
   copyright = false
   # whether to show the author
   author = false 
-  authors = false
   # site creation time
   since = 1970
   # ICP info only in China (HTML format is supported)
@@ -107,7 +105,7 @@ authors = false
   fraction = true
 
   # whether to show link to Raw Markdown content of the content
-  linkToMarkdown = true
+  linkToMarkdown = false
   # configure the link to view source the post
   linkToSource = "https://github.com/ShaharNaveh/ShaharNaveh.github.io/blob/main/content/{path}"
   # "https://github.com/user/repo/blob/main/{path}"
