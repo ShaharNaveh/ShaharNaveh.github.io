@@ -58,7 +58,8 @@ authors = false
   # whether to show copyright info
   copyright = false
   # whether to show the author
-  author = false
+  author = false 
+  authors = false
   # site creation time
   since = 1970
   # ICP info only in China (HTML format is supported)
