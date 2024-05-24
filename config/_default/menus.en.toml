@@ -1,7 +1,7 @@
 [languages]
   [languages.en]
     weight = 1
-    title = "My New Hugo Site"
+    title = "Mediocre Blog"
     languageCode = "en"
     languageName = "English"
     [[languages.en.menu.main]]
