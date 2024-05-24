@@ -1,11 +1,14 @@
-
-{{ $tabName := .Get "tabName" }}
-{{ $tabID := delimit (shuffle (slice "a" "b" "c" "d" "e" "f")) "" }}
-{{ .Parent.Scratch.Add "tabName" (slice $tabName) }}
-{{ .Parent.Scratch.Add "tabID" (slice $tabID) }}
-
-<div class="tab-pane fade show {{ if eq .Ordinal 0 }}active {{ end }}" id="{{ $tabID }}" role="tabpanel" aria-labelledby="nav-1">
-
-	{{ $.Inner | markdownify }}
-
-</div>
+{{/* Verify that this tab is enclosed within a tabpane */}}
+{{ if .Parent }}
+  {{ if ne .Parent.Name "tabpane" }}
+    {{ errorf "Found shortcode %q enclosed inside a %q block, must be enclosed inside a %q block. Error position: %s" .Name .Parent.Name "tabpane" .Position }}
+  {{ end }}
+{{ else }}
+  {{ errorf "shortcode %q must be enclosed inside a %q block, but no parent block was found. Error position: %s" .Name "tabpane" .Position }}
+{{ end }}
+{{/* Get tab name */}}
+{{ $name := .Get "name" | default (printf "Tab %v" .Ordinal) }}
+{{/* Pass name and content to tabpane */}}
+{{ $tab := dict "name" $name }}
+{{ $tab = merge $tab (dict "content" .Inner) }}
+{{ .Parent.Scratch.SetInMap "tabs" (printf "%02v" .Ordinal) $tab }}
