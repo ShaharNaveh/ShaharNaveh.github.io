@@ -5,16 +5,3 @@ draft: true
 ---
 
 # Hey 
-
-
-{{< tabpane >}}
-{{< tab name="Tab 1" >}}
-  Markdown
-{{< /tab >}}
-{{< tab name="Tab 2" >}}
-  Markdown
-{{< /tab >}}
-{{< tab name="Tab 3" >}}
-  Markdown
-{{< /tab >}}
-{{< /tabpane >}}
