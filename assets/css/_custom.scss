@@ -7,3 +7,13 @@
 .hidden-summary:after {
     content: '';
 }
+
+.post-info-mod {
+  color: transparent; /* make the text invisible */
+  user-select: none; /* prevent selection of the text */
+  font-size: 0;
+}
+
+.post-info-mod:after {
+  content: '';
+}
