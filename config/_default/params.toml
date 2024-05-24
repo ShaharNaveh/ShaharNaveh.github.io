@@ -149,19 +149,16 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   # 是否在 RSS 中显示全文内容
   rssFullText = false
   # whether to enable series navigation
-  # 是否使用系列导航
   seriesNavigation = true
   # whether to enable last modified time
-  # 是否启用最后修改时间
-  enableLastMod = true
+  enableLastMod = false
   # whether to enable word count
   # 是否启用字数统计
-  enableWordCount = true
+  enableWordCount = false
   # whether to enable reading time estimation
   # 是否启用阅读时间估计
   enableReadingTime = true
   # Display a message at the beginning of an article to warn the reader that its content might be outdated.
-  # 在文章开头显示提示信息，提醒读者文章内容可能过时。
   # instant.page config
   [page.instantpage]
     enable = true
@@ -232,15 +229,16 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   # Mapbox GL JS config (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
   # Mapbox GL JS 配置 (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
   [page.mapbox]
+    enable = false
     # access token of Mapbox GL JS
     # Mapbox GL JS 的 access token
-    accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+    #accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
     # style for the light theme
     # 浅色主题的地图样式
-    lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+    #lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
     # style for the dark theme
     # 深色主题的地图样式
-    darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+    #darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
     # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
     # 是否添加 NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
     navigation = true
@@ -295,11 +293,11 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   # Comment config
   # 评论系统设置
   [page.comment]
-    enable = true
+    enable = false
     # Disqus comment config (https://disqus.com/)
     # Disqus 评论系统设置 (https://disqus.com/)
-    [page.comment.disqus]
-      enable = false
+    [page.comment.disqustion]
+    enable = false
       # Disqus shortname to use Disqus in posts
       # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
       shortname = ""
