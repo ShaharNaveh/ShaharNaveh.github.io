@@ -139,31 +139,23 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   # Table of the contents config
   [page.toc]
     # whether to enable the table of the contents
-    # 是否使用目录
     enable = true
     # whether to keep the static table of the contents in front of the post
-    # 是否保持使用文章前面的静态目录
     keepStatic = false
     # whether to make the table of the contents in the sidebar automatically collapsed
-    # 是否使侧边目录自动折叠展开
     auto = true
   # Code config
-  # 代码配置
   [page.code]
     # the maximum number of lines of displayed code by default
-    # 默认展开显示的代码行数
     maxShownLines = 10
   # Table config
-  # 表格配置
   [page.table]
     # whether to enable sorting in the tables
-    # 是否开启表格排序
     sort = true
   [page.header]
     # whether to enable auto header numbering
-    # 是否开启标题自动编号
     [page.header.number]
-      enable = true
+      enable = false
       [page.header.number.format]
         h2 = "{h2} {title}"
         h3 = "{h2}.{h3} {title}"
