@@ -195,7 +195,8 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
     fullscreen = true
   # Social share links in post page
   [page.share]
-    enable = false
+    enable = false 
+    
     Baidu = false
     Blogger = false
     Buffer = false
@@ -322,7 +323,6 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
       visitor = true
       commentCount = true
     # Vssue comment config (https://vssue.js.org//)
-    # Vssue comment 评论系统设置 (https://vssue.js.org//)
     [page.comment.vssue]
       enable = false
       platform = "" # ("bitbucket", "gitea", "gitee", "github", "gitlab")
@@ -331,7 +331,6 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
       clientId = ""
       clientSecret = ""
     # Remark42 comment config (https://remark42.com/)
-    # Remark42 comment 评论系统设置 (https://remark42.com/)
     [page.comment.remark42]
       enable = false
       host = ""
@@ -340,7 +339,6 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
       show_email_subscription = true
       simple_view = false
     # giscus comment config (https://giscus.app/)
-    # giscus comment 评论系统设置 (https://giscus.app/)
     [page.comment.giscus]
       enable = false
       # owner/repo
@@ -358,7 +356,6 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
       dataLang = "en"
       dataLoading = "lazy"
     # artalk comment config (https://artalk.js.org/guide/frontend/config.html)
-    # artalk comment 评论系统设置 (https://artalk.js.org/guide/frontend/config.html)
     [page.comment.artalk]
       enable = false
       server = ""
@@ -369,7 +366,6 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
       pageview = true
       commentCount = true
   # Third-party library config
-  # 第三方库配置
   [page.library]
     [page.library.css]
       # someCSS = "some.css"
@@ -377,8 +373,7 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
       #   src = "someOther.css"
       #   defer = true
       #   attr = "customAttribute"
-      # located in "assets/" 位于 "assets/"
-      # Or 或者
+      # located in "assets/"
       # someCSS = "https://cdn.example.com/some.css"
     [page.library.js]
       # someJavaScript = "some.js"
@@ -387,36 +382,29 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
       #   defer = false
       #   async = true
       #   attr = "customAttribute"
-      # located in "assets/" 位于 "assets/"
-      # Or 或者
+      # located in "assets/"
       # someJavascript = "https://cdn.example.com/some.js"
   # Page SEO config
-  # 页面 SEO 配置
   [page.seo]
     # image URL
-    # 图片 URL
     images = []
     # Publisher info
-    # 出版者信息
     [page.seo.publisher]
       name = "xxxx"
       logoUrl = "/images/avatar.webp"
   # Related content config
-  # 相关文章推荐配置
   [page.related]
     enable = true
     count = 5
 
 # Sponsor config
-# 赞助设置
 [sponsor]
   enable = false
   bio = "If you find this post helpful, please consider sponsoring."
-  link = "https://github.com/sponsors/HEIGE-PCloud"
-  # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
+  link = "https://github.com/sponsors/ShaharNaveh"
+  # custom = "<a href=\"https://www.buymeacoffee.com/ShaharNaveh\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
 
 # TypeIt config
-# TypeIt 配置
 [typeit]
   # typing speed between each step (measured in milliseconds)
   # 每一步的打字速度 (单位是毫秒)
@@ -443,13 +431,10 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   sogou = ""
 
 # Site SEO config
-# 网站 SEO 配置
 [seo]
   # image URL
-  # 图片 URL
   image = "/images/Apple-Devices-Preview.png"
   # thumbnail URL
-  # 缩略图 URL
   thumbnailUrl = "/images/screenshot.png"
   # Google 搜索结果中网站备用名字
   # alternate site name in Google search result
@@ -457,7 +442,6 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   # alternateName = ["Hugo DoIt"]
 
 # Analytics config
-# 网站分析配置
 [analytics]
   enable = false
   # Google Analytics
@@ -469,7 +453,6 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   [analytics.fathom]
     id = ""
     # server url for your tracker if you're self hosting
-    # 自行托管追踪器时的主机路径
     server = ""
   # Baidu Analytics
   [analytics.baidu]
@@ -491,28 +474,22 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   [analytics.splitbee]
     enable = false
     # no cookie mode
-    # 无cookie模式
     No_cookie = true
     # respect the do not track setting of the browser
-    # 遵循浏览器的”要求网站不跟踪我“设定
     Do_not_track = true
     # token(optional), more info on https://splitbee.io/docs/embed-the-script
-    # token(可选)，详细信息请前往 https://splitbee.io/docs/embed-the-script 查看
     data_token = ""
 
 # Cookie consent config
-# Cookie 许可配置
 [cookieconsent]
   enable = false
   # text strings used for Cookie consent banner
-  # 用于 Cookie 许可横幅的文本字符串
   [cookieconsent.content]
     message = ""
     dismiss = ""
     link = ""
 
 # CDN config for third-party library files
-# 第三方库文件的 CDN 设置
 [cdn]
   # CDN data file name, disabled by default
   # ("jsdelivr.yml")
