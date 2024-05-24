@@ -407,20 +407,15 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
 # TypeIt config
 [typeit]
   # typing speed between each step (measured in milliseconds)
-  # 每一步的打字速度 (单位是毫秒)
   speed = 100
   # blinking speed of the cursor (measured in milliseconds)
-  # 光标的闪烁速度 (单位是毫秒)
   cursorSpeed = 1000
   # character used for the cursor (HTML format is supported)
-  # 光标的字符 (支持 HTML 格式)
   cursorChar = "|"
   # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
-  # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
   duration = -1
 
 # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
-# 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
 [verification]
   google = ""
   bing = ""
@@ -436,7 +431,7 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   image = "/images/Apple-Devices-Preview.png"
   # thumbnail URL
   thumbnailUrl = "/images/screenshot.png"
-  # Google 搜索结果中网站备用名字
+  # Google
   # alternate site name in Google search result
   # https://developers.google.com/search/docs/appearance/site-names#alternative
   # alternateName = ["Hugo DoIt"]
@@ -496,19 +491,11 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   # located in "themes/DoIt/assets/data/cdn/" directory
   # you can store your own data files in the same path under your project:
   # "assets/data/cdn/"
-  # CDN 数据文件名称, 默认不启用
-  # ("jsdelivr.yml")
-  # 位于 "themes/DoIt/assets/data/cdn/" 目录
-  # 可以在你的项目下相同路径存放你自己的数据文件:
-  # "assets/data/cdn/"
   data = ""
 
 # Compatibility config
-# 兼容性设置
 [compatibility]
   # whether to use Polyfill.io to be compatible with older browsers
-  # 是否使用 Polyfill.io 来兼容旧式浏览器
   polyfill = false
   # whether to use object-fit-images to be compatible with older browsers
-  # 是否使用 object-fit-images 来兼容旧式浏览器
   objectFit = false
