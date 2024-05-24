@@ -240,7 +240,6 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
     # 深色主题的地图样式
     #darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
     # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
-    # 是否添加 NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
     navigation = true
     # whether to add GeolocateControl (https://docs.mapbox.com/mapbox-gl-js/api/#geolocatecontrol)
     # 是否添加 GeolocateControl (https://docs.mapbox.com/mapbox-gl-js/api/#geolocatecontrol)
@@ -254,7 +253,7 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
   # Social share links in post page
   # 文章页面的分享信息设置
   [page.share]
-    enable = true
+    enable = false
     Baidu = false
     Blogger = false
     Buffer = false
