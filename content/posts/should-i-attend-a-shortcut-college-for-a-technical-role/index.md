@@ -3,8 +3,7 @@ title: Should I Attend a Shortcut College for a Technical Role?
 date: 2024-05-10T00:00:00-12:00
 draft: false
 ---
-
-Should you? No. But why?
+<span class="hidden-summary">summary</span>
 <!--more-->
 
 ## Should I?
