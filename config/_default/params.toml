@@ -1,7 +1,7 @@
 # website title
 title = "Mediocre Blog"
 # DoIt theme version
-version = "0.3.X"
+version = "0.4.X"
 # site default theme ("light", "dark", "black", "auto")
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
