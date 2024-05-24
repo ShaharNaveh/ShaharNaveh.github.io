@@ -1,7 +1,3 @@
-
-# [en, zh-cn, fr, pl, ...] determines default content language
-defaultContentLanguage = "en"
-
 [languages]
   [languages.en]
     weight = 1
