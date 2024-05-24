@@ -6,25 +6,25 @@
     languageName = "English"
     [[languages.en.menu.main]]
       identifier = "posts"
-      pre = ""
-      post = ""
+      #pre = ""
+      #post = ""
       name = "Posts"
       url = "/posts/"
-      title = ""
+      title = "Mediocre Posts"
       weight = 1
     [[languages.en.menu.main]]
       identifier = "tags"
-      pre = ""
-      post = ""
+      #pre = ""
+      #post = ""
       name = "Tags"
       url = "/tags/"
-      title = ""
+      title = "Mediocre Tags"
       weight = 2
     [[languages.en.menu.main]]
       identifier = "categories"
-      pre = ""
-      post = ""
+      #pre = ""
+      #post = ""
       name = "Categories"
       url = "/categories/"
-      title = ""
+      title = "Mediocre Categories"
       weight = 3
