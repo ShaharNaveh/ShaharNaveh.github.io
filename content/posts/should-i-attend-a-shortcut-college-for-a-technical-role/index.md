@@ -4,6 +4,9 @@ date: 2024-05-10T00:00:00-12:00
 draft: false
 ---
 
+Should you? No. But why?
+<!--more-->
+
 ## Should I?
 The short answer is no.
 
