@@ -45,16 +45,16 @@ srcsetLargeResizeMethod = "800x webp Lanczos q75"
 
 # Footer config
 [footer]
-  enable = false
+  enable = true
   # Custom content (HTML format is supported)
   custom = ''
   # whether to show Hugo and theme info
-  hugo = true
+  hugo = false
   # Hosted on (HTML format is supported)
   # <a title="Github Pages" href="https://docs.github.com/en/pages/" target="_blank" rel="noopener noreffer">GitHub Pages</a>
   hostedOn = ''
   # whether to show copyright info
-  copyright = true
+  copyright = false
   # whether to show the author
   author = false
   # site creation time
