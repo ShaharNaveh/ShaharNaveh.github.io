@@ -1,5 +1,5 @@
 ---
-title: Painless Git+Ssh Setup
+title: Painless Git+SSH Setup
 date: 2024-05-20T00:00:00-12:00
 draft: true
 ---
@@ -42,7 +42,7 @@ We created `.ssh/keys` as well. this will help to manage multiple ssh keys if ne
 
 {{< /callout >}}
 
-## Generate an ssh key
+## Generate an SSH key
 {{< tabs items="Linux/MacOS,Windows" >}}
 
   {{< tab >}}
@@ -72,7 +72,7 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
   * `.ssh/keys/github`: Private key.
   * `.ssh/keys/github.pub`: Public key.
 
-## Create the ssh config file
+## Create the SSH config file
 
 {{< tabs items="Linux/MacOS,Windows" >}}
 
@@ -107,15 +107,15 @@ You can read more about the available configuration options [here](https://man.o
 {{< /callout >}}
 
 ### Explanation
-The "secret sauce" for the configuration lies in the very first line: `Host github.com`. We tell ssh to define a host alias named "github.com", so when we run:
+The "secret sauce" for the configuration lies in the very first line: `Host github.com`. We tell SSH to define a host alias named "github.com", so when we run:
 
 ```bash
 ssh github.com
 ```
 
-ssh will automatically connect to the defined `Hostname` (which is "github.com"), with the rest of the arguments such as the user, private-key and so on.
+SSH will automatically connect to the defined `Hostname` (which is "github.com"), with the rest of the arguments such as the user, private-key and so on.
 
-- `Host`: This what allows us to start using ssh without changing the [remote origin](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes).
+- `Host`: This what allows us to start using SSH without changing the [remote origin](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes).
 - `Hostname`: The address to connect to, we set it to be the same as `Host`.
 - `User`: User to authenticate as. usually it's "git".
 - `IdentityFile`: Path to the private key. ssh will interpret `%d` as the user home directory.
