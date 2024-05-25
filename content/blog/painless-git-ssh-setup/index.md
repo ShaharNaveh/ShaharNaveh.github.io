@@ -116,8 +116,8 @@ ssh will automatically connect to the defined `Hostname` (which is "github.com")
 - `User`: User to authenticate as. usually it's "git".
 - `IdentityFile`: Path to the private key. ssh will interpret `%d` as the user home directory.
 - `AddKeysToAgent`: Pretty much only useful if you set a password for your ssh key in [here](#generate-an-ssh-key)
-- `RequestTTY`:
-- `SessionType`: 
+- `RequestTTY`: We set this to `no`, as we aren't planning on getting a shell.
+- `SessionType`: Setting this to `none`, as we will not execute any commands on our VCS provider.
 
 ## Tips & Tricks 
 ### Migrating to a different VCS provider 
