@@ -32,7 +32,7 @@ Although I will use GitHub as my VCS provider in this guide, this setup works fo
 {{< /tabs >}}
 
 {{< callout type="info" >}}
-We created `.ssh/keys` as well. this will help to manage multiple SSH keys if needed.
+Creating the .ssh/keys directory helps manage multiple SSH keys if needed.
 {{< /callout >}}
 
 ## Generate an SSH key
