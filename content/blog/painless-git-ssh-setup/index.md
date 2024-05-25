@@ -120,12 +120,12 @@ They might be a bit different but they all are following the same steps:
 
 {{% steps %}}
 ### Copy the SSH public key to your clipboard.
+
 ```shell
 cat ~/.ssh/keys/github.pub
 # Then select and copy the contents of the file
 # displayed in the terminal to your clipboard
 ```
-
 
 {{% details title="Alternative way" %}}
 Alternatively, you can locate the hidden `.ssh` folder, open the file in your favorite text editor, and copy it to your clipboard.
