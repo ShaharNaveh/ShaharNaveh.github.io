@@ -109,7 +109,6 @@ SSH will automatically connect to the defined `Hostname` (which is "github.com")
 - `RequestTTY`: We set this to `no`, as we aren't planning on getting a shell.
 - `SessionType`: Setting this to `none`, as we will not execute any commands on our VCS provider.
 
-
 ## Add your key to the VCS provider
 Here it really depends on your provider, choose the appropriate one:
 
