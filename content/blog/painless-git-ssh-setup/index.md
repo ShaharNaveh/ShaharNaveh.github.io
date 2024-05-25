@@ -100,7 +100,9 @@ The key to the configuration is the first line: `Host github.com`. This tells SS
 ssh github.com
 ```
 
-
+SSH will use the settings provided:
+- `Hostname`: The address to connect to.
+- `User`: The user to authenticate as, usually "git".
 
 ## Add your key to the VCS provider
 Here it really depends on your provider, choose the appropriate one:
