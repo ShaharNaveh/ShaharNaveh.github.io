@@ -197,6 +197,6 @@ Remove-Variable -Name Key
 {{< /tabs >}}
 
 ## Migrating to a Different VCS Provider
-To switch providers, change the `Hostname` in the SSH config to the new provider and add a new Host block for it.
+To switch providers, change the `Hostname` in the SSH config to the new provider and add a new `Host` block for it.
 
 All existing repositories will point to the new provider, and new repositories will work as expected.
