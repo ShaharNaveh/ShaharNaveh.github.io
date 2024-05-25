@@ -127,8 +127,7 @@ They generally follow these steps:
 
 ```shell
 cat ~/.ssh/keys/github.pub
-# Then select and copy the contents of the file
-# displayed in the terminal to your clipboard
+Then select and copy the displayed contents
 ```
 
 {{% details title="Alternative way" closed="true" %}}
