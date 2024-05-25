@@ -103,7 +103,7 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
 {{< /tabs >}}
 
 {{< callout type="info" >}}
-You can read about 
+You can read more about the available configuration options [here](https://man.openbsd.org/ssh_config)
 {{< /callout >}}
 
 #### Explanation
