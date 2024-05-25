@@ -13,7 +13,7 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 
 # How?
 {{< callout type="info" >}}
-Although I will use GitHub as my VCS provider in this guide, this setup works for any other VCS provider. Just replace "github" with "gitlab," "bitbucket," etc.
+Although I will use GitHub as my Git hosting provider in this guide, this setup works for any other Git hosting provider. Just replace "github" with "gitlab," "bitbucket," etc.
 {{< /callout >}}
 
 ## Create the `.ssh` Directory 
