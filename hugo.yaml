@@ -115,7 +115,7 @@ params:
 
   editURL:
     enable: true
-    base: https://github.com/ShaharNaveh/ShaharNaveh.github.io/edit/main/content
+    base: "https://github.com/ShaharNaveh/ShaharNaveh.github.io/edit/main/content"
 
   blog:
     list:
