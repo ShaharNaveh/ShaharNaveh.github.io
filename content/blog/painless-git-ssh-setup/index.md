@@ -78,8 +78,8 @@ In this post I will use github as my VCS provider, but this setup works for any 
     Hostname github.com
     User git
     IdentityFile "%d/.ssh/keys/github"
-    AddKeysToAgent true
-    RequestTTY false
+    AddKeysToAgent yes
+    RequestTTY no
     SessionType none
 
   ```
@@ -91,8 +91,8 @@ In this post I will use github as my VCS provider, but this setup works for any 
     Hostname github.com
     User git
     IdentityFile "%d/.ssh/keys/github"
-    AddKeysToAgent true
-    RequestTTY false
+    AddKeysToAgent yes
+    RequestTTY no
     SessionType none
   ```
   {{< /tab >}}
