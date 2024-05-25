@@ -1,5 +1,4 @@
 ---
 title: Mediocre Blog
-layout: list
-type: blog
+layout: blog
 ---
