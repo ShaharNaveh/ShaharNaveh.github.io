@@ -3,6 +3,7 @@ title: Painless Git+Ssh Setup
 date: 2024-05-20T00:00:00-12:00
 draft: false 
 ---
+
 In this guide, we'll walk you through the steps to generate an SSH key pair, add it to your Git account, and configure your local Git setup for seamless integration. 
 
 By the end, you'll have a more efficient and secure Git environment that enhances your productivity and protects your code.
@@ -67,7 +68,7 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 {{< tabs items="Linux/MacOS,Windows" >}}
 
 {{< tab >}}
-  ```{linenos=table,linenostart=1,filename=".ssh/config"}
+  ```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
   Host github.com
     Hostname github.com
     User git
@@ -80,7 +81,7 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
   {{< /tab >}}
 
   {{< tab >}}
-  ```{linenos=table,linenostart=1,filename=".ssh\config"}
+  ```ssh-config {linenos=table,linenostart=1,filename=".ssh\config"}
   Host github.com
     Hostname github.com
     User git
