@@ -61,12 +61,12 @@ menu:
       weight: 2
       params:
         type: search
-  sidebar:
-    - identifier: more
-      name: More
-      params:
-        type: separator
-      weight: 1
+#  sidebar:
+#    - identifier: more
+#      name: More
+#      params:
+#        type: separator
+#      weight: 1
 params:
   description: Blog, Blogpost
 
