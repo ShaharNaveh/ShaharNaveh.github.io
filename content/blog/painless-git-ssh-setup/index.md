@@ -112,8 +112,9 @@ SSH will automatically connect to the defined `Hostname` (which is "github.com")
 ## Add your key to the VCS provider
 Here it really depends on your provider, choose the appropriate one:
 
-- `Github`: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account
-- `Gitlab`: https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account
+- [Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-linux/#Provide-Bitbucket-Cloud-with-your-public-key)
+- [Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
+- [Gitlab](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)
 
 They might be a bit different but they all are following the same steps:
 
