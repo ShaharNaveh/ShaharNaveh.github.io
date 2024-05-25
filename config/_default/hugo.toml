@@ -1,8 +1,0 @@
-title = "Mediocre Blog"
-baseURL = "https://shaharnaveh.github.io"
-theme = "DoIt"
-defaultContentLanguage = "en"
-
-enableRobotsTXT = true
-enableGitInfo = false
-enableEmoji = true

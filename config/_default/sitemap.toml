@@ -1,5 +1,0 @@
-# Sitemap config
-
-changefreq = "daily"
-filename = "sitemap.xml"
-priority = 0.5
