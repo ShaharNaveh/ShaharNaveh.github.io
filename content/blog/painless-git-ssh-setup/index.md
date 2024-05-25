@@ -151,7 +151,7 @@ ssh github.com
 You don't get any errors, then everything went fine 🥳
 
 # Configure Git to use SSH 
-{{< tabs items="{Bitbucket,Gitlab,Github" >}}
+{{< tabs items="Bitbucket,Gitlab,Github" >}}
   {{< tab >}}
     ```shell
     ls
@@ -165,7 +165,7 @@ You don't get any errors, then everything went fine 🥳
   {{< /tab >}}
 
   {{< tab >}}
-    ```powershell
+    ```shell
     git config --global url.ssh://git@github.com/.insteadOf https://github.com/
     ```
   {{< /tab >}}
