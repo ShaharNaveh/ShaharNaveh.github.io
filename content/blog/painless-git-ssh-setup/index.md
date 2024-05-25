@@ -114,7 +114,6 @@ SSH will automatically connect to the defined `Hostname` (which is "github.com")
 {{% steps %}}
 
 ### Copy the SSH public key to your clipboard.
-
 ```shell
 cat ~/.ssh/keys/github.pub
 # Then select and copy the contents of the id_ed25519.pub file
@@ -122,8 +121,7 @@ cat ~/.ssh/keys/github.pub
 ```
 
 ### In the upper-right corner of any page, click your profile photo, then click Settings.
-
-Some image
+![Github Settings](img/github_navbar_settings_highlight.webp)
 
 {{% /steps %}}
 
