@@ -111,20 +111,31 @@ SSH will automatically connect to the defined `Hostname` (which is "github.com")
 
 
 ## Add your key to the VCS provider
-This really depends on your provider, but the flow is the same for all:
-{{% steps %}}
+Here it really depends on your provider, choose the appropriate one:
 
+- `Github`: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account
+- `Gitlab`: https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account
+
+They might be a bit different but they all are following the same steps:
+
+{{% steps %}}
 ### Copy the SSH public key to your clipboard.
 ```shell
 cat ~/.ssh/keys/github.pub
 # Then select and copy the contents of the file
 # displayed in the terminal to your clipboard
 ```
-Details
-### Add the public key to your user's SSH keys.
-Select the appropriate VCS provider:
+{{% details title="Details" %}}
 
-- `Github`: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account
+This is the content of the details.
+
+Markdown is **supported**.
+
+{{% /details %}}
+
+
+
+### Add the public key to your user's SSH keys.
 
 {{% /steps %}}
 
