@@ -63,7 +63,7 @@ You can set a password (recommended) or skip it by pressing `<Enter>` twice.
   * `.ssh/keys/github.pub`: Public key.
 
 ## Create the SSH Config File
-{{< tabs items="{Linux/MacOS,Windows" >}}
+{{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
   Host github.com
