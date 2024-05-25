@@ -13,10 +13,9 @@ By the end, you'll have a more efficient and secure Git environment that enhance
 Setting up Git to use SSH can significantly enhance your workflow by providing a secure and convenient method for authenticating your repositories. Whether you're a seasoned developer or new to version control, configuring Git with SSH keys streamlines the process of pushing and pulling code, eliminating the need to repeatedly enter your username and password.
 
 ## How?
-{{< callout type="info" >}}
 
+{{< callout type="info" >}}
 In this post I will use github as my VCS provider, but this setup works for any other VCS provider, just replace "github" with gitlab/bitbucket/etc and it will work.
-  
 {{< /callout >}}
 
 ### Create the `.ssh` directory 
@@ -39,10 +38,9 @@ In this post I will use github as my VCS provider, but this setup works for any 
 
 {{< callout type="info" >}}
 
-  We created `.ssh/keys` as well. this will help to manage multiple ssh keys when needed.
-  
-{{< /callout >}}
+We created `.ssh/keys` as well. this will help to manage multiple ssh keys when needed.
 
+{{< /callout >}}
 
 ### Generate an ssh key
 {{< tabs items="Linux/MacOS,Windows" >}}
@@ -61,7 +59,11 @@ In this post I will use github as my VCS provider, but this setup works for any 
 
 {{< /tabs >}}
 
+{{< callout type="info" >}}
+
 You can configure a password (recommended) or skip it by hitting `<Enter>` twice.
+
+{{< /callout >}}
 
 #### Explanation
 - `-t`: Type, here we choose `ed25519`.
@@ -83,7 +85,6 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
     AddKeysToAgent yes
     RequestTTY no
     SessionType none
-
   ```
   {{< /tab >}}
 
