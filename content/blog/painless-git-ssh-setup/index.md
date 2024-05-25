@@ -1,7 +1,7 @@
 ---
 title: Painless Git+SSH Setup
 date: 2024-05-20T00:00:00-12:00
-draft: true
+draft: false
 ---
 
 In this guide, we'll walk you through the steps to generate an SSH key pair, add it to your Git account, and configure your local Git setup for seamless integration. 
@@ -19,7 +19,7 @@ In this post I will use github as my VCS provider, but this setup works for any 
 ## Create the `.ssh` directory 
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
-  ```bash
+  ```shell
   mkdir -p ~/.ssh/keys/
   ```
   {{< /tab >}}
