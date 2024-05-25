@@ -108,7 +108,7 @@ SSH will use the settings provided:
 - `RequestTTY`: Set to `no` as no shell is needed.
 - `SessionType`: Set to `none` since no commands are executed on the Git hosting provider.
 
-## Add your key to the Git Hosting Provider
+## Add Your Key to the Git Hosting Provider
 The general flow is:
 
 {{% steps %}}
