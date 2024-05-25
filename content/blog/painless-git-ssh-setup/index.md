@@ -61,6 +61,8 @@ In this post I will use github as my VCS provider, but this setup works for any 
 
 {{< /tabs >}}
 
+You can configure a password (recommended) or skip it by hitting `<Enter>` twice.
+
 #### Explanation
 - `-t`: Type, here we choose `ed25519`.
 - `-C`: Comment, defaults to `<username>@<computer name>`, you can omit this.
