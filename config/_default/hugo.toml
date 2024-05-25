@@ -1,10 +1,8 @@
-baseURL = "https://shaharnaveh.github.io"
-defaultContentLanguage = "en"
 title = "Mediocre Blog"
-
-enableRobotsTXT = true 
-
-enableGitInfo = false # whether to use git commit log
-enableEmoji = true 
-
+baseURL = "https://shaharnaveh.github.io"
 theme = "DoIt"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+enableGitInfo = false
+enableEmoji = true
