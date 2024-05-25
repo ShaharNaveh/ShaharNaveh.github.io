@@ -160,7 +160,7 @@ You don't get any errors, then everything went fine 🥳
 
   {{< tab >}}
     ```shell
-    ls
+    git config --global url.ssh://git@gitlab.com/.insteadOf https://gitlab.com/
     ```
   {{< /tab >}}
 
