@@ -63,7 +63,7 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
   * `.ssh/keys/github.pub`: Public key.
 
 ## Create the SSH config file
-{{< tabs items="Linux/MacOS,Windows" >}}
+{{< tabs items="{Linux/MacOS,Windows" >}}
 {{< tab >}}
   ```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
   Host github.com
@@ -150,8 +150,28 @@ ssh github.com
 
 You don't get any errors, then everything went fine 🥳
 
+# Configure Git to use SSH 
+{{< tabs items="{Bitbucket,Gitlab,Github" >}}
+  {{< tab >}}
+    ```shell
+    ls
+    ```
+  {{< /tab >}}
 
-# Tips & Tricks 
+  {{< tab >}}
+    ```shell
+    ls
+    ```
+  {{< /tab >}}
+
+  {{< tab >}}
+    ```powershell
+    git config --global url.ssh://git@github.com/.insteadOf https://github.com/
+    ```
+  {{< /tab >}}
+{{< /tabs >}}
+
+# Tips & Tricks
 ## Migrating to a different VCS provider 
 Simply change the `Hostname` address to you new VCS provider (assuming that you only changed the provider), and append a second `Host` block for your new provider.
 
