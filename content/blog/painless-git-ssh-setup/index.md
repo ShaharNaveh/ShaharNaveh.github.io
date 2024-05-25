@@ -26,7 +26,7 @@ In this post I will use github as my VCS provider, but this setup works for any 
 
   {{< tab >}}
   ```powershell
-  New-Item -Type Directory -Path "$env:USERPROFILE\.ssh\keys" 
+  New-Item -Type Directory -Path "$env:UserProfile\.ssh\keys" 
   ```
   {{< /tab >}}
 {{< /tabs >}}
@@ -45,7 +45,7 @@ We created `.ssh/keys` as well. this will help to manage multiple SSH keys if ne
 
   {{< tab >}}
   ```powershell
-  ssh-keygen.exe -t ed25519 -b 4097 -C private-pc -f "$env:USERPROFILE\.ssh\keys\github" 
+  ssh-keygen.exe -t ed25519 -b 4097 -C private-pc -f "$env:UserProfile\.ssh\keys\github" 
   ```
   {{< /tab >}}
 {{< /tabs >}}
