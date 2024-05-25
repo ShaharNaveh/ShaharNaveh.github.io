@@ -13,6 +13,11 @@ By the end, you'll have a more efficient and secure Git environment that enhance
 Setting up Git to use SSH can significantly enhance your workflow by providing a secure and convenient method for authenticating your repositories. Whether you're a seasoned developer or new to version control, configuring Git with SSH keys streamlines the process of pushing and pulling code, eliminating the need to repeatedly enter your username and password.
 
 ## How?
+{{< callout type="info" >}}
+
+In this post I will use github as my VCS provider, but this setup works for any other VCS provider, just replace "github" with gitlab/bitbucket/etc and it will work.
+  
+{{< /callout >}}
 
 ### Create the `.ssh` directory 
 
@@ -44,13 +49,13 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 
   {{< tab >}}
   ```bash
-  ssh-keygen -t ed25519 -C private-pc -f ~/.ssh/keys/key_name
+  ssh-keygen -t ed25519 -C private-pc -f ~/.ssh/keys/githb
   ```
   {{< /tab >}}
 
   {{< tab >}}
   ```powershell
-  ssh-keygen.exe -t ed25519 -C private-pc -f "$env:USERPROFILE\.ssh\keys\key_name" 
+  ssh-keygen.exe -t ed25519 -C private-pc -f "$env:USERPROFILE\.ssh\keys\github" 
   ```
   {{< /tab >}}
 
@@ -59,9 +64,9 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 #### Explanation
 - `-t`: Type, here we choose `ed25519`.
 - `-C`: Comment, defaults to `<username>@<computer name>`, you can omit this.
-- `-f`: File location, we choose "key_name". Replace this with whatever name you desire. In this example two files will be created:
-  * `.ssh/keys/key_name`: Private key.
-  * `.ssh/keys/key_name.pub`: Public key.
+- `-f`: File location, we choose "github". Replace this with whatever name you desire. In this example two files will be created:
+  * `.ssh/keys/github`: Private key.
+  * `.ssh/keys/github.pub`: Public key.
 
 ### Create the ssh config file
 
@@ -72,7 +77,7 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
   Host github.com
     Hostname github.com
     User git
-    IdentityFile "%d/.ssh/keys/key_name"
+    IdentityFile "%d/.ssh/keys/github"
     AddKeysToAgent true
     RequestTTY false
     SessionType none
@@ -85,7 +90,7 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
   Host github.com
     Hostname github.com
     User git
-    IdentityFile "%d/.ssh/keys/key_name"
+    IdentityFile "%d/.ssh/keys/github"
     AddKeysToAgent true
     RequestTTY false
     SessionType none
@@ -95,4 +100,19 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 {{< /tabs >}}
 
 #### Explanation
-The "secret sauce" for the configuration lies in 
+The "secret sauce" for the configuration lies in the very first line: `Host github.com`. We tell ssh to define a host alias named "github.com", so when we run:
+
+```bash
+ssh github.com
+```
+
+ssh will automatically connect to the defined `Hostname` (which is "github.com"), with the rest of the arguments such as the user, private-key and so on.
+
+- `Host`: This what allows us to start using ssh without changing the [remote origin](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
+- `Hostname`: The address to connect to, we set it to be the same as `Host`.
+
+## Tips & Tricks 
+### Migrating to a different VCS provider 
+Simply change the `Hostname` address to you new VCS provider (assuming that you only changed the provider), and append a second `Host` block to your new provider.
+
+All the old repositories will point to the new VCS provider, and new repositories will work as expected.
