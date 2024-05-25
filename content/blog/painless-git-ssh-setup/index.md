@@ -150,7 +150,7 @@ ssh github.com
 
 You don't get any errors, then everything went fine 🥳
 
-# Configure Git to use SSH 
+# Configure Git to use SSH instead of https
 {{< tabs items="Bitbucket,Gitlab,Github" >}}
   {{< tab >}}
     ```shell
