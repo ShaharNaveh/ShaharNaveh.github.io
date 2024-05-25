@@ -3,9 +3,6 @@ title: Should I Attend a Shortcut College for a Technical Role?
 date: 2024-05-10T00:00:00-12:00
 draft: false
 ---
-<span class="hidden-summary">summary placeholder</span>
-<!--more-->
-
 ## Should I?
 The short answer is no.
 
