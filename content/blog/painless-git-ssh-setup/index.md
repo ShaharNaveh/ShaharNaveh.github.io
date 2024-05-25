@@ -71,6 +71,12 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
   ```ssh-config {filename=".ssh/config"}
   Host github.com
     Hostname github.com
+    User git
+    IdentityFile "%d/.ssh/keys/key_name"
+    AddKeysToAgent true
+    RequestTTY false
+    SessionType none
+
   ```
   {{< /tab >}}
 
