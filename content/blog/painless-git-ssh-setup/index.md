@@ -64,6 +64,9 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
   * `.ssh/keys/key_name.pub`: Public key.
 
 ### Create the ssh config file
+
+{{< tabs items="Linux/MacOS,Windows" >}}
+
 {{< tab >}}
   ```ssh-config {filename=".ssh/config"}
   Host github.com
