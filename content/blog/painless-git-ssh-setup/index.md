@@ -1,7 +1,7 @@
 ---
 title: Painless Git+SSH Setup
 date: 2024-05-25T00:00:00-12:00
-draft: true
+draft: false
 ---
 
 In this guide, we'll walk you through the steps to generate an SSH key pair, add it to your Git account, and configure your local Git setup for seamless integration. 
@@ -139,13 +139,13 @@ Alternatively, locate the hidden `.ssh` folder, open the file in a text editor, 
 {{% /steps %}}
 
 ## Verify SSH access
-If when running:
+Run:
 
 ```shell
 ssh github.com
 ```
 
-You don't get any errors, then everything went fine 🥳
+If you don't get any errors, the setup is successful. 🥳
 
 ## Configure Git to use SSH instead of https
 {{< tabs items="Bitbucket,Gitlab,Github" >}}
