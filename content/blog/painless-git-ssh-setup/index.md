@@ -95,7 +95,7 @@ You can read more about the available configuration options [here](https://man.o
 ### Explanation
 The "secret sauce" for the configuration lies in the very first line: `Host github.com`. We tell SSH to define a host alias named "github.com", so when we run:
 
-```bash
+```shell
 ssh github.com
 ```
 
