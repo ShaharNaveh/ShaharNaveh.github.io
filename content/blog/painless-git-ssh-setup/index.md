@@ -8,17 +8,17 @@ In this guide, we'll walk you through the steps to generate an SSH key pair, add
 
 By the end, you'll have a more efficient and secure Git environment that enhances your productivity and protects your code.
 
-## Why?
+# Why?
 
 Setting up Git to use SSH can significantly enhance your workflow by providing a secure and convenient method for authenticating your repositories. Whether you're a seasoned developer or new to version control, configuring Git with SSH keys streamlines the process of pushing and pulling code, eliminating the need to repeatedly enter your username and password.
 
-## How?
+# How?
 
 {{< callout type="info" >}}
 In this post I will use github as my VCS provider, but this setup works for any other VCS provider, just replace "github" with gitlab/bitbucket/etc and it will work.
 {{< /callout >}}
 
-### Create the `.ssh` directory 
+## Create the `.ssh` directory 
 
 {{< tabs items="Linux/MacOS,Windows" >}}
 
@@ -42,7 +42,7 @@ We created `.ssh/keys` as well. this will help to manage multiple ssh keys if ne
 
 {{< /callout >}}
 
-### Generate an ssh key
+## Generate an ssh key
 {{< tabs items="Linux/MacOS,Windows" >}}
 
   {{< tab >}}
@@ -65,14 +65,14 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
 
 {{< /callout >}}
 
-#### Explanation
+### Explanation
 - `-t`: Type, here we choose `ed25519`.
 - `-C`: Comment, defaults to `<username>@<computer name>`, you can omit this.
 - `-f`: File location, we choose "github". Replace this with whatever name you desire. In this example two files will be created:
   * `.ssh/keys/github`: Private key.
   * `.ssh/keys/github.pub`: Public key.
 
-### Create the ssh config file
+## Create the ssh config file
 
 {{< tabs items="Linux/MacOS,Windows" >}}
 
@@ -106,7 +106,7 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
 You can read more about the available configuration options [here](https://man.openbsd.org/ssh_config).
 {{< /callout >}}
 
-#### Explanation
+### Explanation
 The "secret sauce" for the configuration lies in the very first line: `Host github.com`. We tell ssh to define a host alias named "github.com", so when we run:
 
 ```bash
@@ -124,22 +124,22 @@ ssh will automatically connect to the defined `Hostname` (which is "github.com")
 - `SessionType`: Setting this to `none`, as we will not execute any commands on our VCS provider.
 
 
-### Add your key to the VCS provider
+## Add your key to the VCS provider
 
 {{% steps %}}
 
-#### Step 1
+## Step 1
 
 This is the first step.
 
-#### Step 2
+### Step 2
 
 This is the second step.
 
 {{% /steps %}}
 
-## Tips & Tricks 
-### Migrating to a different VCS provider 
+# Tips & Tricks 
+## Migrating to a different VCS provider 
 Simply change the `Hostname` address to you new VCS provider (assuming that you only changed the provider), and append a second `Host` block for your new provider.
 
 All the old repositories will point to the new VCS provider, and new repositories will work as expected.
