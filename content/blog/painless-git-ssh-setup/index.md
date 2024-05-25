@@ -125,15 +125,11 @@ cat ~/.ssh/keys/github.pub
 # Then select and copy the contents of the file
 # displayed in the terminal to your clipboard
 ```
-{{% details title="Details" %}}
 
-This is the content of the details.
 
-Markdown is **supported**.
-
+{{% details title="Alternative way" %}}
+Alternatively, you can locate the hidden `.ssh` folder, open the file in your favorite text editor, and copy it to your clipboard.
 {{% /details %}}
-
-
 
 ### Add the public key to your user's SSH keys.
 
