@@ -118,6 +118,7 @@ Here it really depends on your provider, choose the appropriate one:
 They might be a bit different but they all are following the same steps:
 
 {{% steps %}}
+
 ### Copy the SSH public key to your clipboard.
 
 ```shell
