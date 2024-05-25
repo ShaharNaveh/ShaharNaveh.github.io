@@ -9,19 +9,15 @@ In this guide, we'll walk you through the steps to generate an SSH key pair, add
 By the end, you'll have a more efficient and secure Git environment that enhances your productivity and protects your code.
 
 # Why?
-
 Setting up Git to use SSH can significantly enhance your workflow by providing a secure and convenient method for authenticating your repositories. Whether you're a seasoned developer or new to version control, configuring Git with SSH keys streamlines the process of pushing and pulling code, eliminating the need to repeatedly enter your username and password.
 
 # How?
-
 {{< callout type="info" >}}
 In this post I will use github as my VCS provider, but this setup works for any other VCS provider, just replace "github" with gitlab/bitbucket/etc and it will work.
 {{< /callout >}}
 
 ## Create the `.ssh` directory 
-
 {{< tabs items="Linux/MacOS,Windows" >}}
-
   {{< tab >}}
   ```bash
   mkdir -p ~/.ssh/keys/
@@ -33,18 +29,14 @@ In this post I will use github as my VCS provider, but this setup works for any 
   New-Item -Type Directory -Path "$env:USERPROFILE\.ssh\keys" 
   ```
   {{< /tab >}}
-
 {{< /tabs >}}
 
 {{< callout type="info" >}}
-
-We created `.ssh/keys` as well. this will help to manage multiple ssh keys if needed.
-
+We created `.ssh/keys` as well. this will help to manage multiple SSH keys if needed.
 {{< /callout >}}
 
 ## Generate an SSH key
 {{< tabs items="Linux/MacOS,Windows" >}}
-
   {{< tab >}}
   ```bash
   ssh-keygen -t ed25519 -C private-pc -f ~/.ssh/keys/githb
@@ -56,13 +48,10 @@ We created `.ssh/keys` as well. this will help to manage multiple ssh keys if ne
   ssh-keygen.exe -t ed25519 -C private-pc -f "$env:USERPROFILE\.ssh\keys\github" 
   ```
   {{< /tab >}}
-
 {{< /tabs >}}
 
 {{< callout type="info" >}}
-
 You can configure a password (recommended) or skip it by hitting `<Enter>` twice.
-
 {{< /callout >}}
 
 ### Explanation
@@ -73,9 +62,7 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
   * `.ssh/keys/github.pub`: Public key.
 
 ## Create the SSH config file
-
 {{< tabs items="Linux/MacOS,Windows" >}}
-
 {{< tab >}}
   ```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
   Host github.com
@@ -99,7 +86,6 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
     SessionType none
   ```
   {{< /tab >}}
-
 {{< /tabs >}}
 
 {{< callout type="info" >}}
@@ -125,7 +111,6 @@ SSH will automatically connect to the defined `Hostname` (which is "github.com")
 
 
 ## Add your key to the VCS provider
-
 {{% steps %}}
 
 ### Step 1
