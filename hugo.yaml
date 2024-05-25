@@ -1,7 +1,7 @@
 # Configuration
-baseURL: "https://shaharnaveh.github.io/"
-title: "Mediocre Blog"
-theme: "hextra"
+baseURL: https://shaharnaveh.github.io/
+title: Mediocre Blog
+theme: hextra
 
 enableRobotsTXT: true
 enableGitInfo: true
@@ -32,7 +32,7 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: Hextra
+    title: Mediocre Blog
 module:
   hugoVersion:
     extended: true
@@ -114,7 +114,7 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/ShaharNaveh/ShaharNaveh.github.io/edit/main/content"
+    base: https://github.com/ShaharNaveh/ShaharNaveh.github.io/edit/main/content
 
   blog:
     list:
