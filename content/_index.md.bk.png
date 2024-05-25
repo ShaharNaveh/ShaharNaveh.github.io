@@ -1,7 +1,8 @@
 ---
 title: Mediocre Blog
 layout: hextra-home 
-toc: false
+toc: false 
+type: blog
 ---
 
 ## Explore
