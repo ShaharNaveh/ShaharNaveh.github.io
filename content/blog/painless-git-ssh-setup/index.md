@@ -62,3 +62,20 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 - `-f`: File location, here I've chosen "github", but you can give it whatever name you desire. In this example two files will be created:
   * `.ssh/keys/github`: Private key.
   * `.ssh/keys/github.pub`: Public key.
+
+### Create the ssh config file
+{{< tab >}}
+  ```ssh-config {filename=".ssh/config"}
+  Host github.com
+    Hostname github.com
+  ```
+  {{< /tab >}}
+
+  {{< tab >}}
+  ```ssh-config {filename=".ssh\config"}
+  Host github.com
+    Hostname github.com
+  ```
+  {{< /tab >}}
+
+{{< /tabs >}}
