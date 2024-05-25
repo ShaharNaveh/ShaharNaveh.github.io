@@ -154,7 +154,7 @@ You don't get any errors, then everything went fine 🥳
 {{< tabs items="Bitbucket,Gitlab,Github" >}}
   {{< tab >}}
     ```shell
-    ls
+    git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
     ```
   {{< /tab >}}
 
