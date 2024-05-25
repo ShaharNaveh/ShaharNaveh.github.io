@@ -128,7 +128,7 @@ ssh will automatically connect to the defined `Hostname` (which is "github.com")
 
 {{% steps %}}
 
-## Step 1
+### Step 1
 
 This is the first step.
 
