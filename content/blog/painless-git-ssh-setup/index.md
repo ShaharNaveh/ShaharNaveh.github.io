@@ -39,13 +39,13 @@ We created `.ssh/keys` as well. this will help to manage multiple SSH keys if ne
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```shell
-  ssh-keygen -t ed25519 -C private-pc -f ~/.ssh/keys/githb
+  ssh-keygen -t ed25519 -b 4096 -C private-pc -f ~/.ssh/keys/githb
   ```
   {{< /tab >}}
 
   {{< tab >}}
   ```powershell
-  ssh-keygen.exe -t ed25519 -C private-pc -f "$env:USERPROFILE\.ssh\keys\github" 
+  ssh-keygen.exe -t ed25519 -b 4097 -C private-pc -f "$env:USERPROFILE\.ssh\keys\github" 
   ```
   {{< /tab >}}
 {{< /tabs >}}
@@ -56,6 +56,7 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
 
 ### Explanation
 - `-t`: Type, here we choose `ed25519`.
+- `-b`: Bytes, Number of bytes to generate the key pair with.
 - `-C`: Comment, defaults to `<username>@<computer name>`, you can omit this.
 - `-f`: File location, we choose "github". Replace this with whatever name you desire. In this example two files will be created:
   * `.ssh/keys/github`: Private key.
