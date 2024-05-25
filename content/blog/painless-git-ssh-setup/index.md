@@ -127,7 +127,7 @@ They generally follow these steps:
 
 ```shell
 cat ~/.ssh/keys/github.pub
-Then select and copy the displayed contents
+# Then select and copy the displayed contents
 ```
 
 {{% details title="Alternative Way" closed="true" %}}
