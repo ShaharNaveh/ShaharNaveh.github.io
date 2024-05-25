@@ -134,11 +134,11 @@ Then select and copy the displayed contents
 Alternatively, locate the hidden `.ssh` folder, open the file in a text editor, and copy it to your clipboard.
 {{% /details %}}
 
-### Add the public key to your user's SSH keys.
+### Add the Public Key to Your User's SSH Keys.
 
 {{% /steps %}}
 
-## Verify SSH access
+## Verify SSH Access
 Run:
 
 ```shell
@@ -147,7 +147,7 @@ ssh github.com
 
 If you don't get any errors, the setup is successful. 🥳
 
-## Configure Git to use SSH instead of https
+## Configure Git to Use SSH Instead of HTTPS
 {{< tabs items="Bitbucket,Gitlab,Github" >}}
   {{< tab >}}
   ```shell
@@ -168,12 +168,12 @@ If you don't get any errors, the setup is successful. 🥳
   {{< /tab >}}
 {{< /tabs >}}
 
-# Tips & Tricks 
-## Set private key file permissions 
-If you get errors related to 
+# Tips & Tricks
+## Set Private Key File Permissions
+If you encounter:
 > Permissions for 'private-key' are too open.
 
-Simply run the following:
+Run the following:
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```shell
@@ -196,7 +196,7 @@ Remove-Variable -Name Key
   {{< /tab >}}
 {{< /tabs >}}
 
-## Migrating to a different VCS provider 
-Simply change the `Hostname` address to you new VCS provider (assuming that you only changed the provider), and append a second `Host` block for your new provider.
+## Migrating to a Different VCS Provider
+To switch providers, change the `Hostname` in the SSH config to the new provider and add a new Host block for it.
 
-All the old repositories will point to the new VCS provider, and new repositories will work as expected.
+All existing repositories will point to the new provider, and new repositories will work as expected.
