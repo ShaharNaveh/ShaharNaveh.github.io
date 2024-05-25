@@ -56,9 +56,9 @@ You can set a password (recommended) or skip it by pressing `<Enter>` twice.
 
 ### Explanation
 - `-t`: Type of key, here `ed25519`.
-- `-b`: Number of bits, here `4096`.
+- `-b`: Number of bits, here 4096.
 - `-C`: Comment, defaults to `<username>@<computer name>`.
-- `-f`: File location, we choose "github". Replace this with whatever name you desire. In this example two files will be created:
+- `-f`: File location and name, here "github". This creates two files:
   * `.ssh/keys/github`: Private key.
   * `.ssh/keys/github.pub`: Public key.
 
