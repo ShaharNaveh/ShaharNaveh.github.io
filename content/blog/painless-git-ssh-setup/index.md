@@ -38,7 +38,7 @@ We created `.ssh/keys` as well. this will help to manage multiple SSH keys if ne
 ## Generate an SSH key
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
-  ```bash
+  ```shell
   ssh-keygen -t ed25519 -C private-pc -f ~/.ssh/keys/githb
   ```
   {{< /tab >}}
