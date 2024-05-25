@@ -64,7 +64,7 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
 
 ## Create the SSH config file
 {{< tabs items="{Linux/MacOS,Windows" >}}
-{{< tab >}}
+  {{< tab >}}
   ```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
   Host github.com
     Hostname github.com
@@ -153,21 +153,21 @@ You don't get any errors, then everything went fine 🥳
 # Configure Git to use SSH instead of https
 {{< tabs items="Bitbucket,Gitlab,Github" >}}
   {{< tab >}}
-    ```shell
-    git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
-    ```
+  ```shell
+  git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
+  ```
   {{< /tab >}}
 
   {{< tab >}}
-    ```shell
-    git config --global url.ssh://git@gitlab.com/.insteadOf https://gitlab.com/
-    ```
+  ```shell
+  git config --global url.ssh://git@gitlab.com/.insteadOf https://gitlab.com/
+  ```
   {{< /tab >}}
 
   {{< tab >}}
-    ```shell
-    git config --global url.ssh://git@github.com/.insteadOf https://github.com/
-    ```
+  ```shell
+  git config --global url.ssh://git@github.com/.insteadOf https://github.com/
+  ```
   {{< /tab >}}
 {{< /tabs >}}
 
