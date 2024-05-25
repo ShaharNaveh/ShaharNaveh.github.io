@@ -100,15 +100,7 @@ The "secret sauce" for the configuration lies in the very first line: `Host gith
 ssh github.com
 ```
 
-SSH will automatically connect to the defined `Hostname` (which is "github.com"), with the rest of the arguments such as the user, private-key and so on.
 
-- `Host`: This what allows us to start using SSH without changing the [remote origin](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes).
-- `Hostname`: The address to connect to, we set it to be the same as `Host`.
-- `User`: User to authenticate as. usually it's "git".
-- `IdentityFile`: Path to the private key. ssh will interpret `%d` as the user home directory.
-- `AddKeysToAgent`: Pretty much only useful if you set a password for your ssh key in [here](#generate-an-ssh-key).
-- `RequestTTY`: We set this to `no`, as we aren't planning on getting a shell.
-- `SessionType`: Setting this to `none`, as we will not execute any commands on our VCS provider.
 
 ## Add your key to the VCS provider
 Here it really depends on your provider, choose the appropriate one:
