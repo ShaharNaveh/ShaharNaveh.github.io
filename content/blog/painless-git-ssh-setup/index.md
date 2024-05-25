@@ -14,8 +14,6 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 
 ## How?
 
-{{% steps %}}
-
 ### Create the `.ssh` directory 
 
 {{< tabs items="Linux/MacOS,Windows" >}}
@@ -39,5 +37,3 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
   We created `.ssh/keys` as well. this will help to manage multiple ssh keys when needed.
   
 {{< /callout >}}
-
-{{% /steps %}}
