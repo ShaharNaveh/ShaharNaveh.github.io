@@ -130,8 +130,8 @@ cat ~/.ssh/keys/github.pub
 Then select and copy the displayed contents
 ```
 
-{{% details title="Alternative way" closed="true" %}}
-Alternatively, you can locate the hidden `.ssh` folder, open the file in your favorite text editor, and copy it to your clipboard.
+{{% details title="Alternative Way" closed="true" %}}
+Alternatively, locate the hidden `.ssh` folder, open the file in a text editor, and copy it to your clipboard.
 {{% /details %}}
 
 ### Add the public key to your user's SSH keys.
