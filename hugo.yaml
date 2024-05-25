@@ -4,8 +4,8 @@ title: Mediocre Blog
 theme: hextra
 
 enableRobotsTXT: true
-enableGitInfo: true
-# enableEmoji: false
+enableGitInfo: false
+enableEmoji: true
 hasCJKLanguage: true
 
 summaryLength: 0
