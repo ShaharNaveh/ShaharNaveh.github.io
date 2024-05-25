@@ -96,7 +96,7 @@ Read more about available configuration options [here](https://man.openbsd.org/s
 ### Explanation
 The key to the configuration is the first line: `Host github.com`. This tells SSH to use the defined settings whenever you connect to `github.com`:
 
-```powershell
+```shell
 ssh github.com
 ```
 
