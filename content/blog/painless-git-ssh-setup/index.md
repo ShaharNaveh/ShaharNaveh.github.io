@@ -109,7 +109,7 @@ SSH will use the settings provided:
 - `SessionType`: Set to `none` since no commands are executed on the VCS provider.
 
 ## Add your key to the VCS provider
-Here it really depends on your provider, choose the appropriate one:
+Follow the instructions for your provider:
 
 - [Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-linux/#Provide-Bitbucket-Cloud-with-your-public-key)
 - [Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
