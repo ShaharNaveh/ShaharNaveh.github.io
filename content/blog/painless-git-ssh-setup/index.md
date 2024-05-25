@@ -44,13 +44,13 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 
   {{< tab >}}
   ```bash
-  ssh-keygen -t ed25519 -C private-pc -f ~/.ssh/keys/github
+  ssh-keygen -t ed25519 -C private-pc -f ~/.ssh/keys/key_name
   ```
   {{< /tab >}}
 
   {{< tab >}}
   ```powershell
-  ssh-keygen.exe -t ed25519 -C private-pc -f "$env:USERPROFILE\.ssh\keys\github" 
+  ssh-keygen.exe -t ed25519 -C private-pc -f "$env:USERPROFILE\.ssh\keys\key_name" 
   ```
   {{< /tab >}}
 
@@ -59,9 +59,9 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 #### Explanation
 - `-t`: Type, here we choose `ed25519`.
 - `-C`: Comment, defaults to `<username>@<computer name>`, you can omit this.
-- `-f`: File location, here I've chosen "github", but you can give it whatever name you desire. In this example two files will be created:
-  * `.ssh/keys/github`: Private key.
-  * `.ssh/keys/github.pub`: Public key.
+- `-f`: File location, here I've chosen "key_name", but you can give it whatever name you desire. In this example two files will be created:
+  * `.ssh/keys/key_name`: Private key.
+  * `.ssh/keys/key_name.pub`: Public key.
 
 ### Create the ssh config file
 {{< tab >}}
