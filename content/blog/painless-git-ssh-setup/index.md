@@ -103,6 +103,10 @@ ssh github.com
 SSH will use the settings provided:
 - `Hostname`: The address to connect to.
 - `User`: The user to authenticate as, usually "git".
+- `IdentityFile`: Path to the private key, with %d as the user home directory.
+- `AddKeysToAgent`: Adds the key to the ssh-agent, usful if the SSH key is password protected.
+- `RequestTTY`: Set to no as no shell is needed.
+- `SessionType`: Set to none since no commands are executed on the VCS provider.
 
 ## Add your key to the VCS provider
 Here it really depends on your provider, choose the appropriate one:
