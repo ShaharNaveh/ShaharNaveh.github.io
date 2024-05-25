@@ -142,7 +142,7 @@ Alternatively, you can locate the hidden `.ssh` folder, open the file in your fa
 {{% /steps %}}
 
 # Verify SSH access
-If running:
+If when running:
 
 ```shell
 ssh github.com
