@@ -37,3 +37,26 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
   We created `.ssh/keys` as well. this will help to manage multiple ssh keys when needed.
   
 {{< /callout >}}
+
+
+### Generate an ssh key
+{{< tabs items="Linux/MacOS,Windows" >}}
+
+  {{< tab >}}
+  ```bash
+  ssh-keygen -t ed25519 -C private-pc -f ~/.ssh/keys/github
+  ```
+  {{< /tab >}}
+
+  {{< tab >}}
+  ```powershell
+  ssh-keygen.exe -t ed25519 -C private-pc -f "$env:USERPROFILE\.ssh\keys\github" 
+  ```
+  {{< /tab >}}
+
+{{< /tabs >}}
+
+#### Explanation
+- `-t`: Type, here we choose `ed25519`.
+- `-C`: Comment, defaults to `<username>@<computer name>`, you can omit this.
+- `-f`: File location, here I've chosen "github", but you can give it whatever name you desire.
