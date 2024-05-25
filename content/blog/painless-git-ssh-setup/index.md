@@ -14,3 +14,18 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 
 ## How?
 ### Create the `.ssh` directory
+{{< tabs items="Linux/MacOS,Windows" >}}
+
+  {{< tab >}}
+  ```bash
+  mkdir -p ~/.ssh/
+  ```
+  {{< /tab >}}
+
+  {{< tab >}}
+  ```powershell
+  foo
+  ```
+  {{< /tab >}}
+
+{{< /tabs >}}
