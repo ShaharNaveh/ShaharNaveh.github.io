@@ -55,8 +55,8 @@ You can set a password (recommended) or skip it by pressing `<Enter>` twice.
 {{< /callout >}}
 
 ### Explanation
-- `-t`: Type, here we choose `ed25519`.
-- `-b`: Bytes, Number of bytes to generate the key pair with.
+- `-t`: Type of key, here `ed25519`.
+- `-b`: Number of bits, here `4096`.
 - `-C`: Comment, defaults to `<username>@<computer name>`, you can omit this.
 - `-f`: File location, we choose "github". Replace this with whatever name you desire. In this example two files will be created:
   * `.ssh/keys/github`: Private key.
