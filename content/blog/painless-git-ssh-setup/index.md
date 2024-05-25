@@ -102,6 +102,10 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
 
 {{< /tabs >}}
 
+{{< callout type="info" >}}
+You can read about 
+{{< /callout >}}
+
 #### Explanation
 The "secret sauce" for the configuration lies in the very first line: `Host github.com`. We tell ssh to define a host alias named "github.com", so when we run:
 
