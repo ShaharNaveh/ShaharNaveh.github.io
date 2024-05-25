@@ -1,6 +1,6 @@
 # Configuration
 baseURL: "https://shaharnaveh.github.io/"
-title: "Hextra"
+title: "Mediocre Blog"
 
 enableRobotsTXT: true
 enableGitInfo: true
