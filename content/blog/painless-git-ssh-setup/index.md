@@ -187,6 +187,14 @@ Simply run the following:
   {{< tab >}}
   ```powershell
   New-Variable -Name Key -Value "$env:UserProfile\.ssh\keys\github"
+
+  Icacls $Key /c /t /Inheritance:d
+
+  Icacls $Key /c /t /Grant ${env:UserName}:F
+
+  Icacls $Key /c /t /Remove:g Administrator "Authenticated Users" BUILTIN\Administrators BUILTIN Everyone System Users
+
+Remove-Variable -Name Key
   ```
   {{< /tab >}}
 {{< /tabs >}}
