@@ -62,6 +62,8 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
   * `.ssh/keys/github`: Private key.
   * `.ssh/keys/github.pub`: Public key.
 
+## Set private key file permissions
+
 ## Create the SSH config file
 {{< tabs items="{Linux/MacOS,Windows" >}}
   {{< tab >}}
@@ -141,7 +143,7 @@ Alternatively, you can locate the hidden `.ssh` folder, open the file in your fa
 
 {{% /steps %}}
 
-# Verify SSH access
+## Verify SSH access
 If when running:
 
 ```shell
@@ -150,7 +152,7 @@ ssh github.com
 
 You don't get any errors, then everything went fine 🥳
 
-# Configure Git to use SSH instead of https
+## Configure Git to use SSH instead of https
 {{< tabs items="Bitbucket,Gitlab,Github" >}}
   {{< tab >}}
   ```shell
