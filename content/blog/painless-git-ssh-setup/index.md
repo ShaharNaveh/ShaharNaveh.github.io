@@ -113,6 +113,6 @@ ssh will automatically connect to the defined `Hostname` (which is "github.com")
 
 ## Tips & Tricks 
 ### Migrating to a different VCS provider 
-Simply change the `Hostname` address to you new VCS provider (assuming that you only changed the provider), and append a second `Host` block to your new provider.
+Simply change the `Hostname` address to you new VCS provider (assuming that you only changed the provider), and append a second `Host` block for your new provider.
 
 All the old repositories will point to the new VCS provider, and new repositories will work as expected.
