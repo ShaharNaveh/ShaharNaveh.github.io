@@ -16,11 +16,9 @@ outputs:
   home:
     - HTML 
     - RSS 
-    - JSON 
     - JsonFeed
   page:
     - HTML 
-    - MarkDown
   section:
     - HTML 
     - RSS 
