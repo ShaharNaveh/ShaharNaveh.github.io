@@ -13,9 +13,4 @@ By the end, you'll have a more efficient and secure Git environment that enhance
 Setting up Git to use SSH can significantly enhance your workflow by providing a secure and convenient method for authenticating your repositories. Whether you're a seasoned developer or new to version control, configuring Git with SSH keys streamlines the process of pushing and pulling code, eliminating the need to repeatedly enter your username and password.
 
 ## How?
-
-```ssh-config
-Host github.com
-    Hostname github.com
-    Foo Bar
-```
+### Create the `.ssh` directory
