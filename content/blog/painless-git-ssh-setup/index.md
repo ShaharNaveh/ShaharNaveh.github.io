@@ -90,7 +90,7 @@ You can set a password (recommended) or skip it by pressing `<Enter>` twice.
 {{< /tabs >}}
 
 {{< callout type="info" >}}
-You can read more about the available configuration options [here](https://man.openbsd.org/ssh_config).
+Read more about available configuration options [here](https://man.openbsd.org/ssh_config).
 {{< /callout >}}
 
 ### Explanation
