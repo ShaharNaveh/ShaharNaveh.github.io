@@ -1,5 +1,5 @@
 # Configuration
-baseURL: https://shaharnaveh.github.io/
+baseURL: "https://shaharnaveh.github.io/"
 title: Mediocre Blog
 theme: hextra
 
