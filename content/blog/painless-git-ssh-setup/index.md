@@ -106,7 +106,7 @@ SSH will use the settings provided:
 - `IdentityFile`: Path to the private key, `%d` is the user home directory.
 - `AddKeysToAgent`: Adds the key to the ssh-agent, usful if the SSH key is password protected.
 - `RequestTTY`: Set to `no` as no shell is needed.
-- `SessionType`: Set to `none` since no commands are executed on the VCS provider.
+- `SessionType`: Set to `none` since no commands are executed on the Git hosting provider.
 
 ## Add your key to the VCS provider
 The general flow is:
@@ -196,7 +196,7 @@ Remove-Variable -Name Key
   {{< /tab >}}
 {{< /tabs >}}
 
-## Migrating to a Different VCS Provider
+## Migrating to a Different Git Hosting Provider
 To switch providers, change the `Hostname` in the SSH config to the new provider and add a new `Host` block for it.
 
 All existing repositories will point to the new provider, and new repositories will work as expected.
