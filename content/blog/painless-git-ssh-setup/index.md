@@ -110,6 +110,9 @@ ssh will automatically connect to the defined `Hostname` (which is "github.com")
 
 - `Host`: This what allows us to start using ssh without changing the [remote origin](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes)
 - `Hostname`: The address to connect to, we set it to be the same as `Host`.
+- `User`: User to authenticate as. usually it's "git".
+- `IdentityFile`: Path to the private key. ssh will interpret `%d` as the user home directory.
+- `AddKeysToAgent`: 
 
 ## Tips & Tricks 
 ### Migrating to a different VCS provider 
