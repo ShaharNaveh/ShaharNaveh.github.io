@@ -127,7 +127,7 @@ cat ~/.ssh/keys/github.pub
 # displayed in the terminal to your clipboard
 ```
 
-{{% details title="Alternative way" %}}
+{{% details title="Alternative way" closed="true" %}}
 Alternatively, you can locate the hidden `.ssh` folder, open the file in your favorite text editor, and copy it to your clipboard.
 {{% /details %}}
 
