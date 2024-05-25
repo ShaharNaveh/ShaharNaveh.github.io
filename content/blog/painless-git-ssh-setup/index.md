@@ -51,7 +51,7 @@ Creating the .ssh/keys directory helps manage multiple SSH keys if needed.
 {{< /tabs >}}
 
 {{< callout type="info" >}}
-You can configure a password (recommended) or skip it by hitting `<Enter>` twice.
+You can set a password (recommended) or skip it by pressing `<Enter>` twice.
 {{< /callout >}}
 
 ### Explanation
