@@ -60,7 +60,7 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 #### Explanation
 - `-t`: Type, here we choose `ed25519`.
 - `-C`: Comment, defaults to `<username>@<computer name>`, you can omit this.
-- `-f`: File location, here I've chosen "key_name", but you can give it whatever name you desire. In this example two files will be created:
+- `-f`: File location, we choose "key_name". Replace this with whatever name you desire. In this example two files will be created:
   * `.ssh/keys/key_name`: Private key.
   * `.ssh/keys/key_name.pub`: Public key.
 
