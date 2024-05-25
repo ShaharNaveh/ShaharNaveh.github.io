@@ -116,10 +116,10 @@ Follow the instructions for your provider:
 - [Gitlab](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)
 
 {{< callout type="warning" >}}
-If your provider does not appear here, please refer to their official documentation.
+If your provider is not listed, please refer to their official documentation.
 {{< /callout >}}
 
-They might be a bit different but they all are following the same steps:
+They generally follow these steps:
 
 {{% steps %}}
 
