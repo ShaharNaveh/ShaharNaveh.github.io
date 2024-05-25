@@ -116,6 +116,8 @@ Here it really depends on your provider, choose the appropriate one:
 - [Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
 - [Gitlab](https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account)
 
+If your provider does not appear here, please refer to their official documentation.
+
 They might be a bit different but they all are following the same steps:
 
 {{% steps %}}
@@ -135,6 +137,9 @@ Alternatively, you can locate the hidden `.ssh` folder, open the file in your fa
 ### Add the public key to your user's SSH keys.
 
 {{% /steps %}}
+
+# Verify SSH access
+
 
 # Tips & Tricks 
 ## Migrating to a different VCS provider 
