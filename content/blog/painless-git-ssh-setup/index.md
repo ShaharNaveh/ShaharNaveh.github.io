@@ -38,7 +38,7 @@ In this post I will use github as my VCS provider, but this setup works for any 
 
 {{< callout type="info" >}}
 
-We created `.ssh/keys` as well. this will help to manage multiple ssh keys when needed.
+We created `.ssh/keys` as well. this will help to manage multiple ssh keys if needed.
 
 {{< /callout >}}
 
