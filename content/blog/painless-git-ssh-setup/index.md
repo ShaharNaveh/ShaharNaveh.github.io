@@ -123,6 +123,10 @@ ssh will automatically connect to the defined `Hostname` (which is "github.com")
 - `RequestTTY`: We set this to `no`, as we aren't planning on getting a shell.
 - `SessionType`: Setting this to `none`, as we will not execute any commands on our VCS provider.
 
+
+### Add your key to the VCS provider
+
+
 ## Tips & Tricks 
 ### Migrating to a different VCS provider 
 Simply change the `Hostname` address to you new VCS provider (assuming that you only changed the provider), and append a second `Host` block for your new provider.
