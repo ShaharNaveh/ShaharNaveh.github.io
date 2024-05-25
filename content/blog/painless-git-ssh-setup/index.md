@@ -1,7 +1,7 @@
 ---
 title: Painless Git+Ssh Setup
 date: 2024-05-20T00:00:00-12:00
-draft: true
+draft: false
 ---
 
 In this guide, we'll walk you through the steps to generate an SSH key pair, add it to your Git account, and configure your local Git setup for seamless integration. 
@@ -126,6 +126,17 @@ ssh will automatically connect to the defined `Hostname` (which is "github.com")
 
 ### Add your key to the VCS provider
 
+{{% steps %}}
+
+#### Step 1
+
+This is the first step.
+
+#### Step 2
+
+This is the second step.
+
+{{% /steps %}}
 
 ## Tips & Tricks 
 ### Migrating to a different VCS provider 
