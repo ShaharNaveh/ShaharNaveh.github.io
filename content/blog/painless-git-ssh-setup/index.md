@@ -67,7 +67,7 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 {{< tabs items="Linux/MacOS,Windows" >}}
 
 {{< tab >}}
-  ```ssh-config {linenos=table,filename=".ssh/config"}
+  ```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
   Host github.com
     Hostname github.com
     User git
@@ -80,7 +80,7 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
   {{< /tab >}}
 
   {{< tab >}}
-  ```ssh-config {linenos=table,filename=".ssh\config"}
+  ```ssh-config {linenos=table,linenostart=1,filename=".ssh\config"}
   Host github.com
     Hostname github.com
     User git
