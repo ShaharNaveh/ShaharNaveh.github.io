@@ -16,7 +16,7 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 Although I will use GitHub as my VCS provider in this guide, this setup works for any other VCS provider. Just replace "github" with "gitlab," "bitbucket," etc.
 {{< /callout >}}
 
-## Create the `.ssh` directory 
+## Create the `.ssh` Directory 
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```shell
@@ -35,7 +35,7 @@ Although I will use GitHub as my VCS provider in this guide, this setup works fo
 Creating the .ssh/keys directory helps manage multiple SSH keys if needed.
 {{< /callout >}}
 
-## Generate an SSH key
+## Generate an SSH Key Pair
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```shell
@@ -62,7 +62,7 @@ You can set a password (recommended) or skip it by pressing `<Enter>` twice.
   * `.ssh/keys/github`: Private key.
   * `.ssh/keys/github.pub`: Public key.
 
-## Create the SSH config file
+## Create the SSH Config File
 {{< tabs items="{Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
@@ -123,7 +123,7 @@ They generally follow these steps:
 
 {{% steps %}}
 
-### Copy the SSH public key to your clipboard.
+### Copy the SSH Public Key to Your Clipboard.
 
 ```shell
 cat ~/.ssh/keys/github.pub
