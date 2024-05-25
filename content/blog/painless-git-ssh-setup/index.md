@@ -62,8 +62,6 @@ You can configure a password (recommended) or skip it by hitting `<Enter>` twice
   * `.ssh/keys/github`: Private key.
   * `.ssh/keys/github.pub`: Public key.
 
-## Set private key file permissions
-
 ## Create the SSH config file
 {{< tabs items="{Linux/MacOS,Windows" >}}
   {{< tab >}}
@@ -173,7 +171,26 @@ You don't get any errors, then everything went fine 🥳
   {{< /tab >}}
 {{< /tabs >}}
 
-# Tips & Tricks
+# Tips & Tricks 
+## Set private key file permissions 
+If you get errors related to 
+> Permissions for 'private-key' are too open.
+
+Simply run the following:
+{{< tabs items="Linux/MacOS,Windows" >}}
+  {{< tab >}}
+  ```shell
+  chmod 400 ~/.ssh/keys/github
+  ```
+  {{< /tab >}}
+
+  {{< tab >}}
+  ```powershell
+  New-Variable -Name Key -Value "$env:UserProfile\.ssh\keys\github"
+  ```
+  {{< /tab >}}
+{{< /tabs >}}
+
 ## Migrating to a different VCS provider 
 Simply change the `Hostname` address to you new VCS provider (assuming that you only changed the provider), and append a second `Host` block for your new provider.
 
