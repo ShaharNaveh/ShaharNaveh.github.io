@@ -66,6 +66,17 @@ Creating the `.ssh/keys` directory helps manage multiple SSH keys if needed.
 You can set a password (recommended) or skip it by pressing `<Enter>` twice.
 {{< /callout >}}
 
+Now your `.ssh tree:
+{{< filetree/container >}}
+  {{< filetree/folder name=".ssh" >}}
+    {{< filetree/file name="config" >}}
+    {{< filetree/folder name="keys" >}}
+      {{< filetree/file name="github" >}}
+      {{< filetree/file name="github.pub" >}}
+    {{< /filetree/folder >}}
+  {{< /filetree/folder >}}
+{{< /filetree/container >}}
+
 ### Explanation
 - `-t`: Type of key, here `ed25519`.
 - `-b`: Number of bits, here 4096.
