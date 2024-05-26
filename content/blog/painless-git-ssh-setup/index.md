@@ -44,7 +44,7 @@ If everything went successfully, the `.ssh` directory tree will look like:
 {{< /filetree/container >}}
 
 {{< callout type="info" >}}
-Creating the .ssh/keys directory helps manage multiple SSH keys if needed.
+Creating the `.ssh/keys` directory helps manage multiple SSH keys if needed.
 {{< /callout >}}
 
 ## Generate an SSH Key Pair
