@@ -33,7 +33,7 @@ Although I will use GitHub as my Git hosting provider in this guide, this setup 
   {{< /tab >}}
 {{< /tabs >}}
 
-If everything went smoothly you will contain:
+If everything went successfully, the `.ssh` directory tree will look like:
 
 {{< filetree/container >}}
   {{< filetree/folder name=".ssh" >}}
