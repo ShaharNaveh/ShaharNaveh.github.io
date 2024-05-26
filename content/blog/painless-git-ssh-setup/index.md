@@ -27,8 +27,8 @@ Although I will use GitHub as my Git hosting provider in this guide, this setup 
 
   {{< tab >}}
   ```powershell
-  New-Item -Type Directory -Path "$env:UserProfile\.ssh\keys"
-  New-Item -Type File -Path "$env:UserProfile\.ssh\config"
+  New-Item -ItemType Directory -Path "$env:UserProfile\.ssh\keys"
+  New-Item -ItemType File -Path "$env:UserProfile\.ssh\config"
   ```
   {{< /tab >}}
 {{< /tabs >}}
