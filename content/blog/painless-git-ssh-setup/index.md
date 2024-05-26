@@ -16,20 +16,32 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 Although I will use GitHub as my Git hosting provider in this guide, this setup works for any other Git hosting provider. Just replace "github" with "gitlab," "bitbucket," etc.
 {{< /callout >}}
 
-## Create the `.ssh` Directory 
+## Create the `.ssh` Directory and SSH config
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```shell
   mkdir -p ~/.ssh/keys/
+  touch ~/.ssh/config
   ```
   {{< /tab >}}
 
   {{< tab >}}
   ```powershell
-  New-Item -Type Directory -Path "$env:UserProfile\.ssh\keys" 
+  New-Item -Type Directory -Path "$env:UserProfile\.ssh\keys"
+  New-Item -Type File -Path "$env:UserProfile\.ssh\config"
   ```
   {{< /tab >}}
 {{< /tabs >}}
+
+If everything went smoothly you will contain:
+
+{{< filetree/container >}}
+  {{< filetree/folder name=".ssh" >}}
+    {{< filetree/file name="config" >}}
+    {{< filetree/folder name="keys" >}}
+    {{< /filetree/folder >}}
+  {{< /filetree/folder >}}
+{{< /filetree/container >}}
 
 {{< callout type="info" >}}
 Creating the .ssh/keys directory helps manage multiple SSH keys if needed.
