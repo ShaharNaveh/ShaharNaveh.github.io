@@ -7,6 +7,8 @@ enableGitInfo: false
 enableEmoji: true
 hasCJKLanguage: false
 
+summaryLength: 0
+
 outputs:
   home:
     - HTML 
