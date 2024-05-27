@@ -1,5 +1,6 @@
 ---
-title: Mediocre Blog
+title: Mediocre Blog 
+layout: hextra-home
 toc: false
 ---
 
