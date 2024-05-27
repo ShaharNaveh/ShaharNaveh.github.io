@@ -21,6 +21,7 @@ outputs:
     - RSS 
 
 defaultContentLanguage: en
+languageCode: en-us
 languages:
   en:
     languageName: English
