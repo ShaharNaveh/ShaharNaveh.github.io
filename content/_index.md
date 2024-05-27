@@ -1,4 +1,5 @@
 ---
 title: Mediocre Blog
-type: blog 
+#type: blog 
+layout: hextra-home
 ---
