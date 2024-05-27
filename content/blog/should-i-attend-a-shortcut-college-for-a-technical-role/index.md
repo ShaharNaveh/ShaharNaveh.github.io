@@ -2,8 +2,10 @@
 title: Should I Attend a Shortcut College for a Technical Role?
 date: 2024-05-10T00:00:00-12:00
 draft: false 
-description: "The short answer is no. But why?"
+description: The short answer is no. But why?
 ---
+
+{{< toc >}}
 
 # What Are Shortcut Colleges?
 Shortcut colleges offer fast-tracked, hands-on tech education with the promise of quick job placement, often at a high cost. They claim that completing their course guarantees job offers without additional effort. These institutions typically provide condensed courses aimed at rapid employment but often lack depth.
