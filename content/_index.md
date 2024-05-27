@@ -6,5 +6,5 @@ toc: false
 ## Explore
 
 {{< cards >}}
-  {{< card link="blog" title="Blogposts" icon="book-open" >}}
+  {{< card link="blog" title="Blog" icon="book-open" >}}
 {{< /cards >}}
