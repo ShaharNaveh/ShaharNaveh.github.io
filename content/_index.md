@@ -1,6 +1,5 @@
 ---
 title: Mediocre Site
-layout: hextra-home
 toc: false
 ---
 
