@@ -1,5 +1,10 @@
 ---
 title: Mediocre Blog
-#type: blog 
-layout: hextra-home
+toc: false
 ---
+
+## Explore
+
+{{< cards >}}
+  {{< card link="blog" title="Blogposts" icon="book-open" >}}
+{{< /cards >}}
