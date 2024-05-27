@@ -7,5 +7,4 @@ toc: false
 
 {{< cards >}}
   {{< card link="blog" title="Blog" icon="pencil" >}}
-  {{< card link="blog" title="Blog" icon="pencil-alt" >}}
 {{< /cards >}}
