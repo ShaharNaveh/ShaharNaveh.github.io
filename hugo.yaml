@@ -1,5 +1,5 @@
 baseURL: "https://shaharnaveh.github.io/"
-title: Mediocre Blog
+title: Mediocre Site
 theme: hextra
 
 enableRobotsTXT: true
@@ -25,7 +25,7 @@ languages:
   en:
     languageName: English
     weight: 1
-    title: Mediocre Blog
+    title: Mediocre Site
 module:
   hugoVersion:
     extended: true
