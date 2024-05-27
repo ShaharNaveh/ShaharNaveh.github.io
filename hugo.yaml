@@ -1,4 +1,3 @@
-# Configuration
 baseURL: "https://shaharnaveh.github.io/"
 title: Mediocre Blog
 theme: hextra
@@ -6,12 +5,7 @@ theme: hextra
 enableRobotsTXT: true
 enableGitInfo: false
 enableEmoji: true
-hasCJKLanguage: true
-
-summaryLength: 0
-# services:
-#   googleAnalytics:
-#     ID: G-MEASUREMENT_ID
+hasCJKLanguage: false
 
 outputs:
   home:
@@ -23,10 +17,6 @@ outputs:
   section:
     - HTML 
     - RSS 
-#  taxonomy:
-#    - HTML 
-#    - RSS
-
 
 defaultContentLanguage: en
 languages:
@@ -38,10 +28,6 @@ module:
   hugoVersion:
     extended: true
     min: "0.112.0"
-
-#  workspace: hugo.work
-#  imports:
-#    - path: github.com/imfing/hextra
 
 markup:
   goldmark:
@@ -62,12 +48,7 @@ menu:
       weight: 2
       params:
         type: search
-#  sidebar:
-#    - identifier: more
-#      name: More
-#      params:
-#        type: separator
-#      weight: 1
+
 params:
   description: Blog, Blogpost
 
@@ -79,7 +60,7 @@ params:
       dark: images/logo.svg #images/logo-dark.svg
       # width: 40
       # height: 20
-      # link: /
+      link: /
     width: wide
 
   page:
