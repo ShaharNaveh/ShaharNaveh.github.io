@@ -3,7 +3,7 @@ title: Painless Git+SSH Setup
 date: 2024-05-25T00:00:00-00:00
 draft: false
 tags:
-  - guides
+  - guide
 ---
 
 In this guide, we'll walk you through the steps to generate an SSH key pair, add it to your Git account, and configure your local Git setup for seamless integration. 
