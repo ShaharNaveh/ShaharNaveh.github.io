@@ -115,17 +115,3 @@ params:
 
   comments:
     enable: false
-    type: giscus
-
-    # https://giscus.app/
-    giscus:
-      repo: "" # owner/repo
-      repoId: ""
-      category: General
-      categoryId: ""
-      # mapping: pathname
-      # strict: 0
-      # reactionsEnabled: 1
-      # emitMetadata: 0
-      # inputPosition: top
-      # lang: en
