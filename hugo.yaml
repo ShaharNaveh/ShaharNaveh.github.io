@@ -61,7 +61,7 @@ params:
   description: Blog, Guide
 
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
       path: images/logo.svg
