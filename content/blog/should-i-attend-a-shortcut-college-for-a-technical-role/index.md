@@ -3,6 +3,8 @@ title: Should I Attend a Shortcut College for a Technical Role?
 date: 2024-05-10
 draft: false 
 description: The short answer is no. But why?
+tags:
+  - miscellaneous
 ---
 
 # What Are Shortcut Colleges?
