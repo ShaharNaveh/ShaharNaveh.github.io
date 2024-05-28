@@ -5,7 +5,7 @@ theme: hextra
 enableRobotsTXT: true
 enableGitInfo: false
 enableEmoji: true
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 summaryLength: 0
 
