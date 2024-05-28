@@ -58,7 +58,7 @@ menu:
         type: search
 
 params:
-  description: Blog, Blogpost
+  description: Blog, Guide
 
   navbar:
     displayTitle: true
