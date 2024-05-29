@@ -41,3 +41,11 @@ There are other ways to impress such as (depends on the job):
 - Writing a blog.
 - Contributing to open-source projects.
 - Getting any certificate that takes effort to get.
+
+### But I Need a Certificate to Get a Job Interview
+
+While a certificate might help you secure a job interview (or bypass the [Applicant Tracking System (ATS)](https://en.m.wikipedia.org/wiki/Applicant_tracking_system) 😉), a [low-value certificate](#expensive-and-low-value-certificate) won't impress the interviewer. Consider other impactful ways to stand out, such as:
+
+- Writing a blog
+- Contributing to open-source projects
+- Earning a meaningful certificate that requires effort
