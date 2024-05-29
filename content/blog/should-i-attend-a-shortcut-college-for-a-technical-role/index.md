@@ -35,14 +35,7 @@ Self-discipline and motivation are essential in tech. If you struggle with indep
 ### But My Contract Guarantees a Job
 Some programs promise job placement but often lead to underpaid, exploitative positions. Be wary of fine print, such as guarantees only for job interviews, not actual employment offers.
 
-### But I need a Certificate to Get a Job Interview 
-You might need a certificate to get invited to a job interview (or by tricking the [ATS](https://en.m.wikipedia.org/wiki/Applicant_tracking_system) 😉), but getting a [worthless certificate](#expensive-and-low-value-certificate) won't impress the interviewer.
-There are other ways to impress such as (depends on the job):
-- Writing a blog.
-- Contributing to open-source projects.
-- Getting any certificate that takes effort to get.
-
-### But I Need a Certificate to Get a Job Interview
+#
 
 While a certificate might help you secure a job interview (or bypass the [Applicant Tracking System (ATS)](https://en.m.wikipedia.org/wiki/Applicant_tracking_system) 😉), a [low-value certificate](#expensive-and-low-value-certificate) won't impress the interviewer. Consider other impactful ways to stand out, such as:
 
