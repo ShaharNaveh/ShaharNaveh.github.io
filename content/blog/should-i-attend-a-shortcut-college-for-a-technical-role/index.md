@@ -40,4 +40,4 @@ You might need a certificate to get invited to a job interview (or by tricking t
 There are other ways to impress such as (depends on the job):
 - Writing a blog.
 - Contributing to open-source projects.
-- Acquiring certifications that you need to pass a test to acquire (any of [AWS certificates](https://aws.amazon.com/certification/)
+- Acquiring certifications that you need to pass a test to acquire (any of [AWS certificates](https://aws.amazon.com/certification/)/[Azure certificates](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills%2Ccertification&terms=azure)
