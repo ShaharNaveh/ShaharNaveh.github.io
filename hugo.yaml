@@ -10,9 +10,10 @@ enableInlineShortcodes: true
 summaryLength: 0
 
 defaultContentLanguage: en
-languageCode: en-us
 languages:
   en:
+    disabled: false 
+    languageCode: en-US
     languageName: English
     weight: 1
     title: Mediocre Site
