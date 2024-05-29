@@ -10,6 +10,8 @@ In this guide, we'll walk you through the steps to generate an SSH key pair, add
 
 By the end, you'll have a more efficient and secure Git environment that enhances your productivity and protects your code.
 
+{{- partial "toc.html" . -}}
+
 ## Why?
 Setting up Git to use SSH can significantly enhance your workflow by providing a secure and convenient method for authenticating your repositories. Whether you're a seasoned developer or new to version control, configuring Git with SSH keys streamlines the process of pushing and pulling code, eliminating the need to repeatedly enter your username and password.
 
