@@ -86,7 +86,7 @@ params:
     displayToggle: true
 
   footer:
-    enable: false
+    enable: true
     displayCopyright: false
     displayPoweredBy: false
     width: normal
