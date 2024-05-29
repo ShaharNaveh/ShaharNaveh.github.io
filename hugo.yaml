@@ -9,7 +9,8 @@ hasCJKLanguage: false
 enableInlineShortcodes: true
 summaryLength: 0
 
-defaultContentLanguage: en
+defaultContentLanguage: en 
+languageCode: en-us
 languages:
   en:
     disabled: false 
