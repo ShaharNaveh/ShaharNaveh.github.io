@@ -6,7 +6,7 @@ enableRobotsTXT: true
 enableGitInfo: false
 enableEmoji: true
 hasCJKLanguage: false
-
+enableInlineShortcodes: true
 summaryLength: 0
 
 outputs:
@@ -37,9 +37,10 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    noClasses: false
-
-enableInlineShortcodes: true
+    noClasses: false 
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
 
 menu:
   main:
@@ -59,7 +60,8 @@ menu:
 
 params:
   description: Blog, Guide
-
+  displayUpdatedDate: false
+  dateFormat: "January 2, 2006"
   navbar:
     displayTitle: true
     displayLogo: false
@@ -85,10 +87,7 @@ params:
     displayCopyright: false
     displayPoweredBy: false
     width: normal
-
-  displayUpdatedDate: false
-  dateFormat: "January 2, 2006"
-
+  
   # Search
   # flexsearch is enabled by default
   search:
