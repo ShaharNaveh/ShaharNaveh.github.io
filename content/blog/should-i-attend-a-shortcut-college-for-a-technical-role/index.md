@@ -17,7 +17,7 @@ Success in tech requires continuous self-learning and adaptability. No single co
 ### Shallow Skillset
 Tech is more than just coding; it involves problem-solving, creativity, and adaptability. Shortcut colleges often focus narrowly on specific tools, neglecting broader essential skills. This limited approach can leave you unprepared for the diverse challenges of the industry.
 
-### Expensive and Low-Value Certification
+### Expensive and Low-Value Certificate
 Certificates from these programs are often not valued by employers, as they do not demonstrate substantial effort or knowledge. The requirements for obtaining such certifications are minimal, making them essentially worthless in proving your capabilities.
 
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
@@ -36,5 +36,4 @@ Self-discipline and motivation are essential in tech. If you struggle with indep
 Some programs promise job placement but often lead to underpaid, exploitative positions. Be wary of fine print, such as guarantees only for job interviews, not actual employment offers.
 
 ### But I need a Certificate to Get a Job Interview 
-You might need a certificate to get invited to a job interview (or by tricking the [ATS](https://en.m.wikipedia.org/wiki/Applicant_tracking_system) 😉), but getting a [worthless certificate](#idk)
-
+You might need a certificate to get invited to a job interview (or by tricking the [ATS](https://en.m.wikipedia.org/wiki/Applicant_tracking_system) 😉), but getting a [worthless certificate](#expensive-and-low-value certificate)
