@@ -10,7 +10,7 @@ enableInlineShortcodes: true
 summaryLength: 0
 
 defaultContentLanguage: en 
-languageCode: en-us
+languageCode: en-us 
 languages:
   en:
     disabled: false 
@@ -18,11 +18,15 @@ languages:
     languageName: English
     weight: 1
     title: Mediocre Site
+    
+disableLanguages:
+  - fr 
+
 module:
   hugoVersion:
     extended: true
     min: "0.112.0"
-    
+   
 outputs:
   home:
     - HTML 
