@@ -9,17 +9,6 @@ hasCJKLanguage: false
 enableInlineShortcodes: true
 summaryLength: 0
 
-outputs:
-  home:
-    - HTML 
-    - RSS 
-    - JsonFeed
-  page:
-    - HTML 
-  section:
-    - HTML 
-    - RSS 
-
 defaultContentLanguage: en
 languageCode: en-us
 languages:
@@ -31,7 +20,18 @@ module:
   hugoVersion:
     extended: true
     min: "0.112.0"
-
+    
+outputs:
+  home:
+    - HTML 
+    - RSS 
+    - JsonFeed
+  page:
+    - HTML 
+  section:
+    - HTML 
+    - RSS
+    
 markup:
   goldmark:
     renderer:
