@@ -36,4 +36,8 @@ Self-discipline and motivation are essential in tech. If you struggle with indep
 Some programs promise job placement but often lead to underpaid, exploitative positions. Be wary of fine print, such as guarantees only for job interviews, not actual employment offers.
 
 ### But I need a Certificate to Get a Job Interview 
-You might need a certificate to get invited to a job interview (or by tricking the [ATS](https://en.m.wikipedia.org/wiki/Applicant_tracking_system) 😉), but getting a [worthless certificate](#expensive-and-low-value-certificate) won't
+You might need a certificate to get invited to a job interview (or by tricking the [ATS](https://en.m.wikipedia.org/wiki/Applicant_tracking_system) 😉), but getting a [worthless certificate](#expensive-and-low-value-certificate) won't impress the interviewer.
+There are other ways to impress such as (depends on the job):
+- Writing a blog.
+- Contributing to open-source projects.
+- Doing certifications that you need to pass a test to acquire like 
