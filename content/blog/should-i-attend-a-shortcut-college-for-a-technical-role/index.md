@@ -12,6 +12,10 @@ Shortcut colleges offer fast-tracked, hands-on tech education with the promise o
 They claim that completing their course guarantees job offers without additional effort. These institutions typically provide condensed courses aimed at rapid employment but often lack depth.
 
 ## Why Not?
+### It's a Scam
+Shortcut colleges charge high fees for programs that deliver limited value, using aggressive marketing tactics to attract students.
+They often promise job placements that either don't materialize or are in low-paying, unstable positions, leading to disappointment and financial strain.
+
 ### You Need to Study on Your Own
 Success in tech requires continuous self-learning and adaptability. No single course can provide all the knowledge you need for a sustainable career.
 In the fast-paced world of technology, you must learn new topics independently to keep your skills current.
@@ -26,10 +30,6 @@ Certificates from these programs are often not valued by employers, as they do n
 The requirements for obtaining such certifications are minimal, making them essentially worthless in proving your capabilities.
 
 ![Buzz Lightyear Clones](img/buzz_lightyear_clones_i_got_certification_from_shortcut_college.jpg)
-
-### The Scam of Shortcut Colleges
-Shortcut colleges charge high fees for programs that deliver limited value, using aggressive marketing tactics to attract students.
-They often promise job placements that either don't materialize or are in low-paying, unstable positions, leading to disappointment and financial strain.
 
 ## FAQ
 ### But I Got a Scholarship
