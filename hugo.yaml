@@ -2,7 +2,7 @@ baseURL: https://shaharnaveh.github.io/
 title: Mediocre Site
 theme: hextra
 
-enableRobotsTXT: true
+enableRobotsTXT: false
 enableGitInfo: false
 enableEmoji: true
 hasCJKLanguage: false
