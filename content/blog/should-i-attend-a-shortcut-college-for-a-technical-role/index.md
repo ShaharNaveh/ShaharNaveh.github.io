@@ -27,7 +27,8 @@ Shortcut colleges charge high fees for programs that deliver limited value, usin
 
 ## FAQ
 ### But I Got a Scholarship
-These are marketing tactics. They inflate prices and offer discounts to create a false sense of value.
+These are marketing tactics.
+They inflate prices and offer discounts to create a false sense of value.
 
 ### But It's Hard for Me to Study on My Own
 Self-discipline and motivation are essential in tech. If you struggle with independent learning, reconsider your career path.
