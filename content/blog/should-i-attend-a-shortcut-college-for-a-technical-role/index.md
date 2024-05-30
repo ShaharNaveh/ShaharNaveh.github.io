@@ -50,8 +50,8 @@ While a certificate might help you secure a job interview or bypass the [ATS](ht
 A [low-value certificate](#expensive-and-low-value-certificate) won't impress the interviewer.
 Consider other impactful ways to stand out, such as:
 
-- Demonstrating in-depth technical knowledge
-- Show the ability to learn new things quickly
+- Demonstrate in-depth technical knowledge
+- Show your ability to learn and adapt quickly
 - Writing a blog
 - Contributing to open-source projects
 - Earning a meaningful certificate that requires effort
