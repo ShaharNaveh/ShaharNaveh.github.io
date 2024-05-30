@@ -15,7 +15,9 @@ Contributing to open source projects can be a transformative experience for both
 
 ### Creating an Account in a Git Hosting Provider
 
-There are many git hosting provides such as [Bitbucket](https://bitbucket.org/), [Gitlab](https://gitlab.com/) and [Github](https://github.com/)
+There are many git hosting provides such as [Bitbucket](https://bitbucket.org/), [Gitlab](https://gitlab.com/) and [Github](https://github.com/), but Github is by far the leading platform where most open-source projects are hosted.
+
+[Create a Github account](https://github.com/signup) and continue to the next step.
 
 ### Configuring Git
 
