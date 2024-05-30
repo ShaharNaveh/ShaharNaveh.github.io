@@ -8,3 +8,17 @@ tags:
 ---
 
 Contributing to open source projects can be a transformative experience for both novice and seasoned developers. It not only allows you to give back to the community but also enhances your skills, provides real-world experience, and expands your professional network. However, making that first contribution can seem daunting. This article will guide you through the initial steps, from selecting a project that aligns with your interests to successfully submitting your first pull request, ensuring you can confidently take part in the amazing open source ecosystem.
+
+## Getting Started
+
+{{% steps %}}
+
+### Creating an Account in a Git Hosting Provider
+
+There are many git hosting provides such as [Bitbucket](https://bitbucket.org/), [Gitlab](https://gitlab.com/) and [Github](https://github.com/)
+
+### Configuring Git
+
+This is the second step.
+
+{{% /steps %}}
