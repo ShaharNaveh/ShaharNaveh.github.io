@@ -198,13 +198,19 @@ ssh github.com
 If you don't get any errors, the setup is successful. 🥳
 
 ### Configure Git to Use SSH Instead of HTTPS
-{{< tabs items="Bitbucket,Github,Gitlab" >}}
+{{< tabs items="Bitbucket,Codeberg,Github,Gitlab" >}}
   {{< tab >}}
   ```shell
   git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
   ```
-  {{< /tab >}} 
-
+  {{< /tab >}}
+  
+  {{< tab >}}
+  ```shell
+  git config --global url.ssh://git@codeberg.org/.insteadOf https://codeberg.org/
+  ```
+  {{< /tab >}}
+  
   {{< tab >}}
   ```shell
   git config --global url.ssh://git@github.com/.insteadOf https://github.com/
