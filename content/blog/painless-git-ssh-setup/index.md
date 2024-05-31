@@ -102,7 +102,7 @@ Now your `.ssh` tree will look like:
   {{< /tab >}}
 
   {{< tab >}}
-  ```{linenos=table,linenostart=1,filename=".ssh\config"}
+  ```ssh-config {linenos=table,linenostart=1,filename=".ssh\config"}
   Host github.com
     Hostname github.com
     User git
