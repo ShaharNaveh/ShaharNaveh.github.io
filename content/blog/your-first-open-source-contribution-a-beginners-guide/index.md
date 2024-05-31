@@ -7,7 +7,8 @@ tags:
   - guide
 ---
 
-Contributing to open source projects can be a transformative experience for both novice and seasoned developers. It not only allows you to give back to the community but also enhances your skills, provides real-world experience, and expands your professional network. However, making that first contribution can seem daunting. This article will guide you through the initial steps, from selecting a project that aligns with your interests to successfully submitting your first pull request, ensuring you can confidently take part in the amazing open source ecosystem.
+Contributing to open source projects can be transformative for both novice and seasoned developers. It enhances your skills, provides real-world experience, expands your professional network, and allows you to give back to the community. However, making that first contribution can be daunting. This guide will help you navigate the initial steps, from selecting a project that aligns with your interests to successfully submitting your first pull request, ensuring you can confidently engage with the open source ecosystem.
+
 
 ## Getting Started
 
