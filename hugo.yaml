@@ -42,7 +42,8 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    noClasses: false 
+    noClasses: false
+    #guessSyntax: true
   tableOfContents:
     startLevel: 2
     endLevel: 4
