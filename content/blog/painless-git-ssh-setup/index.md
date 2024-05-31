@@ -224,6 +224,11 @@ If you don't get any errors, the setup is successful. 🥳
   {{< /tab >}}
 {{< /tabs >}}
 
+{{< callout type="info" >}}
+You can omit the `--global` flag while inside a git repository to configure that repository only 
+{{< /callout >}}
+
+
 ## Tips & Tricks
 ### Set Private Key File Permissions
 If you encounter:
