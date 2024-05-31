@@ -168,6 +168,11 @@ Follow the instructions for your provider:
     link="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account"
   >}}
 
+{{< hextra/feature-card
+    title="Gitlab"
+    icon="gitlab"
+    link="https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account"
+
 {{< /hextra/feature-grid >}}
 
 
