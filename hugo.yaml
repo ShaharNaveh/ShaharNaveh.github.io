@@ -66,8 +66,7 @@ menu:
 params:
   description: Blog, Guide
   displayUpdatedDate: false
-  dateFormat: "January 2, 2006" 
-  toc: true
+  dateFormat: "January 2, 2006"
   navbar:
     displayTitle: true
     displayLogo: false
