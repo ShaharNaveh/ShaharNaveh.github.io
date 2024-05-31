@@ -155,13 +155,13 @@ Alternatively, locate the hidden `.ssh` folder, open the file in a text editor, 
 
 Follow the instructions for your provider:
 
-{{< feature-grid >}}
-{{< feature-card
+{{< hextra/feature-grid >}}
+{{< hextra/feature-card
     title="Bitbucket"
     icon="bitbucket"
     link="https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-linux/#Provide-Bitbucket-Cloud-with-your-public-key"
   >}}
-{{< /feature-grid >}}
+{{< /hextra/feature-grid >}}
 
 
 - [Bitbucket](https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-linux/#Provide-Bitbucket-Cloud-with-your-public-key)
