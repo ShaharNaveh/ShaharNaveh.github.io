@@ -21,6 +21,8 @@ There are many git hosting provides such as [Bitbucket](https://bitbucket.org/),
 
 ### Configuring Git
 
-This is the second step.
+{{< cards >}}
+{{< card link="/blog/painless-git-ssh-setup/" title="Configuring Git Guide" >}}
+{{< /cards >}}
 
 {{% /steps %}}
