@@ -3,7 +3,7 @@ title: Mediocre Site
 theme: hextra
 
 enableRobotsTXT: false
-enableGitInfo: false
+enableGitInfo: true
 enableEmoji: true
 hasCJKLanguage: false
 enableInlineShortcodes: true
