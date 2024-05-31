@@ -89,7 +89,9 @@ Now your `.ssh` tree will look like:
   * `.ssh/keys/github`: Private key.
   * `.ssh/keys/github.pub`: Public key.
 
-You can read more about it [here](https://www.man7.org/linux/man-pages/man1/ssh-keygen.1.html).
+{{< callout type="info" >}}
+Read more about available configuration options for `ssh-keygen` [here](https://www.man7.org/linux/man-pages/man1/ssh-keygen.1.html).
+{{< /callout >}}
 
 ### Create the SSH Config File
 {{< tabs items="Linux/MacOS,Windows" >}}
@@ -119,7 +121,7 @@ You can read more about it [here](https://www.man7.org/linux/man-pages/man1/ssh-
 {{< /tabs >}}
 
 {{< callout type="info" >}}
-Read more about available configuration options [here](https://man.openbsd.org/ssh_config).
+Read more about available configuration options for `ssh_config` [here](https://man.openbsd.org/ssh_config).
 {{< /callout >}}
 
 #### Explanation
