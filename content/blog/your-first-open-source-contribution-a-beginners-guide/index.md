@@ -22,8 +22,12 @@ While there are many git hosting platforms such as [Bitbucket](https://bitbucket
 
 ### Configuring Git
 
+While there are many GUI based programs, I would recommend using the CLI as it will help to better understand what goes on behind the scenes.
+
 {{< cards >}}
 {{< card link="/blog/painless-git-ssh-setup/" title="Configuring Git Guide" >}}
-{{< /cards >}}
+{{< /cards >}} 
+
+### 
 
 {{% /steps %}}
