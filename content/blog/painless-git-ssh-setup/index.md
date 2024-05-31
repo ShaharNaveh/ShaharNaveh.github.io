@@ -215,9 +215,11 @@ If you don't get any errors, the setup is successful. 🥳
 ## Tips & Tricks
 ### Set Private Key File Permissions
 If you encounter:
+
 > Permissions for 'private-key' are too open.
 
 Run the following:
+
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```shell
