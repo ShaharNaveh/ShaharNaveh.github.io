@@ -21,7 +21,7 @@ Although I will use GitHub as my Git hosting provider in this guide, this setup 
 ### Create the `.ssh` Directory and SSH config
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
-  ```console
+  ```shell
   mkdir -p ~/.ssh/keys/
   touch ~/.ssh/config
   ```
