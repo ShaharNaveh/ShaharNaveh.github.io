@@ -36,14 +36,10 @@ outputs:
     
 markup:
   goldmark:
-    parser:
-      attribute:
-        block: true
     renderer:
       unsafe: true
   highlight:
     noClasses: false
-    style: github
   tableOfContents:
     startLevel: 2
     endLevel: 4
