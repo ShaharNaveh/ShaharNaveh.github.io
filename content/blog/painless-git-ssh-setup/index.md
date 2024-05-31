@@ -11,7 +11,8 @@ In this guide, we'll walk you through the steps to generate an SSH key pair, add
 By the end, you'll have a more efficient and secure Git environment that enhances your productivity and protects your code.
 
 ## Why?
-Setting up Git to use SSH can significantly enhance your workflow by providing a secure and convenient method for authenticating your repositories. Whether you're a seasoned developer or new to version control, configuring Git with SSH keys streamlines the process of pushing and pulling code, eliminating the need to repeatedly enter your username and password.
+Setting up Git to use SSH can significantly enhance your workflow by providing a secure and convenient method for authenticating your repositories.
+Whether you're a seasoned developer or new to version control, configuring Git with SSH keys streamlines the process of pushing and pulling code, eliminating the need to repeatedly enter your username and password.
 
 ## How?
 {{< callout type="info" >}}
@@ -156,23 +157,24 @@ Alternatively, locate the hidden `.ssh` folder, open the file in a text editor, 
 Follow the instructions for your provider:
 
 {{< hextra/feature-grid >}}
+
 {{< hextra/feature-card
     title="Bitbucket"
     icon="bitbucket"
     link="https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-linux/#Provide-Bitbucket-Cloud-with-your-public-key"
-  >}}
+>}}
 
 {{< hextra/feature-card
     title="Github"
     icon="github"
     link="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account"
-  >}}
+>}}
 
 {{< hextra/feature-card
     title="Gitlab"
     icon="gitlab"
     link="https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account"
-    >}}
+>}}
 
 {{< /hextra/feature-grid >}}
 
