@@ -172,6 +172,7 @@ Follow the instructions for your provider:
     title="Gitlab"
     icon="gitlab"
     link="https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account"
+    >}}
 
 {{< /hextra/feature-grid >}}
 
