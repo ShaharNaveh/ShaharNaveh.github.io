@@ -155,7 +155,7 @@ Alternatively, locate the hidden `.ssh` folder, open the file in a text editor, 
 
 Follow the instructions for your provider:
 
-{{< feature/grid >}}
+{{< feature-grid >}}
 {{< feature-card
     title="Bitbucket"
     icon="bitbucket"
