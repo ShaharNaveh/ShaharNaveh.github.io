@@ -54,13 +54,13 @@ Creating the `.ssh/keys` directory helps manage multiple SSH keys if needed.
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```shell
-  ssh-keygen -t ed25519 -b 4096 -C private-pc -f ~/.ssh/keys/githb
+  ssh-keygen -t ed25519 -b 4096 -a 100 -C private-pc -f ~/.ssh/keys/githb
   ```
   {{< /tab >}}
 
   {{< tab >}}
   ```powershell
-  ssh-keygen.exe -t ed25519 -b 4097 -C private-pc -f "$env:UserProfile\.ssh\keys\github" 
+  ssh-keygen.exe -t ed25519 -b 4096 -a 100 -C private-pc -f "$env:UserProfile\.ssh\keys\github" 
   ```
   {{< /tab >}}
 {{< /tabs >}}
@@ -83,6 +83,7 @@ Now your `.ssh` tree will look like:
 #### Explanation
 - `-t`: Type of key, here `ed25519`.
 - `-b`: Number of bits, here 4096.
+- `-a`: Number of [KDF](https://en.m.wikipedia.org/wiki/Key_derivation_function) rounds, here 100.
 - `-C`: Comment, defaults to `<username>@<computer name>`.
 - `-f`: File location and name, here "github". This creates two files:
   * `.ssh/keys/github`: Private key.
