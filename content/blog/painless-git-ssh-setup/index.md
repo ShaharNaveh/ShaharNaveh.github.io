@@ -165,6 +165,12 @@ Follow the instructions for your provider:
 >}}
 
 {{< hextra/feature-card
+    title="Codeberg"
+    icon="codeberg"
+    link="https://docs.codeberg.org/security/ssh-key/"
+  >}}
+
+{{< hextra/feature-card
     title="Github"
     icon="github"
     link="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account"
