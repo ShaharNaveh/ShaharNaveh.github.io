@@ -36,6 +36,14 @@ If you already have a project in mind, you can skip this step.
 
 Github has a few neat features that allows anyone at any skill level to discover new project:
 
+{{< hextra/feature-grid >}}
 
+{{< hextra/feature-card
+    title="Github Explore"
+    icon="github"
+    link="https://github.com/explore"
+>}}
+
+{{< /hextra/feature-grid >}}
 
 {{% /steps %}}
