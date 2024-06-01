@@ -12,8 +12,6 @@ Contributing to open source projects can be transformative for both novice and s
 
 ## Getting Started
 
-{{% steps %}}
-
 ### Creating an Account on a Git Hosting Platform
 
 While there are many git hosting platforms such as [Bitbucket](https://bitbucket.org/), [Gitlab](https://gitlab.com/), and [Github](https://github.com/), Github is the leading platform for hosting most open-source projects.
@@ -61,5 +59,3 @@ Github has a few neat features that allows anyone at any skill level to discover
 >}}
 
 {{< /hextra/feature-grid >}}
-
-{{% /steps %}}
