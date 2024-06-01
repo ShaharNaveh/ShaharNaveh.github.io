@@ -28,6 +28,11 @@ While there are many GUI based programs, I would recommend using the CLI as it w
 {{< card link="/blog/painless-git-ssh-setup/" title="Configuring Git Guide" >}}
 {{< /cards >}} 
 
-### 
+### Choosing a Project
+
+{{< callout >}}
+If you already have a project in mind, you can skip this step.
+{{< /callout >}}
+
 
 {{% /steps %}}
