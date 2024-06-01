@@ -60,7 +60,6 @@ Github has a few neat features that allows anyone at any skill level to discover
     subtitle="Explore the most popular and exciting projects on GitHub"
 >}}
 
-
 {{< /hextra/feature-grid >}}
 
 {{% /steps %}}
