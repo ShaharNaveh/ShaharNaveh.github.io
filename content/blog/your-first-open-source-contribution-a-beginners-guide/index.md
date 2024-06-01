@@ -42,6 +42,7 @@ Github has a few neat features that allows anyone at any skill level to discover
     title="Github Explore"
     icon="github"
     link="https://github.com/explore"
+    subtitle="Discover what's popular on GitHub today"
 >}}
 
 {{< /hextra/feature-grid >}}
