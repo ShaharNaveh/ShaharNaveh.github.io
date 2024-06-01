@@ -39,17 +39,25 @@ Github has a few neat features that allows anyone at any skill level to discover
 {{< hextra/feature-grid >}}
 
 {{< hextra/feature-card
-    title="Github Explore"
+    title="Explore"
     icon="github"
     link="https://github.com/explore"
     subtitle="Discover what's popular on GitHub today"
 >}}
 
 {{< hextra/feature-card
-    title="Github Trending"
+    title="Topics"
+    icon="github"
+    link="https://github.com/topics"
+    subtitle="Find and explore topics on GitHub"
+>}}
+
+
+{{< hextra/feature-card
+    title="Trending"
     icon="github"
     link="https://github.com/trending"
-    subtitle="Explore the most popular and exciting projects"
+    subtitle="Explore the most popular and exciting projects on GitHub"
 >}}
 
 
