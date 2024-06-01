@@ -34,5 +34,8 @@ While there are many GUI based programs, I would recommend using the CLI as it w
 If you already have a project in mind, you can skip this step.
 {{< /callout >}}
 
+Github has a few neat features that allows anyone at any skill level to discover new project:
+
+
 
 {{% /steps %}}
