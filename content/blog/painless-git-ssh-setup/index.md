@@ -265,6 +265,24 @@ Remove-Variable -Name Key
 {{< /tabs >}}
 
 ### Migrating to a Different Git Hosting Provider
-To switch providers, change the `Hostname` in the SSH config to the new provider and add a new `Host` block for it.
+To switch providers, change the `Hostname` and `IdentityFile` in the SSH config to the new provider and add a new `Host` block for it.
 
 All existing repositories will point to the new provider, and new repositories will work as expected.
+
+{{< details title="Migrate from Github to Codeberg" >}}
+
+```ssh-config
+# Edit old "Host" block to automatically push code to new git hosting provider
+Host github.com
+  Hostname codeberg.org
+  IdentityFile %d/.ssh/keys/codeberg
+  # Rest of parameters
+
+# New "Host" block to support new repositories
+Host codeberg.org
+  Hostname codeberg.org
+  IdentityFile %d/.ssh/keys/codeberg
+  # Rest of parameters
+```
+
+{{< /details >}}
