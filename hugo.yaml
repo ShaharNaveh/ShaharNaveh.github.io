@@ -111,7 +111,7 @@ params:
     list:
       displayTags: true
       # date | lastmod | publishDate | title | weight
-      sortBy: date
+      sortBy: title
       sortOrder: desc # or "asc"
 
   comments:
