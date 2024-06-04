@@ -111,8 +111,9 @@ params:
     list:
       displayTags: true
       # date | lastmod | publishDate | title | weight
-      sortBy: title
-      sortOrder: desc # or "asc"
+      sortBy: title 
+      # asc | desc
+      sortOrder: asc
 
   comments:
     enable: false
