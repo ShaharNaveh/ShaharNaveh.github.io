@@ -272,7 +272,8 @@ All existing repositories will point to the new provider, and new repositories w
 {{< details title="Migrate from Github to Codeberg Example" >}}
 
 ```ssh-config
-# Edit old "Host" block to automatically push code to new git hosting provider
+# Edit old "Host" block to
+# automatically push code to new git hosting provider
 Host github.com
   Hostname codeberg.org
   IdentityFile %d/.ssh/keys/codeberg
