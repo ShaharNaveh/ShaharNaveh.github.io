@@ -269,7 +269,7 @@ To switch providers, change the `Hostname` and `IdentityFile` in the SSH config 
 
 All existing repositories will point to the new provider, and new repositories will work as expected.
 
-{{< details title="Migrate from Github to Codeberg" >}}
+{{< details title="Migrate from Github to Codeberg Example" >}}
 
 ```ssh-config
 # Edit old "Host" block to automatically push code to new git hosting provider
