@@ -36,5 +36,5 @@ For example:
 ```markdown {filename="John_Doe.md"}
 # John Doe
 #### Senior software engineer that puts a lot of attention to security
-
+##### [ [ john_doe@example.com ](mailto:john_doe@example.com) ] . [ [ +111-22-333-4444 ](tel:+111-22-333-4444) ] . [ [ Github ](https://github.com/ShaharNaveh/) ]
 ```
