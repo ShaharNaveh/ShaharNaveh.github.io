@@ -52,5 +52,5 @@ Screamed at screens to get things done.
 - Networking: Advanced expertise in networking and internet protocols
 
 ## Additional Information
-- Languages: English(rwx), Italian(rw)
+- Languages: English(native), Italian(fluent)
 ```
