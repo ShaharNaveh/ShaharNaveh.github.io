@@ -44,4 +44,8 @@ For example:
 ### **Software Devloper @ Example Company** (1970-Preset)
 
 Screamed at screens to get things done.
+
+## Skills
+
+- Version Control & CI/CD: Git, Github Actions.
 ```
