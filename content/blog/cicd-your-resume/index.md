@@ -47,5 +47,10 @@ Screamed at screens to get things done.
 
 ## Skills
 
-- Version Control & CI/CD: Git, Github Actions.
+- Version Control & CI/CD: Git, Github Actions
+
+- Networking: Advanced expertise in networking and internet protocols
+
+## Additional Information
+- Languages: English(rwx), Italian(rw)
 ```
