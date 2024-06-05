@@ -10,4 +10,12 @@ tags:
 In this guide I will show you how to setup [Github Actions](https://docs.github.com/en/actions) to generate your résumé and upload it to your [project release](https://docs.github.com/en/repositories/releasing-projects-on-github).
 
 ## Repository Components
-The basic file tree that we will create will look like:
+The basic file tree that we will create will look like: 
+
+{{< filetree/container >}}
+  {{< filetree/folder name=".github" >}}
+    {{< filetree/folder name="workflows" >}}
+      {{< filetree/file name="build.yaml" >}}
+    {{< /filetree/folder >}}
+  {{< /filetree/folder >}}
+{{< /filetree/container >}}
