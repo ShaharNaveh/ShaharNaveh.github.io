@@ -41,7 +41,7 @@ For example:
 
 ## Experience
 
-### Software Devloper @ Example Company (1970-Preset)
+### **Software Devloper @ Example Company** (1970-Preset)
 
 Screamed at screens to get things done.
 ```
