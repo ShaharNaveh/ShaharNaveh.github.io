@@ -9,7 +9,7 @@ tags:
 
 In this guide I will show you how to setup [Github Actions](https://docs.github.com/en/actions) to generate your résumé and upload it to your [project release](https://docs.github.com/en/repositories/releasing-projects-on-github).
 
-## Repository File Tree
+## Repository Layout
 The basic file tree that we will create will look like: 
 
 {{< filetree/container >}}
