@@ -23,4 +23,5 @@ The basic file tree that we will create will look like:
     {{< filetree/file name="normalize.css" >}}
   {{< /filetree/folder >}}
   {{< filetree/file name="Justfile" >}}
+  {{< filetree/file name="fname_lname.md" >}}
 {{< /filetree/container >}}
