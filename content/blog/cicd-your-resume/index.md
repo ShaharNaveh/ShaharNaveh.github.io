@@ -17,6 +17,10 @@ The basic file tree that we will create will look like:
     {{< filetree/folder name="workflows" >}}
       {{< filetree/file name="build.yaml" >}}
     {{< /filetree/folder >}}
-  {{< /filetree/folder >}} 
+  {{< /filetree/folder >}}
+  {{< filetree/folder name="css" >}}
+    {{< filetree/file name="default.css" >}}
+    {{< filetree/file name="normalize.css" >}}
+  {{< /filetree/folder >}}
   {{< filetree/file name="Justfile" >}}
 {{< /filetree/container >}}
