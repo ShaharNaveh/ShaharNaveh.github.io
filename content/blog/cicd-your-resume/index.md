@@ -31,6 +31,7 @@ Let's discuss each file in more details:
 
 ### `Fname_Lname.md` 
 This is where your résumé content goes, simply write your résumé in markdown format.
+
 For example:
 
 ```markdown {filename="John_Doe.md"}
@@ -54,3 +55,5 @@ Screamed at screens to get things done.
 ## Additional Information
 - Languages: English(native), Italian(fluent)
 ```
+
+### CSS
