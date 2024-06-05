@@ -23,5 +23,16 @@ The basic file tree that we will create will look like:
     {{< filetree/file name="normalize.css" >}}
   {{< /filetree/folder >}}
   {{< filetree/file name="Justfile" >}}
-  {{< filetree/file name="fname_lname.md" >}}
+  {{< filetree/file name="Fname_Lname.md" >}}
 {{< /filetree/container >}}
+
+Let's discuss each file in more details:
+
+
+### `Fname_Lname.md` 
+This is where your résumé content goes, simply write your résumé in markdown format.
+For example:
+
+```markdown {filename="John_Doe.md"}
+# John Doe
+```
