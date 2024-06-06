@@ -27,8 +27,7 @@ flowchart LR
   user-- git push -->repository
   repository-- trigger -->action
   subgraph action [Github Action]
-    markdown-->pandoc
-    css-->pandoc
+    markdown & css --> pandoc
     pandoc-- Converts -->pdf
     pdf-- Uploads -->release
   end
