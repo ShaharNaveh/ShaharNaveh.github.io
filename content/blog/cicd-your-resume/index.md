@@ -1,7 +1,7 @@
 ---
 title: "CI/CD for your Résumé"
 date: 2024-06-04
-draft: true
+draft: false
 description: Learn how to apply GitOps principals to your résumé
 tags:
   - guide
@@ -15,7 +15,7 @@ When you push changes to `main` a workflow starts, that workflow uses [pandoc](h
 A diagram of the workflow looks like this: 
 
 ```mermaid
-flowchart TD
+flowchart LR
   user([User])
   repository([Repository])
   action([Github Action])
@@ -28,12 +28,15 @@ flowchart TD
   user-- git push -->repository
   repository-- trigger -->action
   subgraph action [Github Action]
+    dependencies ~~~ assets
+    assets --> pandoc
     dependencies --> pandoc
     pandoc-- Converts -->pdf
     pdf-- Uploads -->release
 
     subgraph assets [Assets]
-      markdown & css --> pandoc
+      markdown
+      css
     end
   end
 
