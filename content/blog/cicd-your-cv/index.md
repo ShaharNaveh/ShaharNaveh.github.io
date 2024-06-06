@@ -91,4 +91,9 @@ Screamed at screens to get things done.
 ```
 
 ### CSS 
+If we look at the [repository layout](#Repository-Layout) again you'll see two `.css` files: 
 
+#### `normalize.css`
+CSS file that ensures all components renders the same, no matter which browser it was opened in.
+
+You can grab the latest version [here](https://necolas.github.io/normalize.css/)
