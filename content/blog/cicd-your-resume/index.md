@@ -19,6 +19,7 @@ flowchart LR
   user([User])
   repository([Repository])
   action([Github Action])
+  pandoc([Pandoc])
   user-->|push|repository
   repository-->|trigger|action
 ```
