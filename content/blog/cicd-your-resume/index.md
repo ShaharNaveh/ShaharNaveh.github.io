@@ -31,16 +31,13 @@ flowchart LR
     assets --> pandoc
     dependencies --> pandoc
     pandoc-- Converts -->pdf
-    pdf-- Uploads -->release
-
-    
+    pdf-- Uploads -->release 
   end
-subgraph assets [Assets]
-      markdown
-      css
-    end
 
-  
+  subgraph assets [Assets]
+    markdown
+    css
+  end
 ```
 
 ## Repository Layout
