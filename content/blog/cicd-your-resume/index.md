@@ -34,11 +34,12 @@ flowchart LR
     pandoc-- Converts -->pdf
     pdf-- Uploads -->release
 
-    subgraph assets [Assets]
+    
+  end
+subgraph assets [Assets]
       markdown
       css
     end
-  end
 
   
 ```
