@@ -27,10 +27,9 @@ flowchart TD
   release([Github Release])
 
   subgraph push [" "]
-  %% direction LR
     user-- git push -->repository
-    %%repository-- trigger -->action
   end
+
  push-- trigger -->action
   subgraph action [Github Actions]
   %% direction TD
