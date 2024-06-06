@@ -129,3 +129,41 @@ You can grab a base `default.css` file [here](assets/default.css).
 Configuration file for [just](https://github.com/casey/just).
 
 In short, it let's us save and run predefined commands easily.
+
+Our Justfile looks like this: 
+
+```justfile {filename="Justfile"}
+out_dir := "output"
+in_dir := "markdown"
+css_file := "css/default.css"
+
+build: init
+        for md_file in {{in_dir}}/*.md ; do \
+        FILE_NAME=$(basename $md_file .md); \
+        echo $FILE_NAME; \
+        pandoc \
+        --standalone \
+        --self-contained \
+        --css {{css_file}} \
+        --from markdown \
+        --to html \
+        --metadata title=$FILE_NAME \
+        --output {{out_dir}}/$FILE_NAME.html $md_file > /dev/null; \
+        \
+        pandoc \
+        --standalone \
+        --self-contained \
+        --from html \
+        --to pdf \
+        --pdf-engine=weasyprint \
+        --metadata title=$FILE_NAME \
+        --output {{out_dir}}/$FILE_NAME.pdf \
+        --css {{css_file}} \
+        {{out_dir}}/$FILE_NAME.html; \
+        done
+init:
+        mkdir -p {{out_dir}}
+
+clean:
+        rm -f {{out_dir}}/*
+```
