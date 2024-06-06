@@ -170,3 +170,8 @@ init:
 clean:
         rm -f {{out_dir}}/*
 ```
+
+#### Explanation
+- `--standalone`: something
+- `--from`: Input format.
+- `--to`: Output format.
