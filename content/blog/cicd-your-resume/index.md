@@ -1,5 +1,5 @@
 ---
-title: "(WIP) CI/CD for your Résumé"
+title: "CI/CD for your Résumé"
 date: 2024-06-04
 draft: false
 description: Learn how to apply GitOps principals to your résumé
