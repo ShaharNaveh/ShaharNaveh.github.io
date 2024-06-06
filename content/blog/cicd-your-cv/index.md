@@ -121,6 +121,10 @@ The first line of this CSS file is just importing `normalize.css`:
 @import "normalize.css";
 ```
 
+{{< callout type="info" >}}
+You can grab a base `default.css` file [here](assets/default.css).
+{{< /callout >}}
+
 ### Justfile 
 Configuration file for [just](https://github.com/casey/just).
 
