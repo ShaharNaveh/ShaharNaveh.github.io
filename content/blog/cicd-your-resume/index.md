@@ -39,7 +39,7 @@ flowchart TD
     pdf-- Uploads -->release
   end
 
-  subgraph assets [Assets]
+  subgraph assets []
   %% direction LR
     markdown-->pandoc
     css<--pandoc
