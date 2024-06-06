@@ -1,13 +1,13 @@
 ---
-title: "CI/CD for your Résumé"
+title: "CI/CD for your CV"
 date: 2024-06-04
 draft: true
-description: Learn how to apply GitOps principals to your résumé
+description: Learn how to apply GitOps principals to your CV generation process
 tags:
   - guide
 ---
 
-In this guide I will show you how to setup [Github Actions](https://docs.github.com/en/actions) to generate your résumé and upload it to your [project release](https://docs.github.com/en/repositories/releasing-projects-on-github).
+In this guide I will show you how to setup [Github Actions](https://docs.github.com/en/actions) to generate your CV and upload it to your [project release](https://docs.github.com/en/repositories/releasing-projects-on-github).
 
 ## How does it Work?
 When you push changes to `main` a workflow starts, that workflow uses [pandoc](https://pandoc.org/) to convert `markdown` to `pdf`.
@@ -65,7 +65,7 @@ Let's discuss each file in more details:
 
 
 ### `Fname_Lname.md` 
-This is where your résumé content goes, simply write your résumé in markdown format.
+This is where your CV content goes. Simply write your CV in markdown format.
 
 For example:
 
