@@ -15,6 +15,8 @@ When you push changes to `main` a workflow starts, that workflow uses [pandoc](h
 A diagram of the workflow looks like this: 
 
 ```mermaid
+flowchart LR
+  repository[Repository]
 ```
 
 ## Repository Layout
