@@ -115,11 +115,14 @@ Where the actual styling goes. This is where you decide on things like:
 
 And a lot more.
 
-The first line of this CSS file is just importing `normalize.css`:
+{{< callout type="info" >}}
+It's recommend to import `normalize.css` from `default.css` like so:
 
 ```css
 @import "normalize.css";
 ```
+
+{{< /callout >}}
 
 {{< callout type="info" >}}
 You can grab a base `default.css` file [here](assets/default.css).
