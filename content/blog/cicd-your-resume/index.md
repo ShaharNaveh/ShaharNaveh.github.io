@@ -28,7 +28,6 @@ flowchart LR
   user-- git push -->repository
   repository-- trigger -->action
   subgraph action [Github Action]
-    dependencies ~~~ assets
     assets --> pandoc
     dependencies --> pandoc
     pandoc-- Converts -->pdf
