@@ -42,6 +42,7 @@ flowchart TD
   subgraph assets [Assets]
   %% direction LR
     markdown-->pandoc
+    css<--pandoc
   end
 ```
 
