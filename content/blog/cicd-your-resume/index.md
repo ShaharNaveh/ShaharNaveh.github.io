@@ -1,7 +1,7 @@
 ---
 title: "CI/CD for your Résumé"
 date: 2024-06-04
-draft: true
+draft: false
 description: Learn how to apply GitOps principals to your résumé
 tags:
   - guide
@@ -29,9 +29,12 @@ flowchart LR
   repository-- trigger -->action
   subgraph action [Github Action]
     dependencies --> pandoc
-    markdown & css --> pandoc
     pandoc-- Converts -->pdf
     pdf-- Uploads -->release
+  end
+
+  subgraph assets [Assets]
+    markdown & css --> pandoc
   end
 ```
 
