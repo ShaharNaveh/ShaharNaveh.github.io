@@ -20,8 +20,18 @@ flowchart LR
   repository([Repository])
   action([Github Action])
   pandoc([Pandoc])
-  user-->|push|repository
-  repository-->|trigger|action
+  markdown([Markdown])
+  css([CSS])
+  pdf([PDF file])
+  release([Github Release])
+  user-- git push -->repository
+  repository-- trigger -->action
+  subgraph Github Action [action]
+    markdown-->pandoc
+    css-->pandoc
+    pandoc-- Converts -->pdf
+    pdf-- Uploads --> release
+  end
 ```
 
 ```mermaid
