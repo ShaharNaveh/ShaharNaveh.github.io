@@ -1,7 +1,7 @@
 ---
 title: "CI/CD for your Résumé"
 date: 2024-06-04
-draft: true
+draft: false
 description: Learn how to apply GitOps principals to your résumé
 tags:
   - guide
@@ -22,6 +22,26 @@ flowchart LR
   pandoc([Pandoc])
   user-->|push|repository
   repository-->|trigger|action
+```
+
+```mermaid
+flowchart TD
+    A[Developer pushes code] -->|git push| B[GitHub Repository]
+    B --> C[GitHub Actions Triggered]
+    C --> D[Checkout Repository]
+    D --> E[Install Dependencies]
+    E --> F[Convert Markdown to PDF using Pandoc]
+    F --> G[Create GitHub Release]
+    G --> H[Upload PDF to Release]
+
+    subgraph GitHub Actions
+        C
+        D
+        E
+        F
+        G
+        H
+    end
 ```
 
 ## Repository Layout
