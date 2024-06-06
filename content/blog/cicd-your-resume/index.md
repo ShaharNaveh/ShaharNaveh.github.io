@@ -19,6 +19,7 @@ flowchart LR
   user([User])
   repository([Repository])
   action([Github Action])
+  dependencies["Install Dependencies"]
   pandoc([Pandoc])
   markdown([Markdown])
   css([CSS])
@@ -27,6 +28,7 @@ flowchart LR
   user-- git push -->repository
   repository-- trigger -->action
   subgraph action [Github Action]
+    dependencies --> pandoc
     markdown & css --> pandoc
     pandoc-- Converts -->pdf
     pdf-- Uploads -->release
