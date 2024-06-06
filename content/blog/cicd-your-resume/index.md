@@ -9,7 +9,13 @@ tags:
 
 In this guide I will show you how to setup [Github Actions](https://docs.github.com/en/actions) to generate your résumé and upload it to your [project release](https://docs.github.com/en/repositories/releasing-projects-on-github).
 
-## How does it work?
+## How does it Work?
+When you push changes to `main` a workflow starts, that workflow uses [pandoc](https://pandoc.org/) to convert `markdown` to `pdf`.
+
+A diagram of the workflow looks like this: 
+
+```mermaid
+```
 
 ## Repository Layout
 The basic file tree that we will create will look like: 
