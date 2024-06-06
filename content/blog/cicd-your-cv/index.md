@@ -96,4 +96,19 @@ If we look at the [repository layout](#Repository-Layout) again you'll see two `
 #### `normalize.css`
 CSS file that ensures all components renders the same, no matter which browser it was opened in.
 
-You can grab the latest version [here](https://necolas.github.io/normalize.css/)
+You can grab the latest version [here](https://necolas.github.io/normalize.css/) 
+
+#### `default.css`
+Where the actual styling goes. This is where you decide on things like:
+
+- Background Color
+- Font Family
+- Font Size
+
+And a lot more.
+
+The first line of this CSS file is just importing `normalize.css`:
+
+```css
+@import "normalize.css";
+```
