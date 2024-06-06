@@ -40,7 +40,7 @@ flowchart TD
     pdf-- Uploads -->release
   end
 
-  subgraph assets []
+  subgraph assets [" "]
   %% direction LR
     markdown
     css
