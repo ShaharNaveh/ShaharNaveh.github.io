@@ -125,7 +125,7 @@ The first line of this CSS file is just importing `normalize.css`:
 You can grab a base `default.css` file [here](assets/default.css).
 {{< /callout >}}
 
-### Justfile 
+### Justfile
 Configuration file for [just](https://github.com/casey/just).
 
 In short, it let's us save and run predefined commands easily.
