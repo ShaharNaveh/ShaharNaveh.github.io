@@ -29,29 +29,19 @@ flowchart TD
   subgraph push [" "]
     user-- git push -->repository
   end
-
- push-- trigger -->action
+ 
   subgraph action [Github Actions]
-  %% direction TD
     dependencies-->pandoc
     dependencies ~~~ assets
-  %%  dependencies ~~~ markdown & css
-  %%  markdown & css-->pandoc
-   %% markdown & css ~~~ pdf
-   %% css-->pandoc
-   %% assets ~~~ pdf
-   %% assets-->pandoc
     pandoc-- Converts -->pdf
     pdf-- Uploads -->release
   end
 
   subgraph assets [Assets]
-  %%direction LR
-  %%  markdown
-   %%css
-  %% markdown & css --> pandoc
-markdown & css
+    markdown & css
   end
+
+push-- trigger -->action
 assets-->pandoc
 ```
 
