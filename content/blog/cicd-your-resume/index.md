@@ -16,7 +16,9 @@ A diagram of the workflow looks like this:
 
 ```mermaid
 flowchart LR
-  repository[Repository]
+  user([User])
+  repository([Repository])
+  user-->|push|repository
 ```
 
 ## Repository Layout
