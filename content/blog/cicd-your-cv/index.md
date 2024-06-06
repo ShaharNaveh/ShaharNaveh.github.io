@@ -63,7 +63,6 @@ The basic file tree that we will create will look like:
 
 Let's discuss each file in more details:
 
-
 ### `Fname_Lname.md` 
 This is where your CV content goes. Simply write your CV in markdown format.
 
@@ -91,4 +90,5 @@ Screamed at screens to get things done.
 - Languages: English(native), Italian(fluent)
 ```
 
-### CSS
+### CSS 
+
