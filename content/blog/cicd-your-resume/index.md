@@ -18,7 +18,9 @@ A diagram of the workflow looks like this:
 flowchart LR
   user([User])
   repository([Repository])
+  action([Github Action])
   user-->|push|repository
+  repository-->|trigger|action
 ```
 
 ## Repository Layout
