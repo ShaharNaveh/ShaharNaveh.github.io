@@ -27,20 +27,20 @@ flowchart TD
   release([Github Release])
 
   subgraph push [" "]
-    direction LR
+  direction LR
     user -- git push --> repository
     repository -- trigger --> action
   end
 
   subgraph action [Github Actions]
-    direction TD
+  direction TD
     dependencies --> pandoc
     pandoc -- Converts --> pdf
     pdf -- Uploads --> release
   end
 
   subgraph assets [Assets]
-    direction LR
+  direction LR
     markdown --> pandoc
   end
 ```
