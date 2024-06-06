@@ -35,14 +35,15 @@ flowchart TD
   subgraph action [Github Actions]
   %% direction TD
     dependencies-->pandoc
+    assets-->pandoc
     pandoc-- Converts -->pdf
     pdf-- Uploads -->release
   end
 
   subgraph assets []
   %% direction LR
-    markdown-->pandoc
-    css<--pandoc
+    markdown
+    css
   end
 ```
 
