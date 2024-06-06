@@ -34,26 +34,6 @@ flowchart LR
   end
 ```
 
-```mermaid
-flowchart TD
-    A[Developer pushes code] -->|git push| B[GitHub Repository]
-    B --> C[GitHub Actions Triggered]
-    C --> D[Checkout Repository]
-    D --> E[Install Dependencies]
-    E --> F[Convert Markdown to PDF using Pandoc]
-    F --> G[Create GitHub Release]
-    G --> H[Upload PDF to Release]
-
-    subgraph GitHub Actions
-        C
-        D
-        E
-        F
-        G
-        H
-    end
-```
-
 ## Repository Layout
 The basic file tree that we will create will look like: 
 
