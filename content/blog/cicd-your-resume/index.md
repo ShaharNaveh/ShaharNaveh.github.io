@@ -32,13 +32,12 @@ flowchart TD
  
   subgraph action [Github Actions]
     dependencies-->pandoc
-    dependencies ~~~ assets
     pandoc-- Converts -->pdf
     pdf-- Uploads -->release
-  end
 
-  subgraph assets [Assets]
-    markdown & css
+    subgraph assets [Assets]
+      markdown & css
+    end
   end
 
 push-- trigger -->action
