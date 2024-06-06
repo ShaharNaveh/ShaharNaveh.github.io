@@ -26,7 +26,7 @@ flowchart TD
   pdf([PDF file])
   release([Github Release])
 
-  subgraph push [""]
+  subgraph push [" "]
     direction LR
     user -- git push --> repository
     repository -- trigger --> action
