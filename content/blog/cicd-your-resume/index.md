@@ -26,11 +26,11 @@ flowchart LR
   release([Github Release])
   user-- git push -->repository
   repository-- trigger -->action
-  subgraph Github Action [action]
+  subgraph action [Github Action]
     markdown-->pandoc
     css-->pandoc
     pandoc-- Converts -->pdf
-    pdf-- Uploads --> release
+    pdf-- Uploads -->release
   end
 ```
 
