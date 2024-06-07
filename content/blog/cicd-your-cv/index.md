@@ -169,16 +169,20 @@ clean:
         rm -f {{out_dir}}
 ```
 
-{{< details title="Explanation" closed="true" >}}
-As you may notice we are generating the PDF in two steps:
-1. Convert markdown to HTML
-2. Convert HTML to PDF
+#### Explanation 
+This Justfile automates the process of converting Markdown files to both HTML and PDF formats. Here's a brief overview of the commands:
 
-The reason for that is that I just found it to be more stable with the CSS inline.
+- **build**: Runs the init command to create the output directory, then processes each Markdown file in the input directory:
+  1. Converts Markdown to HTML.
+  1. Converts HTML to PDF.
+- **init**: Creates the output directory.
+- **clean**: Deletes the output directory.
 
-For the `pandoc` arguments, here is a short description on what each flag does:
+The conversion to PDF in two steps (Markdown to HTML, then HTML to PDF) is more stable with the CSS applied inline.
 
-- `--standalone`: something
-- `--from`: Input format.
-- `--to`: Output format.
-{{< /details >}}
+Key `pandoc` flags:
+
+- `--standalone`: Generates a standalone file.
+- `--from`: Specifies the input format.
+- `--to`: Specifies the output
+  
