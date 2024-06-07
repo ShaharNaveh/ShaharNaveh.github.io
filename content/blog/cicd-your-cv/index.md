@@ -168,10 +168,11 @@ init:
         mkdir -p {{out_dir}}
 
 clean:
-        rm -f {{out_dir}}/*
+        rm -f {{out_dir}}
 ```
 
-#### Explanation
+{{< details title="Arguments Explanation" closed="true >}}
 - `--standalone`: something
 - `--from`: Input format.
 - `--to`: Output format.
+{{< /details >}}
