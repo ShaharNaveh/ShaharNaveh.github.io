@@ -128,12 +128,10 @@ It's recommend to import `normalize.css` from `default.css` like so:
 You can grab a base `default.css` file [here](assets/default.css).
 {{< /callout >}}
 
-### Justfile
-Configuration file for [just](https://github.com/casey/just).
+### Justfile 
+The [just](https://github.com/casey/just) utility allows us to save and run predefined commands easily.
 
-In short, it let's us save and run predefined commands easily.
-
-Our Justfile looks like this: 
+Our `Justfile`:
 
 ```justfile {filename="Justfile"}
 out_dir := "output"
