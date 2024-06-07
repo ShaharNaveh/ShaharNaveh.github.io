@@ -162,6 +162,7 @@ build: init
         --css {{css_file}} \
         {{out_dir}}/$FILE_NAME.html; \
         done
+
 init:
         mkdir -p {{out_dir}}
 
