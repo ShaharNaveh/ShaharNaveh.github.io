@@ -195,5 +195,56 @@ This workflow will be triggered on any `git push` to the `main` branch, you can 
 
 Our workflow:
 ```yaml {filename=".github/workflows/build.yaml"
+name: Build CV
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # To be able to trigger this workflow manually
 
+permissions:
+  contents: write
+  
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+  
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+    
+      - name: Install weasyprint
+        run: pipx install 'weasyprint==62.2'
+
+      - name: Install pandoc
+        run: sudo apt install --yes --no-install-recommends --no-install-suggests pandoc
+     
+      - name: Install just
+        uses: extractions/setup-just@v1
+        with:
+          just-version: '1.28.0'
+    
+      - name: Build
+        run: just build
+  
+      - name: Set Environment Variables
+        run: |  
+          # Get PDF files
+          echo "PDF_FILES<<EOF" >> $GITHUB_ENV 
+          find output/ -type f -name '*.pdf' >> $GITHUB_ENV 
+          echo "EOF" >> $GITHUB_ENV 
+
+          # Get Current Datetime
+          echo "NOW=$(date +'%Y-%m-%d-%H-%M-%S')" >> $GITHUB_ENV    
+   
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: CV Compiled on ${{ env.NOW }}
+          tag_name: CV-${{ github.sha }}
+          files: ${{ env.PDF_FILES }}
 ```
