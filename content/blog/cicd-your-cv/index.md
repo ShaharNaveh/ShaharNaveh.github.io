@@ -58,7 +58,7 @@ The basic file tree that we will create will look like:
     {{< filetree/file name="normalize.css" >}}
   {{< /filetree/folder >}}
   {{< filetree/folder name="markdown" >}}
-    {{< filetree/file name="Fname_Lname.md" >}}
+    {{< filetree/file name="John_Doe.md" >}}
   {{< /filetree/folder >}}
   {{< filetree/file name="Justfile" >}}
 {{< /filetree/container >}}
@@ -71,7 +71,7 @@ Let's you define multiple versions for your CV.
 Let's say you have a CV for a developer role and also a CV for a sysadmin role,
 while you can technically have separate git branches, I found that it's not convenient to deal with branches when you want to edit shared assets like the CSS or workflow file.
 
-#### `Fname_Lname.md` 
+#### `John_Doe.md` 
 This is where your CV content goes. Simply write your CV in markdown format.
 
 For example:
