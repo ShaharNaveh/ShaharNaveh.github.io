@@ -94,9 +94,7 @@ Read more about available configuration options for `ssh-keygen` [here](https://
 {{< /callout >}}
 
 ### Create the SSH Config File
-{{< tabs items="Linux/MacOS,Windows" >}}
-  {{< tab >}}
-  ```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
+```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
   Host github.com
     Hostname github.com
     User git
@@ -105,20 +103,6 @@ Read more about available configuration options for `ssh-keygen` [here](https://
     RequestTTY no
     SessionType none
   ```
-  {{< /tab >}}
-
-  {{< tab >}}
-  ```ssh-config {linenos=table,linenostart=1,filename=".ssh\config"}
-  Host github.com
-    Hostname github.com
-    User git
-    IdentityFile "%d/.ssh/keys/github"
-    AddKeysToAgent yes
-    RequestTTY no
-    SessionType none
-  ```
-  {{< /tab >}}
-{{< /tabs >}}
 
 {{< callout type="info" >}}
 Read more about available configuration options for `ssh_config` [here](https://man.openbsd.org/ssh_config).
