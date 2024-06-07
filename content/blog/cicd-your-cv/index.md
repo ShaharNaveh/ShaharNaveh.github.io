@@ -193,7 +193,7 @@ Key `pandoc` flags:
 ### Github Action 
 This workflow will be triggered on any `git push` to the `main` branch, you can push via your PC/phone/etc, and it will automatically generate your CV.
 
-Our workflow:
+Our `build.yaml`:
 ```yaml {filename=".github/workflows/build.yaml"
 name: Build CV
 on:
@@ -248,3 +248,12 @@ jobs:
           tag_name: CV-${{ github.sha }}
           files: ${{ env.PDF_FILES }}
 ```
+
+## Wrap Up 
+If you did everything correctly you should see:
+
+
+
+{{< callout type="info" >}}
+You can get the generated PDF of the example [here](assets/John_Doe.pdf).
+{{< /callout >}}
