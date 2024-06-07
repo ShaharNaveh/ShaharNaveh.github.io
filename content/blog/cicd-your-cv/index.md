@@ -184,5 +184,7 @@ Key `pandoc` flags:
 
 - `--standalone`: Generates a standalone file.
 - `--from`: Specifies the input format.
-- `--to`: Specifies the output
-  
+- `--to`: Specifies the output format.
+- `--self-contained`: Embeds resources (like CSS) into the output file.
+- `--metadata title=...`: Sets the document title.
+- `--output`: Defines the output file path.
