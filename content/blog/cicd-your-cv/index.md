@@ -189,3 +189,11 @@ Key `pandoc` flags:
 - `--self-contained`: Embeds resources (like CSS) into the output file.
 - `--metadata title=...`: Sets the document title.
 - `--output`: Defines the output file path.
+
+### Github Action 
+This workflow will be triggered on any `git push` to the `main` branch, you can push via your PC/phone/etc, and it will automatically generate your CV.
+
+Our workflow:
+```yaml {filename=".github/workflows/build.yaml"
+
+```
