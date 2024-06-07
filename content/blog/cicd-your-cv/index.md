@@ -171,7 +171,15 @@ clean:
         rm -f {{out_dir}}
 ```
 
-{{< details title="Arguments Explanation" closed="true >}}
+{{< details title="Explanation" closed="true >}}
+As you may notice we are generating the PDF in two steps:
+1. Convert markdown to HTML
+2. Convert HTML to PDF
+
+The reason for that is that I just found it to be more stable with the CSS inline.
+
+For the `pandoc` arguments, here is a short description on what each flag does:
+
 - `--standalone`: something
 - `--from`: Input format.
 - `--to`: Output format.
