@@ -148,7 +148,7 @@ build: init
         --css {{css_file}} \
         --from markdown \
         --to html \
-        --metadata title=$FILE_NAME \
+        --metadata title='' \
         --output {{out_dir}}/$FILE_NAME.html $md_file > /dev/null; \
         \
         pandoc \
@@ -157,7 +157,7 @@ build: init
         --from html \
         --to pdf \
         --pdf-engine=weasyprint \
-        --metadata title=$FILE_NAME \
+        --metadata title='' \
         --output {{out_dir}}/$FILE_NAME.pdf \
         --css {{css_file}} \
         {{out_dir}}/$FILE_NAME.html; \
