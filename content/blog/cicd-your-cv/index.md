@@ -171,7 +171,7 @@ clean:
         rm -f {{out_dir}}
 ```
 
-{{< details title="Explanation" closed="true >}}
+{{< details title="Explanation" closed="true" >}}
 As you may notice we are generating the PDF in two steps:
 1. Convert markdown to HTML
 2. Convert HTML to PDF
