@@ -45,7 +45,7 @@ assets-->pandoc
 ```
 
 ## Repository Layout
-The basic file tree that we will create will look like: 
+The basic file tree we will create looks like: 
 
 {{< filetree/container >}}
   {{< filetree/folder name=".github" >}}
