@@ -242,13 +242,12 @@ jobs:
 ```
 
 ## Wrap Up 
-If you did everything correctly you should see on the main repository page a new release like so:
+If everything is set up correctly, you should see a new release on the main repository page:
+
 ![Repository Releases](img/repository_releases.jpg)
 
-When clicking on it, you will see your PDF file(s) under "Assets":
+Clicking on it, you will see your PDF file(s) under "Assets":
 
 ![CV Release](img/CV_release.jpg)
 
-{{< callout type="info" >}}
 You can get the generated PDF of the example [here](assets/John_Doe.pdf).
-{{< /callout >}}
