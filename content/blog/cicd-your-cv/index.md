@@ -250,7 +250,8 @@ jobs:
 ```
 
 ## Wrap Up 
-If you did everything correctly you should see:
+If you did everything correctly you should see on the main repository page a new release like so:
+![CV Release](img/CV_Release.jpg)
 
 
 
