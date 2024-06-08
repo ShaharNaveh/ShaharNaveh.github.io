@@ -103,27 +103,22 @@ The [repository layout](#Repository-Layout) includes two `.css` files:
 #### `normalize.css` 
 Ensures all components render the same, regardless of the browser. You can get the latest version [here](https://necolas.github.io/normalize.css/).
 
-#### `default.css`
-Where the actual styling goes. This is where you decide on things like:
+#### `default.css` 
+Contains the actual styling for your CV, including:
 
-- Background Color
-- Font Family
-- Font Size
-
-And a lot more.
+- Background color
+- Font family
+- Font size
 
 {{< callout type="info" >}}
-It's recommend to import `normalize.css` from `default.css` like so:
+It's recommended to import `normalize.css` from `default.css` like this:
 
 ```css
 @import "normalize.css";
 ```
-
 {{< /callout >}}
 
-{{< callout type="info" >}}
-You can grab a base `default.css` file [here](assets/default.css).
-{{< /callout >}}
+You can find a base `default.css` file [here](assets/default.css).
 
 ### Justfile 
 The [just](https://github.com/casey/just) utility allows us to save and run predefined commands easily.
