@@ -66,10 +66,9 @@ The basic file tree we will create looks like:
 Let's discuss each file and directory in more details:
 
 ### `markdown` Directory 
-Let's you define multiple versions for your CV. 
+Allows you to define multiple versions of your CV.
 
-Let's say you have a CV for a developer role and also a CV for a sysadmin role,
-while you can technically have separate git branches, I found that it's not convenient to deal with branches when you want to edit shared assets like the CSS or workflow file.
+For example, you might have a CV for a developer role and another for a sysadmin role. While you can use separate git branches, it's more convenient to edit shared assets like CSS or workflow files without dealing with branches.
 
 #### `John_Doe.md` 
 This is where your CV content goes. Simply write your CV in markdown format.
