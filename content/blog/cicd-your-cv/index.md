@@ -25,11 +25,7 @@ flowchart TD
   css([CSS])
   pdf([PDF file])
   release([Github Release])
-
-  subgraph push [" "]
-    user-- git push -->repository
-  end
- 
+  
   subgraph action [Github Actions]
     dependencies-->pandoc
     pandoc-- Converts -->pdf
@@ -40,6 +36,7 @@ flowchart TD
     end
   end
 
+user-- git push -->repository
 push-- trigger -->action
 assets-->pandoc
 ```
