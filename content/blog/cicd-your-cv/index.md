@@ -1,6 +1,6 @@
 ---
 title: "CI/CD for your CV"
-date: 2024-06-07
+date: 2024-06-08
 draft: true
 description: Learn how to apply GitOps principals to your CV generation process
 tags:
