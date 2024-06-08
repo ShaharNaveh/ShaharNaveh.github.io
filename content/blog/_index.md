@@ -1,5 +1,5 @@
 ---
 title: Mediocre Blog
 cascade:
-  type: blog
+  type: doc
 ---
