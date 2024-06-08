@@ -255,7 +255,7 @@ If you did everything correctly you should see on the main repository page a new
 
 When clicking on it, you will see your PDF file(s) under "Assets":
 
-![CV Release](CV_release.jpg)
+![CV Release](img/CV_release.jpg)
 
 {{< callout type="info" >}}
 You can get the generated PDF of the example [here](assets/John_Doe.pdf).
