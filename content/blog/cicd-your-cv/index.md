@@ -37,7 +37,7 @@ flowchart TD
   end
 
 user-- git push -->repository
-push-- trigger -->action
+repository-- trigger -->action
 assets-->pandoc
 ```
 
