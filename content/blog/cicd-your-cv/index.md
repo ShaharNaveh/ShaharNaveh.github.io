@@ -15,7 +15,7 @@ When you push changes to `main` a workflow starts. This workflow uses [pandoc](h
 A diagram of the workflow looks like this: 
 
 ```mermaid
-flowchart LR
+flowchart TD
   user([User])
   repository([Repository])
   action([Github Action])
