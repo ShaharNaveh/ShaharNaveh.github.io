@@ -21,8 +21,7 @@ flowchart TD
   action([Github Action])
   dependencies["Install Dependencies"]
   pandoc([Pandoc])
-  markdown([Markdown])
-  css([CSS])
+  markdown_css([Markdown + CSS])
   pdf([PDF file])
   release([Github Release])
   
@@ -32,7 +31,7 @@ flowchart TD
     pdf-- Uploads -->release
 
     subgraph assets [Assets]
-      markdown & css
+      markdown_css
     end
   end
 
