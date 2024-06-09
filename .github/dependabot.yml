@@ -1,7 +1,13 @@
 version: 2
-
-updates:
+updates: 
+  - package-ecosystem: github-actions
+    directory: "/"
+    labels:
+      - dependencies
+      - autosquash
+    schedule:
+      interval: "daily"
   - package-ecosystem: gitsubmodule
     schedule:
         interval: "daily"
-    directory: /
+    directory: / 
