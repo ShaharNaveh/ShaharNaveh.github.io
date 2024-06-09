@@ -1,5 +1,6 @@
 ---
 title: Mediocre Blog
 cascade:
-  type: blog 
+  type: blog
+  toc: true
 ---
