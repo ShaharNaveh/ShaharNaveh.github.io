@@ -109,7 +109,7 @@ Contains the actual styling for your CV, including:
 {{< callout type="info" >}}
 It's recommended to import `normalize.css` from `default.css` like this:
 
-```css
+```css {filename="css/default.css"}
 @import "normalize.css";
 ```
 {{< /callout >}}
