@@ -182,7 +182,7 @@ Key `pandoc` flags:
 This workflow will be triggered on any `git push` to the `main` branch, you can push via your PC/phone/etc, and it will automatically generate your CV.
 
 Our `build.yaml`:
-```yaml {filename=".github/workflows/build.yaml"
+```yaml {filename=".github/workflows/build.yaml"}
 name: Build CV
 on:
   push:
