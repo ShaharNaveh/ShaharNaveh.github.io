@@ -196,6 +196,10 @@ permissions:
 jobs:
   build-cv:
     runs-on: ubuntu-latest
+    env:
+      PYTHON_VERSION: '3.11'
+      JUST_VERSION: '1.28.0'
+      WEASYPRINT_VERSION: '62.2'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -203,10 +207,10 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: ${{ env.PYTHON_VERSION }}
     
       - name: Install weasyprint
-        run: pipx install 'weasyprint==62.2'
+        run: pipx install 'weasyprint==${{ env.WEASYPRINT_VERSION }}'
 
       - name: Install pandoc
         run: sudo apt install --yes --no-install-recommends --no-install-suggests pandoc
@@ -214,7 +218,7 @@ jobs:
       - name: Install just
         uses: extractions/setup-just@v1
         with:
-          just-version: '1.28.0'
+          just-version: ${{ env.JUST_VERSION }}
     
       - name: Build
         run: just build
