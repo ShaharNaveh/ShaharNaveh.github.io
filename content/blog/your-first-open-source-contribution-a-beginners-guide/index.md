@@ -69,3 +69,8 @@ Beginners often think things like:
 > I want more small "family" like community rather than cold & industrial atmosphere.
 
 But those arguments are very naive and often not true.
+
+As a matter of fact you want to contribute to the large projects because:
+
+- They have more professional maintainers: you will get your code reviews from experienced people.
+- More active: when you make your first pull request your [impostor syndrome](https://en.m.wikipedia.org/wiki/Impostor_syndrome) will probably kick in, it's not fun to wait an entire week (or more) for feedback.
