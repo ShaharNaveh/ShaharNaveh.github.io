@@ -13,12 +13,14 @@ Contributing to open source projects can be transformative for both novice and s
 ## Getting Started
 ### Creating an Account on a Git Hosting Platform
 
-While there are many git hosting platforms such as [Bitbucket](https://bitbucket.org/), [Gitlab](https://gitlab.com/), and [Github](https://github.com/), Github is the leading platform for hosting most open-source projects.
+While there are many git hosting platforms such as [Bitbucket](https://bitbucket.org/), [Gitlab](https://gitlab.com/), and [Github](https://github.com/), **Github** is the leading platform for hosting most open-source projects.
 
 [Create a Github account](https://github.com/signup) and proceed to the next step.
 
 ### Configuring Git
 While there are many GUI based programs that makes working with git easier, I would recommend using the CLI as it will help to better understand what goes on behind the scenes.
+
+Here's a quick guide on how to configure the git CLI:
 
 {{< cards >}}
 {{< card link="/blog/painless-git-ssh-setup/" title="Configuring Git Guide" >}}
