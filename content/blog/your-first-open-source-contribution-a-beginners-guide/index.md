@@ -72,5 +72,6 @@ But those arguments are very naive and often not true.
 
 As a matter of fact you want to contribute to the large projects because:
 
-- They have more professional maintainers: you will get your code reviews from experienced people.
-- More active: when you make your first pull request your [impostor syndrome](https://en.m.wikipedia.org/wiki/Impostor_syndrome) will probably kick in, it's not fun to wait an entire week (or more) for feedback.
+- Professional: you will get your code reviews from more experienced maintainers & developers.
+- Activity: when you make your first pull request your [impostor syndrome](https://en.m.wikipedia.org/wiki/Impostor_syndrome) will probably kick in, it's not fun to wait an entire week (or more) for feedback.
+- Organized: Usually they will have a clear roadmap of what should be worked on, and the issue's description will be more descriptive.
