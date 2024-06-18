@@ -58,8 +58,8 @@ Github has a few neat features that allows anyone at any skill level to discover
 
 {{< /hextra/feature-grid >}}
 
-### Tips for Choosing a Project 
-#### Start Big
+## Tips for Choosing a Project 
+### Go for the Bigger Projects
 Beginners often think things like:
 
 > I'll pick a small project so I won't affect a lot of people with my bad code.
