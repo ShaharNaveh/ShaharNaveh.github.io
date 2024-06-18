@@ -197,7 +197,7 @@ jobs:
   build-cv:
     runs-on: ubuntu-latest
     env:
-      PYTHON_VERSION: '3.11'
+      PYTHON_VERSION: '3.12'
       JUST_VERSION: '1.29.1'
       WEASYPRINT_VERSION: '62.2'
     steps:
