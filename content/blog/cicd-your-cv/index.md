@@ -129,7 +129,7 @@ css_file := "css/default.css"
 build: init
         for md_file in {{in_dir}}/*.md ; do \
         FILE_NAME=$(basename $md_file .md); \
-        echo $FILE_NAME; \
+        echo "Processing: $FILE_NAME"; \
         pandoc \
         --standalone \
         --self-contained \
