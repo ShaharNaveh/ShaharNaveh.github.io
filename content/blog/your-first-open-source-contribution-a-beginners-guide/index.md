@@ -32,7 +32,7 @@ Here's a quick guide on how to configure the git CLI:
 If you already have a project in mind, you can skip this step.
 {{< /callout >}}
 
-Github has a few neat features that allows anyone at any skill level to discover new project:
+Github has a few neat features that allows anyone at any skill level to discover new projects that might interest you:
 
 {{< hextra/feature-grid >}}
 
