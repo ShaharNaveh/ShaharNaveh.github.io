@@ -24,7 +24,7 @@ Here's a quick guide on how to configure the git CLI:
 {{< card link="/blog/painless-git-ssh-setup/" title="Configuring Git Guide" >}}
 {{< /cards >}} 
 
-## Choosing a Project
+## Discovering Projects
 
 {{< callout >}}
 If you already have a project in mind, you can skip this step.
