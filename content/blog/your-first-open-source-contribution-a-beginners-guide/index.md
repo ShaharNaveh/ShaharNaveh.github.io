@@ -9,14 +9,13 @@ tags:
 
 Contributing to open source projects can be transformative for both novice and seasoned developers. It enhances your skills, provides real-world experience, expands your professional network, and allows you to give back to the community. However, making that first contribution can be daunting. This guide will help you navigate the initial steps, from selecting a project that aligns with your interests to successfully submitting your first pull request, ensuring you can confidently engage with the open source ecosystem.
 
-## Getting Started
-### Creating an Account on a Git Hosting Platform
+## Creating an Account on a Git Hosting Platform
 
 While there are many git hosting platforms such as [Bitbucket](https://bitbucket.org/), [Gitlab](https://gitlab.com/), and [Github](https://github.com/), **Github** is the leading platform for hosting most open-source projects.
 
 [Create a Github account](https://github.com/signup) and proceed to the next step.
 
-### Configuring Git
+## Configuring Git
 While there are many GUI based programs that makes working with git easier, I would recommend using the CLI as it will help to better understand what goes on behind the scenes.
 
 Here's a quick guide on how to configure the git CLI:
@@ -25,7 +24,7 @@ Here's a quick guide on how to configure the git CLI:
 {{< card link="/blog/painless-git-ssh-setup/" title="Configuring Git Guide" >}}
 {{< /cards >}} 
 
-### Choosing a Project
+## Choosing a Project
 
 {{< callout >}}
 If you already have a project in mind, you can skip this step.
@@ -59,8 +58,8 @@ Github has a few neat features that allows anyone at any skill level to discover
 
 {{< /hextra/feature-grid >}}
 
-#### Tips for Choosing a Project 
-##### Start Big
+### Tips for Choosing a Project 
+#### Start Big
 Beginners often think things like:
 
 > I'll pick a small project so I won't affect a lot of people with my bad code.
