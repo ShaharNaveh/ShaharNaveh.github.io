@@ -198,7 +198,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PYTHON_VERSION: '3.11'
-      JUST_VERSION: '1.28.0'
+      JUST_VERSION: '1.29.1'
       WEASYPRINT_VERSION: '62.2'
     steps:
       - name: Checkout
