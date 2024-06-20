@@ -1,6 +1,6 @@
 ---
 title: "Your First Open Source Contribution: A Beginner's Guide"
-date: 2024-06-18
+date: 2024-06-20
 draft: true
 description: This article provides a beginner's guide to making your first open source contribution, covering project selection and the submission process
 tags:
