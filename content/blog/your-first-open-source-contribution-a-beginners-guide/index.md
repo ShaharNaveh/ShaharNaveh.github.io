@@ -72,3 +72,10 @@ As a matter of fact you want to contribute to the large projects because:
 - Professional: You will get your code reviews from more experienced maintainers & developers.
 - Responsive: When you make your first pull request your [impostor syndrome](https://en.m.wikipedia.org/wiki/Impostor_syndrome) will probably kick in, it's not so fun to wait an entire week (or more) for feedback.
 - Organized: Usually the project will have a clear roadmap of what should be worked on, and the issue's description will be more descriptive.
+
+### Labels are your Friend 
+Some projects will label their issues with different labels, this can help you out with picking an issue that is more appropriate to you.
+For example some projects have a label called `Good First Issue`, those issues are quick & easy to fix and the reason why the maintainers don't do them right away is to give new people something lightweight to get started.
+
+## Forking a Project 
+After you choose your project you will need to fork it. why? because you don't have write access to their repository.
