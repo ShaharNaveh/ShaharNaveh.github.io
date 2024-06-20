@@ -33,7 +33,6 @@ If you already have a project in mind, you can skip this step.
 Github has a few neat features that allows anyone at any skill level to discover new projects that might interest you:
 
 {{< hextra/feature-grid >}}
-
 {{< hextra/feature-card
     title="Explore"
     icon="github"
@@ -48,14 +47,12 @@ Github has a few neat features that allows anyone at any skill level to discover
     subtitle="Find and explore topics on GitHub"
 >}}
 
-
 {{< hextra/feature-card
     title="Trending"
     icon="github"
     link="https://github.com/trending"
     subtitle="Explore the most popular and exciting projects on GitHub"
 >}}
-
 {{< /hextra/feature-grid >}}
 
 ## Tips for Choosing a Project 
@@ -72,6 +69,6 @@ But those arguments are very naive and often not true.
 
 As a matter of fact you want to contribute to the large projects because:
 
-- Professional: you will get your code reviews from more experienced maintainers & developers.
-- Activity: when you make your first pull request your [impostor syndrome](https://en.m.wikipedia.org/wiki/Impostor_syndrome) will probably kick in, it's not fun to wait an entire week (or more) for feedback.
-- Organized: Usually they will have a clear roadmap of what should be worked on, and the issue's description will be more descriptive.
+- Professional: You will get your code reviews from more experienced maintainers & developers.
+- Responsive: When you make your first pull request your [impostor syndrome](https://en.m.wikipedia.org/wiki/Impostor_syndrome) will probably kick in, it's not so fun to wait an entire week (or more) for feedback.
+- Organized: Usually the project will have a clear roadmap of what should be worked on, and the issue's description will be more descriptive.
