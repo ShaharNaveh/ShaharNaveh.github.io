@@ -96,3 +96,5 @@ After that I will add the original repo as a [git remote](https://git-scm.com/do
 git remote add upstream https://github.com/octocat/Spoon-Knife
 ```
 
+{{< details >}}
+If you need more step by step guide
