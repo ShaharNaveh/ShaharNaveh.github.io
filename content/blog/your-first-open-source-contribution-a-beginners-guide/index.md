@@ -80,4 +80,6 @@ Some projects will put labels on  their issues, this can help you out with picki
 For example some projects have a label called `Good First Issue` (or similar), those issues are quick & easy to fix and the reason why the maintainers haven't done them themselves is to give new people something lightweight to get started.
 
 ## Forking a Project 
-After you choose your project you will need to fork it. why? because you don't have write access to their repository.
+After you choose your project you will need to fork it. Why? because you don't have write access to their repository.
+
+after you mad the fork, you need to clone your fork, for example if forked 
