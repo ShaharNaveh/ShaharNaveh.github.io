@@ -79,18 +79,20 @@ As a matter of fact you want to contribute to the large projects because:
 Some projects will put labels on  their issues, this can help you out with picking an issue that is more appropriate to you.
 For example some projects have a label called `Good First Issue` (or similar), those issues are quick & easy to fix and the reason why the maintainers haven't done them themselves is to give new people something lightweight to get started.
 
-## Forking a Project 
+## Local Development Perquisites 
+### Making a Fork
 After you choose your project you will need to fork it. Why? because you don't have write access to their repository.
 
-after you mad the fork, you need to clone your fork, for example if forked [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes), and my GitHub username is `ShaharNaveh` I will run the following command:
+after you mad the fork, you need to clone your fork, for example if I forked [octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife), and my GitHub username is `ShaharNaveh` I will run the following command:
 
 ```bash
-git clone https://github.com/ShaharNaveh/kubernetes
+git clone https://github.com/octocat/Spoon-Knife
 ```
 
 After that I will add the original repo as a [git remote](https://git-scm.com/docs/git-remote) and will call it `upstream` (you can choose a different name):
 
 ```bash
 # cd into your project directory first
-git remote add upstream https://github.com/kubernetes/kubernetes
+git remote add upstream https://github.com/octocat/Spoon-Knife
 ```
+
