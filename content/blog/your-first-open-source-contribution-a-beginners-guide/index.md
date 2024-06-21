@@ -87,3 +87,10 @@ after you mad the fork, you need to clone your fork, for example if forked [kube
 ```bash
 git clone https://github.com/ShaharNaveh/kubernetes
 ```
+
+After that I will add the original repo as a [git remote](https://git-scm.com/docs/git-remote) and will call it `upstream` (you can choose a different name):
+
+```bash
+# cd into your project directory first
+git remote add upstream https://github.com/kubernetes/kubernetes
+```
