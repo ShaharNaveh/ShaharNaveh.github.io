@@ -77,7 +77,7 @@ As a matter of fact you want to contribute to the large projects because:
 
 ### Labels are your Friend 
 Some projects will put labels on  their issues, this can help you out with picking an issue that is more appropriate to you.
-For example some projects have a label called `Good First Issue`, those issues are quick & easy to fix and the reason why the maintainers don't do them right away is to give new people something lightweight to get started.
+For example some projects have a label called `Good First Issue` (or similar), those issues are quick & easy to fix and the reason why the maintainers haven't done them themselves is to give new people something lightweight to get started.
 
 ## Forking a Project 
 After you choose your project you will need to fork it. why? because you don't have write access to their repository.
