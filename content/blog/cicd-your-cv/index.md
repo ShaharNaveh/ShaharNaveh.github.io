@@ -16,7 +16,7 @@ A diagram of the workflow looks like this:
 
 ```mermaid
 flowchart TD
-  user(["fa:fa-user User"])
+  user([User])
   repository([Repository])
   action([Github Action])
   dependencies["Install Dependencies"]
