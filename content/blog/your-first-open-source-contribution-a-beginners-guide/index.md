@@ -81,15 +81,15 @@ For example some projects have a label called `Good First Issue` (or similar), t
 
 ## Local Development Perquisites 
 ### Making a Fork
-After you choose your project you will need to fork it. Why? because you don't have write access to their repository.
+After you pick your project you will need to fork it. Why? because you don't have write access to their repository.
 
-after you mad the fork, you need to clone your fork, for example if I forked [octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife), and my GitHub username is `ShaharNaveh` I will run the following command:
+After you made the fork, you need to clone your fork. For example if I forked [octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife), and my GitHub username is `ShaharNaveh` I will run the following command:
 
 ```bash
 git clone https://github.com/octocat/Spoon-Knife
 ```
 
-After that I will add the original repo as a [git remote](https://git-scm.com/docs/git-remote) and will call it `upstream` (you can choose a different name):
+After that I will add the original repo as a [git remote](https://git-scm.com/docs/git-remote) and will call it `upstream` (you can name it anything):
 
 ```bash
 # cd into your project directory first
