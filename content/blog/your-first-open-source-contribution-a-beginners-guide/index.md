@@ -1,6 +1,6 @@
 ---
 title: "Your First Open Source Contribution: A Beginner's Guide"
-date: 2024-06-21
+date: 2024-06-22
 draft: true
 description: This article provides a beginner's guide to making your first open source contribution, covering project selection and the submission process
 tags:
@@ -98,3 +98,4 @@ git remote add upstream https://github.com/octocat/Spoon-Knife
 
 {{< details >}}
 If you need more step by step guide
+{{< /details >}}
