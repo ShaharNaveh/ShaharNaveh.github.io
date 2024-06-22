@@ -97,5 +97,5 @@ git remote add upstream https://github.com/octocat/Spoon-Knife
 ```
 
 {{< details >}}
-If you need more step by step guide
+If you need more step by step guide on how to create a fork you can find the official documentation [here](
 {{< /details >}}
