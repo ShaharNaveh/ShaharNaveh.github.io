@@ -187,8 +187,9 @@ name: Build CV
 on:
   push:
     branches:
-      - main
-  workflow_dispatch: # To be able to trigger this workflow manually
+      - main 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: write
