@@ -13,9 +13,10 @@ In this guide I will show you how to setup [Github Actions](https://docs.github.
 ## How does it Work?
 When you push changes to the `main` branch, a workflow starts. This workflow uses [pandoc](https://pandoc.org/) to convert `markdown` to `pdf`.
 
-A diagram of the workflow looks like this: 
-
 ```mermaid
+---
+title: CV CI/CD Workflow
+---
 flowchart TD
   user([User])
   repository([Repository])
