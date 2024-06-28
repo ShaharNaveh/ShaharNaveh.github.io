@@ -4,7 +4,7 @@ date: 2024-05-10
 draft: false 
 description: The short answer is no. But why?
 tags:
-  - Miscellaneous
+  - miscellaneous
 ---
 
 ## What Are Shortcut Colleges?
