@@ -11,7 +11,7 @@ tags:
 In this guide I will show you how to setup [Github Actions](https://docs.github.com/en/actions) to generate your CV and upload it to your [project release](https://docs.github.com/en/repositories/releasing-projects-on-github).
 
 ## How does it Work?
-When you push changes to `main` a workflow starts. This workflow uses [pandoc](https://pandoc.org/) to convert `markdown` to `pdf`.
+When you push changes to the `main` branch, a workflow starts. This workflow uses [pandoc](https://pandoc.org/) to convert `markdown` to `pdf`.
 
 A diagram of the workflow looks like this: 
 
