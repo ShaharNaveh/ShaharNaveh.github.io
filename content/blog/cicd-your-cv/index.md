@@ -4,7 +4,9 @@ date: 2024-06-08
 draft: false
 description: Learn how to apply GitOps principals to your CV generation process
 tags:
-  - guide
+  - Guide
+  - Git
+  - GitOps
 ---
 
 In this guide I will show you how to setup [Github Actions](https://docs.github.com/en/actions) to generate your CV and upload it to your [project release](https://docs.github.com/en/repositories/releasing-projects-on-github).
