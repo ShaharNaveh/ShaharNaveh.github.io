@@ -1,5 +1,7 @@
 ---
 title: Mediocre Blog
 type: blog 
-layout: list
+#layout: list 
+cascade:
+  type: blog
 ---
