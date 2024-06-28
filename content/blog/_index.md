@@ -1,5 +1,0 @@
----
-title: Mediocre Blog 
-aliases:
-  - "/"
----
