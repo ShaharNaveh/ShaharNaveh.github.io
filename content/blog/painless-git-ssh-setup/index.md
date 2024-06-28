@@ -2,9 +2,9 @@
 title: Painless Git+SSH Setup
 date: 2024-05-25
 draft: false
-tags:
-  - Guide
+tags: 
   - Git
+  - Guide
   - SSH
 ---
 
