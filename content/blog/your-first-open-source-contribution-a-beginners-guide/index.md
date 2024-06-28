@@ -4,7 +4,6 @@ date: 2024-06-22
 draft: true
 description: This article provides a beginner's guide to making your first open source contribution, covering project selection and the submission process
 tags:
-  - guide
   - git
 ---
 
