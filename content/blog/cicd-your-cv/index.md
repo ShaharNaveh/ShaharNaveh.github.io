@@ -252,4 +252,6 @@ Clicking on it, you will see your PDF file(s) under "Assets":
 
 ![CV Release](img/CV_release.jpg)
 
-You can get the generated PDF of the example [here](assets/John_Doe.pdf).
+You can get the generated PDF of the example [here](assets/John_Doe.pdf). 
+
+{{< pdf "assets/John_Doe.pdf" >}}
