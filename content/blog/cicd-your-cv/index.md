@@ -255,3 +255,6 @@ Clicking on it, you will see your PDF file(s) under "Assets":
 
 PDF output:
 {{< pdf "assets/John_Doe.pdf" >}}
+
+
+{{< pdf "https://dagrs.berkeley.edu/sites/default/files/2020-01/sample.pdf" >}}
