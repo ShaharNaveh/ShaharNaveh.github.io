@@ -4,7 +4,6 @@ date: 2024-05-25
 draft: false
 tags: 
   - git
-  - guide
   - ssh
 ---
 
