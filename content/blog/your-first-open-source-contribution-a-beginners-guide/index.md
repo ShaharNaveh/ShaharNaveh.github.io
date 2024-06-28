@@ -4,7 +4,8 @@ date: 2024-06-22
 draft: true
 description: This article provides a beginner's guide to making your first open source contribution, covering project selection and the submission process
 tags:
-  - guide
+  - Guide
+  - Git
 ---
 
 Contributing to open source projects can be transformative for both novice and seasoned developers. It enhances your skills, provides real-world experience, expands your professional network, and allows you to give back to the community. However, making that first contribution can be daunting. This guide will help you navigate the initial steps, from selecting a project that aligns with your interests to successfully submitting your first pull request, ensuring you can confidently engage with the open source ecosystem.
