@@ -116,15 +116,301 @@ It's recommended to import `normalize.css` from `default.css` like this:
 ```
 {{< /callout >}}
 
-
-
-
-
 You can get a base `default.css` here:
 
 {{% details title="Base `default.css`" closed="true" %}}
 ```css {filename="css/default.css"}
-{{< include "assets/default.css" >}}
+@import "normalize.css";
+
+@charset "UTF-8";
+
+@page {
+	padding: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+@paper {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen {
+	body {
+		box-shadow: none;
+	}
+}
+
+html,
+body {
+	font-family: Arial, Helvetica, serif;
+	margin: auto;
+	color: black;
+	line-height: 1.5;
+}
+
+body {
+	font-size: 11pt;
+	padding: 0;
+	margin: auto;
+	background: #fff;
+	background-color: #fff;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+a {
+	color: #4183c4;
+	text-decoration: none;
+}
+
+p {
+	margin: 1em 0;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li:not(:last-child) {
+	margin-bottom: 3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 10px 0 5px;
+	padding: 0;
+	font-weight: bold;
+	-webkit-font-smoothing: subpixel-antialiased;
+	cursor: text;
+}
+
+h1 {
+	font-size: 27pt;
+	color: black;
+	text-align: center;
+}
+
+h2 {
+	font-size: 16pt;
+	border-bottom: 1px solid #ccc;
+	color: black
+}
+
+h3 {
+	font-size: 10pt;
+	color: #333;
+}
+
+h4 {
+	font-size: 10pt;
+	color: #333;
+	text-align: center;
+	-webkit-margin-before: 0.02em;
+	-webkit-margin-after: 0.02em;
+}
+
+h5 {
+	font-size: 14px;
+	color: #333;
+	text-align: center;
+}
+
+h6 {
+	color: #777;
+	font-size: 14px;
+	text-align: center;
+	-webkit-margin-before: 0.05em;
+}
+
+p,
+blockquote,
+table,
+pre {
+	margin: 15px 0
+}
+
+body>h2:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+body>h1:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+body>h1:first-child+h2 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+body>h3:first-child,
+body>h4:first-child,
+body>h5:first-child,
+body>h6:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+a:first-child h1,
+a:first-child h2,
+a:first-child h3,
+a:first-child h4,
+a:first-child h5,
+a:first-child h6 {
+	margin-top: 0;
+	padding-top: 0
+}
+
+h1+p,
+h2+p,
+h3+p,
+h4+p,
+h5+p,
+h6+p,
+ul li>:first-child,
+ol li>:first-child {
+	margin-top: 0
+}
+
+blockquote {
+	border-left: 4px solid #DDD;
+	padding: 0 15px;
+	color: #777;
+}
+
+blockquote>:first-child {
+	margin-top: 0
+}
+
+blockquote>:last-child {
+	margin-bottom: 0
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+table th {
+	font-weight: bold;
+	border: 1px solid #ccc;
+	padding: 6px 13px
+}
+
+table td {
+	border: 1px solid #ccc;
+	padding: 6px 13px
+}
+
+table tr {
+	border-top: 1px solid #ccc;
+	background-color: #fff
+}
+
+table tr:nth-child(2n) {
+	background-color: #f8f8f8
+}
+
+img {
+	max-width: 100%
+}
+
+code,
+tt {
+	margin: 0 2px;
+	padding: 0 5px;
+	white-space: nowrap;
+	border: 1px solid #eaeaea;
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	font-family: Consolas, 'Liberation Mono', Courier, monospace;
+	font-size: 12px;
+	color: #333;
+}
+
+pre>code {
+	margin: 0;
+	padding: 0;
+	white-space: pre;
+	border: 0;
+	background: transparent
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+	font-size: 13px;
+	line-height: 19px;
+	overflow: auto;
+	padding: 6px 10px;
+	border-radius: 3px
+}
+
+pre code,
+pre tt {
+	background-color: transparent;
+	border: 0;
+}
+
+sup,
+sub,
+a.footnote {
+	font-size: 1.4ex;
+	height: 0;
+	line-height: 1;
+	vertical-align: super;
+	position: relative
+}
+
+sub {
+	vertical-align: sub;
+	top: -1px;
+}
+
+@media print {
+	body {
+		background: #fff;
+	}
+
+	img,
+	pre,
+	blockquote,
+	table,
+	figure {
+		page-break-inside: avoid;
+	}
+
+	body {
+		background: #fff;
+		border: 0;
+	}
+
+	code {
+		background-color: #fff;
+		color: #333 !important;
+		padding: 0 .2em;
+		border: 1px solid #dedede;
+	}
+
+	pre {
+		background: #fff
+	}
+
+	pre code {
+		background-color: white !important;
+		overflow: visible
+	}
+}
 ```
 {{% /details %}}
 
