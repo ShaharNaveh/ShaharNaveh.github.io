@@ -61,7 +61,7 @@ menu:
         type: search
 
 params:
-  description: Blog, Guide
+  description: Explore unconventional applications of technology to broaden your perspectives and enhance efficiency
   displayUpdatedDate: false
   dateFormat: "January 2, 2006"
   navbar:
