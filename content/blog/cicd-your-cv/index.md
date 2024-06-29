@@ -2,7 +2,7 @@
 title: CI/CD for your CV
 date: 2024-06-08
 draft: false
-description: Learn how to apply GitOps principals to your CV generation process
+description: Learn how to apply GitOps principals to your CV generation process.
 tags:
   - git
   - gitops
