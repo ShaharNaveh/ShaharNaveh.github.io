@@ -136,7 +136,7 @@ cat ~/.ssh/keys/github.pub
 # Then select and copy the displayed contents
 ```
 
-{{% details title="Alternative Way" closed="true" %}}
+{{% details title="Alternative Way" %}}
 Alternatively, locate the hidden `.ssh` folder, open the file in a text editor, and copy it to your clipboard.
 {{% /details %}}
 
