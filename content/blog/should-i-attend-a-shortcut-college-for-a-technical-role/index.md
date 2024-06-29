@@ -35,9 +35,9 @@ The requirements for obtaining such certifications are minimal, making them esse
 Regardless of how niche a subject may seem, there's likely a post or question about it online.
 Mastering "Google-fu," (aka [Google operators](https://support.google.com/websearch/answer/2466433?hl=en)), is a valuable skill for finding this information.
 
-{{% callout type="info" %}}
+{{< callout type="info" >}}
 When evaluating courses or tutorials on platforms like YouTube, consider metrics such as the number of likes, subscribers, and comments to judge their quality and reliability.
-{{% /callout %}}
+{{< /callout >}}
 
 ## FAQ
 ### But I Got a Scholarship
