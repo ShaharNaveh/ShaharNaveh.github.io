@@ -116,14 +116,13 @@ It's recommended to import `normalize.css` from `default.css` like this:
 ```
 {{< /callout >}}
 
-{{% details title="Example `default.css`" closed="true" %}}
+You can get a base `default.css` here:
+
+{{% details title="Base `default.css`" closed="true" %}}
 ```css {filename="css/default.css"}
 @import "normalize.css";
 ```
-
 {{% /details %}}
-
-You can find a base `default.css` file [here](assets/default.css).
 
 ### Justfile 
 The [just](https://github.com/casey/just) utility allows us to save and run predefined commands easily.
