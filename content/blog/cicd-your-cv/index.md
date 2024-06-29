@@ -116,11 +116,15 @@ It's recommended to import `normalize.css` from `default.css` like this:
 ```
 {{< /callout >}}
 
+
+
+
+
 You can get a base `default.css` here:
 
 {{% details title="Base `default.css`" closed="true" %}}
 ```css {filename="css/default.css"}
-@import "normalize.css";
+{{< include "assets/default.css" >}}
 ```
 {{% /details %}}
 
