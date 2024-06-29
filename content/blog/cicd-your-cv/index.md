@@ -229,9 +229,9 @@ jobs:
       - name: Set Environment Variables
         run: |  
           # Get PDF files
-          echo "PDF_FILES<<EOF" >> $GITHUB_ENV 
+          echo 'PDF_FILES<<EOF' >> $GITHUB_ENV 
           find output/ -type f -name '*.pdf' >> $GITHUB_ENV 
-          echo "EOF" >> $GITHUB_ENV 
+          echo 'EOF' >> $GITHUB_ENV 
 
           # Get Current Datetime
           echo "NOW=$(date +'%Y-%m-%d-%H-%M-%S')" >> $GITHUB_ENV    
