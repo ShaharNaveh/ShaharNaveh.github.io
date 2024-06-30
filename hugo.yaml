@@ -1,5 +1,5 @@
 baseURL: https://shaharnaveh.github.io/
-title: Mediocre Site
+title: Shahar Naveh
 theme: hextra
 
 enableRobotsTXT: true
@@ -16,7 +16,7 @@ languages:
     languageCode: en-US
     languageName: English
     weight: 1
-    title: Mediocre Site
+    title: Shahar Naveh
 
 module:
   hugoVersion:
