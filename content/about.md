@@ -20,7 +20,7 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="rust" title="Rust" >}}
 {{< hextra/feature-card icon="python" title="Python" >}}
 {{< hextra/feature-card icon="zabbix" title="Zabbix" >}}
-{< hextra/feature-card icon="github-actions" title="GitHub Actions" >}}
+{{< hextra/feature-card icon="github-actions" title="GitHub Actions" >}}
 {{< hextra/feature-card icon="postgresql" title="Postgresql" >}}
 {{< hextra/feature-card icon="html" title="HTML" >}}
 {{< hextra/feature-card icon="css" title="CSS" >}}
