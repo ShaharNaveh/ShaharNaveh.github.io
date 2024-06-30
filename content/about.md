@@ -1,5 +1,5 @@
 ---
-title: About
+title: Shahar Naveh | About
 ---
 
 I'm a Dev(Sec)Ops that loves to automate everything with an obsession to security 😅
