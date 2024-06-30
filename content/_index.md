@@ -12,7 +12,5 @@ I'm a Dev(Sec)Ops with a passion for continuous learning and sharing knowledge t
   {{< card link="blog" title="Blog" icon="pencil" >}}
 {{< /cards >}}
 
----
-
 ## GitHub 
 Check out my projects and contributions on my [GitHub profile](https://github.com/ShaharNaveh/).
