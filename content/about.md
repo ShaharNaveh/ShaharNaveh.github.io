@@ -25,4 +25,8 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="html" title="HTML" >}}
 {{< hextra/feature-card icon="css" title="CSS" >}}
 {{< hextra/feature-card icon="bash" title="Bash" >}}
+{{< hextra/feature-card icon="ansible" title="Ansible" >}}
+{{< hextra/feature-card icon="aws" title="AWS" >}}
+{{< hextra/feature-card icon="crossplane" title="Crossplane" >}}
+{{< hextra/feature-card icon="ruby" title="Ruby" >}}
 {{< /hextra/feature-grid >}}
