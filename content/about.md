@@ -6,7 +6,7 @@ title: About
 I'm a Dev(Sec)Ops that loves to automate everything with an obsession to security 😅
 
 ## Tools & Platforms I Work with 
-
+<br />
 {{< hextra/feature-grid >}}
 {{< hextra/feature-card title="Ansible" icon="ansible" >}}
 {{< hextra/feature-card title="AWS" icon="aws" >}}
