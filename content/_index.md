@@ -1,8 +1,9 @@
 ---
 title: Shahar Naveh
 ---
-## Hey:)
-I am Shahar Naveh, a Dev(Sec)Ops with a passion for continuous learning and sharing knowledge through my blog. My expertise lies in various fields of software engineering, including CI/CD, Git, and more.
+
+## Hey, I'm Shahar 👋
+I'm a Dev(Sec)Ops with a passion for continuous learning and sharing knowledge through my blog. My expertise lies in various fields of software engineering, including CI/CD, Git, and more.
 
 ## Explore
 
