@@ -7,9 +7,10 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 
 ## Tools & Platforms I Work with 
 
-{{< hextra/feature-grid title="Tools & Platforms I Work with" >}}
-{{< icon "aws" >}}
-{{< icon "aws" >}}
-{{< icon "aws" >}}
-{{< icon "aws" >}}
+{{< hextra/feature-grid >}}
+{{< hextra/feature-card icon="aws" >}}
+{{< hextra/feature-card icon="aws" >}}
+{{< hextra/feature-card icon="aws" >}}
+{{< hextra/feature-card icon="aws" >}}
+{{< hextra/feature-card icon="aws" >}}
 {{< /hextra/feature-grid >}}
