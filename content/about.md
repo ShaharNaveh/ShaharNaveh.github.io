@@ -7,7 +7,7 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 
 ## Tools & Platforms I Work with 
 <br />
-{{< hextra/feature-grid cols="5" >}}
+{{< hextra/feature-grid >}}
 {{< hextra/feature-card icon="ansible" subtitle="Ansible" >}}
 {{< hextra/feature-card icon="aws" subtitle="AWS" >}}
 {{< hextra/feature-card icon="jenkins" subtitle="Jenkins" >}}
