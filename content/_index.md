@@ -1,3 +1,0 @@
----
-layout: hextra-home 
----
