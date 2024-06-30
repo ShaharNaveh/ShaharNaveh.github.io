@@ -1,5 +1,5 @@
 ---
-title: Shahar Naveh | Homepage
+title: Shahar Naveh
 ---
 
 ## Hey, I'm Shahar 👋
