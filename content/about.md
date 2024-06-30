@@ -30,5 +30,5 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="java" title="Java" >}}
 {{< hextra/feature-card icon="ruby" title="Ruby" >}}
 {{< hextra/feature-card icon="grafana" title="Grafana" >}}
-{{< hextra/feature-card icon="elasticsearch" title=ElasticSearch" >}}
+{{< hextra/feature-card icon="elasticsearch" title=Elasticsearch" >}}
 {{< /hextra/feature-grid >}}
