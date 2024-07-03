@@ -16,9 +16,9 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="css" link="https://www.w3.org/TR/CSS/#css" title="CSS" >}}
 {{< hextra/feature-card icon="docker" link="https://www.docker.com/" title="Docker" >}}
 {{< hextra/feature-card icon="elasticsearch" link="https://www.elastic.co/elasticsearch" title="Elasticsearch" >}}
-{{< hextra/feature-card icon="git" title="Git" >}}
-{{< hextra/feature-card icon="github-actions" title="GitHub Actions" >}}
-{{< hextra/feature-card icon="grafana" title="Grafana" >}}
+{{< hextra/feature-card icon="git" link="https://git-scm.com/" title="Git" >}}
+{{< hextra/feature-card icon="github-actions" title="https://docs.github.com/en/actions" title="GitHub Actions" >}}
+{{< hextra/feature-card icon="grafana" link="https://grafana.com/" title="Grafana" >}}
 {{< hextra/feature-card icon="helm" title="Helm" >}}
 {{< hextra/feature-card icon="html" title="HTML" >}}
 {{< hextra/feature-card icon="java" title="Java" >}}
