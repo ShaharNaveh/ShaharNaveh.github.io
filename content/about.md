@@ -11,7 +11,7 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="aws" link="aws.amazon.com" title="AWS" >}}
 {{< hextra/feature-card icon="bash" link="https://www.gnu.org/software/bash/" title="Bash" >}}
 {{< hextra/feature-card icon="c-sharp" link="https://dotnet.microsoft.com/en-us/languages/csharp" title="C#" >}}
-{{< hextra/feature-card icon="crossplane" title="Crossplane" >}}
+{{< hextra/feature-card icon="crossplane" link="https://www.crossplane.io" title="Crossplane" >}}
 {{< hextra/feature-card icon="css" title="CSS" >}}
 {{< hextra/feature-card icon="docker" title="Docker" >}}
 {{< hextra/feature-card icon="elasticsearch" title="Elasticsearch" >}}
