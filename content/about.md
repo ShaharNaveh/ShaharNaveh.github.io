@@ -51,8 +51,9 @@ I began my career as a [penetration tester](https://en.m.wikipedia.org/wiki/Pene
 {{< hextra/feature-card icon="c-sharp" link="https://dotnet.microsoft.com/en-us/languages/csharp" title="C#" >}}
 {{< hextra/feature-card icon="css" link="https://www.w3.org/TR/CSS/#css" title="CSS" >}}
 {{< hextra/feature-card icon="html" link="https://html.spec.whatwg.org/" title="HTML" >}}
-{{< hextra/feature-card icon="java" link="https://www.java.com/" title="Java" >}}
 {{< hextra/feature-card icon="groovy" link="https://www.groovy-lang.org" title="Groovy" >}}
+{{< hextra/feature-card icon="java" link="https://www.java.com/" title="Java" >}}
+{{< hextra/feature-card icon="lua" link="https://www.lua.org/" title="Lua" >}}
 {{< hextra/feature-card icon="python" link="https://www.python.org/" title="Python" >}}
 {{< hextra/feature-card icon="ruby" link="https://www.ruby-lang.org/en/" title="Ruby" >}}
 {{< hextra/feature-card icon="rust" link="https://www.rust-lang.org" title="Rust" >}}
