@@ -3,7 +3,7 @@ title: About
 ---
 
 ## Career
-I began my career as a [penetration tester](https://en.m.wikipedia.org/wiki/Penetration_test), but soon discovered a greater passion for automating exploitation processes. Now, as a Dev(Sec)Ops professional, I am dedicated to security and obsessed with automating everything I can
+I began my career as a [penetration tester](https://en.m.wikipedia.org/wiki/Penetration_test), but soon discovered a greater passion for automating exploitation processes. Now, as a Dev(Sec)Ops professional, I am dedicated to security and obsessed with automating everything I can.
 
 ## Tools & Platforms I Work with 
 ### Automation & Deployment 
