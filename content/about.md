@@ -7,7 +7,6 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 ## Tools & Platforms I Work with 
 ### Programming Languages
 {{< hextra/feature-grid >}}
-{{< hextra/feature-card icon="ansible" link="https://www.ansible.com" title="Ansible" >}}
 {{< hextra/feature-card icon="argocd" link="https://argo-cd.readthedocs.io/" title="ArgoCD" >}}
 {{< hextra/feature-card icon="aws" link="aws.amazon.com" title="AWS" >}}
 {{< hextra/feature-card icon="bash" link="https://www.gnu.org/software/bash/" title="Bash" >}}
@@ -34,6 +33,7 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< /hextra/feature-grid >}}
 
 ### Configuration/Infrastructure as Code 
-{{< hextra/feature-grid >}} 
+{{< hextra/feature-grid >}}
+{{< hextra/feature-card icon="ansible" link="https://www.ansible.com" title="Ansible" >}}
 {{< hextra/feature-card icon="terraform" link="https://www.terraform.io" title="Terraform" >}}
 {{< /hextra/feature-grid >}}
