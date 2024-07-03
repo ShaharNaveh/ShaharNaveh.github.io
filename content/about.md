@@ -38,14 +38,9 @@ pulumi
 {{< hextra/feature-card icon="bash" link="https://www.gnu.org/software/bash/" title="Bash" >}}
 {{< hextra/feature-card icon="c-sharp" link="https://dotnet.microsoft.com/en-us/languages/csharp" title="C#" >}}
 {{< hextra/feature-card icon="css" link="https://www.w3.org/TR/CSS/#css" title="CSS" >}}
-
-
-
 {{< hextra/feature-card icon="html" link="https://html.spec.whatwg.org/" title="HTML" >}}
 {{< hextra/feature-card icon="java" link="https://www.java.com/" title="Java" >}}
-
 groovy
-
 {{< hextra/feature-card icon="python" link="https://www.python.org/" title="Python" >}}
 {{< hextra/feature-card icon="ruby" link="https://www.ruby-lang.org/en/" title="Ruby" >}}
 {{< hextra/feature-card icon="rust" link="https://www.rust-lang.org" title="Rust" >}}
@@ -54,24 +49,16 @@ groovy
 ### VCS & CI/CD
 <br />
 {{< hextra/feature-grid >}}
-
+Bitbucket
 {{< hextra/feature-card icon="git" link="https://git-scm.com/" title="Git" >}}
+gitlab
 {{< hextra/feature-card icon="github-actions" title="https://docs.github.com/en/actions" title="GitHub Actions" >}}
-
-
 {{< hextra/feature-card icon="jenkins" link="https://www.jenkins.io/" title="Jenkins" >}}
-
-
-
 {{< /hextra/feature-grid >}}
-
-
 
 ### Monitoring & Observability 
 <br />
 {{< hextra/feature-grid >}}
-
-
 OTEL 
 FLUENT
 {{< hextra/feature-card icon="prometheus" link="https://prometheus.io" title="Prometheus" >}}
