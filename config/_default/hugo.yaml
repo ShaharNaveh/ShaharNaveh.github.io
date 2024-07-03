@@ -2,13 +2,13 @@ baseURL: https://shaharnaveh.github.io/
 title: Shahar Naveh
 theme: hextra
 
+defaultContentLanguage: en
+languageCode: en-us
+
 enableRobotsTXT: true
 enableGitInfo: true
+summaryLength: 0
+
 enableEmoji: true
 hasCJKLanguage: false
 enableInlineShortcodes: true
-summaryLength: 0
-
-defaultContentLanguage: en 
-languageCode: en-us 
-
