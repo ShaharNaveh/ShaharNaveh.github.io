@@ -35,9 +35,10 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 ### Monitoring & Observability 
 <br />
 {{< hextra/feature-grid >}}
-OTEL 
-FLUENT
-{{< hextra/feature-card icon="prometheus" link="https://prometheus.io" title="Prometheus" >}}
+{{< hextra/feature-card icon="fluentbit" link="https://fluentbit.io/" title="Fluentbit" >}}
+{{< hextra/feature-card icon="fluentd" link="https://fluentd.org/" title="Fluentd" >}}
+{{< hextra/feature-card icon="opentelemetry" link="https://opentelemetry.io/" title="OpenTelemetry" >}}
+{{< hextra/feature-card icon="prometheus" link="https://prometheus.io/" title="Prometheus" >}}
 {{< hextra/feature-card icon="grafana" link="https://grafana.com/" title="Grafana" >}}
 {{< hextra/feature-card icon="zabbix" link="https://www.zabbix.com/" title="Zabbix" >}}
 {{< /hextra/feature-grid >}}
