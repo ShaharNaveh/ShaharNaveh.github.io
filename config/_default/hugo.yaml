@@ -1,1 +1,133 @@
+baseURL: https://shaharnaveh.github.io/
+title: Shahar Naveh
+theme: hextra
 
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+hasCJKLanguage: false
+enableInlineShortcodes: true
+summaryLength: 0
+
+defaultContentLanguage: en 
+languageCode: en-us 
+languages:
+  en:
+    languageCode: en-US
+    languageName: English
+    weight: 1
+    title: Shahar Naveh
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.112.0"
+   
+outputs:
+  home:
+    - HTML 
+    - RSS 
+    - JsonFeed
+  page:
+    - HTML 
+  section:
+    - HTML 
+    - RSS
+    
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      pageRef: /blog
+      weight: 1
+    - name: GitHub
+      weight: 2
+      url: "https://github.com/ShaharNaveh/"
+      params:
+        icon: github
+    - name: Search
+      weight: 3
+      params:
+        type: search
+
+params:
+  description: Explore unconventional applications of technology to broaden your perspectives and enhance efficiency
+  displayUpdatedDate: false
+  dateFormat: "January 2, 2006"
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    logo:
+      path: images/logo.svg
+      dark: images/logo.svg #images/logo-dark.svg
+      # width: 40
+      # height: 20
+      link: /
+    width: wide
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: false
+    width: normal
+  
+  # Search
+  # flexsearch is enabled by default
+  search:
+    enable: true
+    type: flexsearch
+
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      # full | forward | reverse | strict
+      # https://github.com/nextapps-de/flexsearch/#tokenizer-prefix-search
+      tokenize: forward
+
+  editURL:
+    enable: true
+    base: "https://github.com/ShaharNaveh/ShaharNaveh.github.io/edit/main/content"
+
+  blog:
+    list:
+      displayTags: true
+      # date | lastmod | publishDate | title | weight
+      sortBy: title 
+      # asc | desc
+      sortOrder: asc
+
+  comments:
+    enable: false
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
+  vimeo:
+    disable: true
+  youtube:
+    disable: true
