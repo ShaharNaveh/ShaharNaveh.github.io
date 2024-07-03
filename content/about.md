@@ -5,6 +5,12 @@ title: About
 I'm a Dev(Sec)Ops that loves to automate everything with an obsession to security 😅
 
 ## Tools & Platforms I Work with 
+### DBMS 
+<br />
+{{< hextra/feature-grid >}}
+{{< /hextra/feature-grid >}}
+
+
 ### Programming Languages 
 <br />
 {{< hextra/feature-grid >}}
