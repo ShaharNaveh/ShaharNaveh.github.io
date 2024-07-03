@@ -11,9 +11,4 @@ summaryLength: 0
 
 defaultContentLanguage: en 
 languageCode: en-us 
-languages:
-  en:
-    languageCode: en-US
-    languageName: English
-    weight: 1
-    title: Shahar Naveh
+
