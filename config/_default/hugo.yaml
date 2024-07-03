@@ -17,8 +17,3 @@ languages:
     languageName: English
     weight: 1
     title: Shahar Naveh
-
-module:
-  hugoVersion:
-    extended: true
-    min: "0.112.0"
