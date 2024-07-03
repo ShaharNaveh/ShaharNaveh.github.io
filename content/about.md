@@ -75,7 +75,8 @@ groovy
 {{< hextra/feature-grid >}}
 
 
-{{< hextra/feature-card icon="ansible" link="https://www.ansible.com" title="OTEL" >}}
+OTEL 
+FLUENT
 {{< hextra/feature-card icon="prometheus" link="https://prometheus.io" title="Prometheus" >}}
 {{< hextra/feature-card icon="grafana" link="https://grafana.com/" title="Grafana" >}}
 {{< hextra/feature-card icon="zabbix" link="https://www.zabbix.com/" title="Zabbix" >}}
