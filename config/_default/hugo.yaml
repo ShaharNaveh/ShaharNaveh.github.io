@@ -44,18 +44,3 @@ markup:
     startLevel: 2
     endLevel: 4
 
-menu:
-  main:
-    - identifier: blog
-      name: Blog
-      pageRef: /blog
-      weight: 1
-    - name: GitHub
-      weight: 2
-      url: "https://github.com/ShaharNaveh/"
-      params:
-        icon: github
-    - name: Search
-      weight: 3
-      params:
-        type: search
