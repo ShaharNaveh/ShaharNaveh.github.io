@@ -12,7 +12,7 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="argocd" link="https://argo-cd.readthedocs.io/" title="ArgoCD" >}}
 {{< hextra/feature-card icon="crossplane" link="https://www.crossplane.io" title="Crossplane" >}}
 {{< hextra/feature-card icon="helm" link="https://helm.sh/" title="Helm" >}}
-pulumi
+{{< hextra/feature-card icon="pulumi" link="https://www.pulumi.com/" title="Pulumi" >}}
 {{< hextra/feature-card icon="terraform" link="https://www.terraform.io" title="Terraform" >}}
 {{< /hextra/feature-grid >}}
 
