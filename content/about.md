@@ -2,7 +2,8 @@
 title: About
 ---
 
-I'm a Dev(Sec)Ops that loves to automate everything with an obsession to security 😅
+Started as a [penetration tester](https://en.m.wikipedia.org/wiki/Penetration_test), but figured I was enjoying writing the automation for the exploitation rather than the pentest itself.
+So now I'm a Dev(Sec)Ops, who automates everything that is also obsessed with security 😅
 
 ## Tools & Platforms I Work with 
 ### Automation & Deployment 
