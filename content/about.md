@@ -8,12 +8,10 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 ### DBMS 
 <br />
 {{< hextra/feature-grid >}}
+{{< hextra/feature-card icon="elasticsearch" link="https://www.elastic.co/elasticsearch" title="Elasticsearch" >}}
 {{< hextra/feature-card icon="mongodb" link="https://www.mongodb.com/" title="MongoDB" >}}
 {{< hextra/feature-card icon="postgresql" link="https://www.postgresql.org/" title="Postgresql" >}}
-
-
 {{< /hextra/feature-grid >}}
-
 
 ### Programming Languages 
 <br />
@@ -25,7 +23,8 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 
 {{< hextra/feature-card icon="css" link="https://www.w3.org/TR/CSS/#css" title="CSS" >}}
 {{< hextra/feature-card icon="docker" link="https://www.docker.com/" title="Docker" >}}
-{{< hextra/feature-card icon="elasticsearch" link="https://www.elastic.co/elasticsearch" title="Elasticsearch" >}}
+
+
 {{< hextra/feature-card icon="git" link="https://git-scm.com/" title="Git" >}}
 {{< hextra/feature-card icon="github-actions" title="https://docs.github.com/en/actions" title="GitHub Actions" >}}
 {{< hextra/feature-card icon="helm" link="https://helm.sh/" title="Helm" >}}
