@@ -7,6 +7,14 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 ## Tools & Platforms I Work with 
 ### Automation & Deployment 
 <br />
+{{< hextra/feature-grid >}}
+{{< hextra/feature-card icon="ansible" link="https://www.ansible.com" title="Ansible" >}}
+
+{{< hextra/feature-card icon="crossplane" link="https://www.crossplane.io" title="Crossplane" >}}
+
+pulumi
+{{< hextra/feature-card icon="terraform" link="https://www.terraform.io" title="Terraform" >}}
+{{< /hextra/feature-grid >}}
 
 ### Cloud Platforms & Containerization 
 <br />
@@ -51,15 +59,7 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< /hextra/feature-grid >}}
 
 ### Configuration/Infrastructure as Code
-<br />
-{{< hextra/feature-grid >}}
-{{< hextra/feature-card icon="ansible" link="https://www.ansible.com" title="Ansible" >}}
 
-{{< hextra/feature-card icon="crossplane" link="https://www.crossplane.io" title="Crossplane" >}}
-
-pulumi
-{{< hextra/feature-card icon="terraform" link="https://www.terraform.io" title="Terraform" >}}
-{{< /hextra/feature-grid >}}
 
 ### Monitoring & Observability 
 <br />
