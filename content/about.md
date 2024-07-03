@@ -59,7 +59,7 @@ groovy
 ### VCS & CI/CD
 <br />
 {{< hextra/feature-grid >}}
-Bitbucket
+{{< hextra/feature-card icon="bitbucket-colored" link="https://bitbucket.org/product/features/pipelines" title="Bitbucket Pipelines" >}}
 {{< hextra/feature-card icon="git" link="https://git-scm.com/" title="Git" >}}
 gitlab
 {{< hextra/feature-card icon="github-actions" title="https://docs.github.com/en/actions" title="GitHub Actions" >}}
