@@ -8,6 +8,10 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 ### DBMS 
 <br />
 {{< hextra/feature-grid >}}
+{{< hextra/feature-card icon="mongodb" link="https://www.mongodb.com/" title="MongoDB" >}}
+{{< hextra/feature-card icon="postgresql" link="https://www.postgresql.org/" title="Postgresql" >}}
+
+
 {{< /hextra/feature-grid >}}
 
 
@@ -29,8 +33,9 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="java" link="https://www.java.com/" title="Java" >}}
 {{< hextra/feature-card icon="jenkins" link="https://www.jenkins.io/" title="Jenkins" >}}
 {{< hextra/feature-card icon="kubernetes" link="https://kubernetes.io/" title="Kubernetes" >}}
-{{< hextra/feature-card icon="mongodb" link="https://www.mongodb.com/" title="MongoDB" >}}
-{{< hextra/feature-card icon="postgresql" link="https://www.postgresql.org/" title="Postgresql" >}}
+
+
+
 {{< hextra/feature-card icon="python" link="https://www.python.org/" title="Python" >}}
 {{< hextra/feature-card icon="ruby" link="https://www.ruby-lang.org/en/" title="Ruby" >}}
 {{< hextra/feature-card icon="rust" link="https://www.rust-lang.org" title="Rust" >}}
