@@ -11,6 +11,7 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="ansible" link="https://www.ansible.com" title="Ansible" >}}
 {{< hextra/feature-card icon="argocd" link="https://argo-cd.readthedocs.io/" title="ArgoCD" >}}
 {{< hextra/feature-card icon="crossplane" link="https://www.crossplane.io" title="Crossplane" >}}
+{{< hextra/feature-card icon="helm" link="https://helm.sh/" title="Helm" >}}
 pulumi
 {{< hextra/feature-card icon="terraform" link="https://www.terraform.io" title="Terraform" >}}
 {{< /hextra/feature-grid >}}
@@ -34,16 +35,12 @@ pulumi
 ### Programming Languages 
 <br />
 {{< hextra/feature-grid >}}
-
-
 {{< hextra/feature-card icon="bash" link="https://www.gnu.org/software/bash/" title="Bash" >}}
 {{< hextra/feature-card icon="c-sharp" link="https://dotnet.microsoft.com/en-us/languages/csharp" title="C#" >}}
-
 {{< hextra/feature-card icon="css" link="https://www.w3.org/TR/CSS/#css" title="CSS" >}}
 
 
 
-{{< hextra/feature-card icon="helm" link="https://helm.sh/" title="Helm" >}}
 {{< hextra/feature-card icon="html" link="https://html.spec.whatwg.org/" title="HTML" >}}
 {{< hextra/feature-card icon="java" link="https://www.java.com/" title="Java" >}}
 
