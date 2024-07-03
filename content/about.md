@@ -19,10 +19,10 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="git" link="https://git-scm.com/" title="Git" >}}
 {{< hextra/feature-card icon="github-actions" title="https://docs.github.com/en/actions" title="GitHub Actions" >}}
 {{< hextra/feature-card icon="grafana" link="https://grafana.com/" title="Grafana" >}}
-{{< hextra/feature-card icon="helm" title="Helm" >}}
-{{< hextra/feature-card icon="html" title="HTML" >}}
-{{< hextra/feature-card icon="java" title="Java" >}}
-{{< hextra/feature-card icon="jenkins" title="Jenkins" >}}
+{{< hextra/feature-card icon="helm" link="https://helm.sh/" title="Helm" >}}
+{{< hextra/feature-card icon="html" link="https://html.spec.whatwg.org/" title="HTML" >}}
+{{< hextra/feature-card icon="java" link="https://www.java.com/" title="Java" >}}
+{{< hextra/feature-card icon="jenkins" link="https://www.jenkins.io/" title="Jenkins" >}}
 {{< hextra/feature-card icon="kubernetes" title="Kubernetes" >}}
 {{< hextra/feature-card icon="mongodb" title="MongoDB" >}}
 {{< hextra/feature-card icon="postgresql" title="Postgresql" >}}
