@@ -62,7 +62,7 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-grid >}}
 {{< hextra/feature-card icon="bitbucket-colored" link="https://bitbucket.org/product/features/pipelines" title="Bitbucket Pipelines" >}}
 {{< hextra/feature-card icon="git" link="https://git-scm.com/" title="Git" >}}
-{{< hextra/feature-card icon="gitlab-colored" link="https://docs.gitlab.com/ee/ci/pipelines/" title="GitLab CI/CD Pipelines" >}}
+{{< hextra/feature-card icon="gitlab-colored" link="https://docs.gitlab.com/ee/ci/pipelines/" title="GitLab CI/CD pipelines" >}}
 {{< hextra/feature-card icon="github-actions" title="https://docs.github.com/en/actions" title="GitHub Actions" >}}
 {{< hextra/feature-card icon="jenkins" link="https://www.jenkins.io/" title="Jenkins" >}}
 {{< /hextra/feature-grid >}}
