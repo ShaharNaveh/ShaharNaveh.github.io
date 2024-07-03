@@ -7,14 +7,11 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 ## Tools & Platforms I Work with
 ### Cloud Platforms & Containerization 
 <br />
+
 {{< hextra/feature-grid >}}
 {{< hextra/feature-card icon="aws" link="aws.amazon.com" title="AWS" >}}
 {{< hextra/feature-card icon="docker" link="https://www.docker.com/" title="Docker" >}}
-
 {{< hextra/feature-card icon="kubernetes" link="https://kubernetes.io/" title="Kubernetes" >}}
-
-
-
 {{< /hextra/feature-grid >}}
 
 ### DBMS 
