@@ -32,6 +32,16 @@ pulumi
 {{< hextra/feature-card icon="postgresql" link="https://www.postgresql.org/" title="Postgresql" >}}
 {{< /hextra/feature-grid >}}
 
+### Monitoring & Observability 
+<br />
+{{< hextra/feature-grid >}}
+OTEL 
+FLUENT
+{{< hextra/feature-card icon="prometheus" link="https://prometheus.io" title="Prometheus" >}}
+{{< hextra/feature-card icon="grafana" link="https://grafana.com/" title="Grafana" >}}
+{{< hextra/feature-card icon="zabbix" link="https://www.zabbix.com/" title="Zabbix" >}}
+{{< /hextra/feature-grid >}}
+
 ### Programming Languages 
 <br />
 {{< hextra/feature-grid >}}
@@ -54,14 +64,4 @@ Bitbucket
 gitlab
 {{< hextra/feature-card icon="github-actions" title="https://docs.github.com/en/actions" title="GitHub Actions" >}}
 {{< hextra/feature-card icon="jenkins" link="https://www.jenkins.io/" title="Jenkins" >}}
-{{< /hextra/feature-grid >}}
-
-### Monitoring & Observability 
-<br />
-{{< hextra/feature-grid >}}
-OTEL 
-FLUENT
-{{< hextra/feature-card icon="prometheus" link="https://prometheus.io" title="Prometheus" >}}
-{{< hextra/feature-card icon="grafana" link="https://grafana.com/" title="Grafana" >}}
-{{< hextra/feature-card icon="zabbix" link="https://www.zabbix.com/" title="Zabbix" >}}
 {{< /hextra/feature-grid >}}
