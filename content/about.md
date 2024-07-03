@@ -44,21 +44,32 @@ pulumi
 {{< hextra/feature-card icon="css" link="https://www.w3.org/TR/CSS/#css" title="CSS" >}}
 
 
-{{< hextra/feature-card icon="git" link="https://git-scm.com/" title="Git" >}}
-{{< hextra/feature-card icon="github-actions" title="https://docs.github.com/en/actions" title="GitHub Actions" >}}
+
 {{< hextra/feature-card icon="helm" link="https://helm.sh/" title="Helm" >}}
 {{< hextra/feature-card icon="html" link="https://html.spec.whatwg.org/" title="HTML" >}}
 {{< hextra/feature-card icon="java" link="https://www.java.com/" title="Java" >}}
-{{< hextra/feature-card icon="jenkins" link="https://www.jenkins.io/" title="Jenkins" >}}
 
-
+groovy
 
 {{< hextra/feature-card icon="python" link="https://www.python.org/" title="Python" >}}
 {{< hextra/feature-card icon="ruby" link="https://www.ruby-lang.org/en/" title="Ruby" >}}
 {{< hextra/feature-card icon="rust" link="https://www.rust-lang.org" title="Rust" >}}
 {{< /hextra/feature-grid >}}
 
-### Configuration/Infrastructure as Code
+### VCS & CI/CD
+<br />
+{{< hextra/feature-grid >}}
+
+{{< hextra/feature-card icon="git" link="https://git-scm.com/" title="Git" >}}
+{{< hextra/feature-card icon="github-actions" title="https://docs.github.com/en/actions" title="GitHub Actions" >}}
+
+
+{{< hextra/feature-card icon="jenkins" link="https://www.jenkins.io/" title="Jenkins" >}}
+
+
+
+{{< /hextra/feature-grid >}}
+
 
 
 ### Monitoring & Observability 
