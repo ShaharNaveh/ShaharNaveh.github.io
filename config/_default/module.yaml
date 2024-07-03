@@ -1,0 +1,3 @@
+hugoVersimoduleon:
+  extended: true
+  min: "0.112.0"
