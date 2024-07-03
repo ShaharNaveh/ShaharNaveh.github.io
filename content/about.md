@@ -5,7 +5,7 @@ title: About
 I'm a Dev(Sec)Ops that loves to automate everything with an obsession to security 😅
 
 ## Tools & Platforms I Work with 
-<br />
+### Programming Languages
 {{< hextra/feature-grid >}}
 {{< hextra/feature-card icon="ansible" link="https://www.ansible.com" title="Ansible" >}}
 {{< hextra/feature-card icon="argocd" link="https://argo-cd.readthedocs.io/" title="ArgoCD" >}}
@@ -30,6 +30,10 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="python" link="https://www.python.org/" title="Python" >}}
 {{< hextra/feature-card icon="ruby" link="https://www.ruby-lang.org/en/" title="Ruby" >}}
 {{< hextra/feature-card icon="rust" link="https://www.rust-lang.org" title="Rust" >}}
-{{< hextra/feature-card icon="terraform" link="https://www.terraform.io" title="Terraform" >}}
 {{< hextra/feature-card icon="zabbix" link="https://www.zabbix.com/" title="Zabbix" >}}
+{{< /hextra/feature-grid >}}
+
+### Configuration/Infrastructure as Code 
+{{< hextra/feature-grid >}} 
+{{< hextra/feature-card icon="terraform" link="https://www.terraform.io" title="Terraform" >}}
 {{< /hextra/feature-grid >}}
