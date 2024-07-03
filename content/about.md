@@ -2,8 +2,8 @@
 title: About
 ---
 
-Started as a [penetration tester](https://en.m.wikipedia.org/wiki/Penetration_test), but figured I was enjoying writing the automation for the exploitation rather than the pentest itself.
-So now I'm a Dev(Sec)Ops, who automates everything that is also obsessed with security 😅
+Started as a [penetration tester](https://en.m.wikipedia.org/wiki/Penetration_test), but figured I was enjoying writing the automation for the exploitation more, than doing the pentest itself 😅
+So now I'm a Dev(Sec)Ops with an obsession for security who automates anything he can think of.
 
 ## Tools & Platforms I Work with 
 ### Automation & Deployment 
