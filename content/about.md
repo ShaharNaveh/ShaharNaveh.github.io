@@ -9,16 +9,13 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 <br />
 {{< hextra/feature-grid >}}
 {{< hextra/feature-card icon="ansible" link="https://www.ansible.com" title="Ansible" >}}
-
 {{< hextra/feature-card icon="crossplane" link="https://www.crossplane.io" title="Crossplane" >}}
-
 pulumi
 {{< hextra/feature-card icon="terraform" link="https://www.terraform.io" title="Terraform" >}}
 {{< /hextra/feature-grid >}}
 
 ### Cloud Platforms & Containerization 
 <br />
-
 {{< hextra/feature-grid >}}
 {{< hextra/feature-card icon="aws" link="aws.amazon.com" title="AWS" >}}
 {{< hextra/feature-card icon="docker" link="https://www.docker.com/" title="Docker" >}}
