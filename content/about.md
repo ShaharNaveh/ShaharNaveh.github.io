@@ -18,7 +18,6 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="elasticsearch" link="https://www.elastic.co/elasticsearch" title="Elasticsearch" >}}
 {{< hextra/feature-card icon="git" link="https://git-scm.com/" title="Git" >}}
 {{< hextra/feature-card icon="github-actions" title="https://docs.github.com/en/actions" title="GitHub Actions" >}}
-{{< hextra/feature-card icon="grafana" link="https://grafana.com/" title="Grafana" >}}
 {{< hextra/feature-card icon="helm" link="https://helm.sh/" title="Helm" >}}
 {{< hextra/feature-card icon="html" link="https://html.spec.whatwg.org/" title="HTML" >}}
 {{< hextra/feature-card icon="java" link="https://www.java.com/" title="Java" >}}
@@ -30,7 +29,6 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="python" link="https://www.python.org/" title="Python" >}}
 {{< hextra/feature-card icon="ruby" link="https://www.ruby-lang.org/en/" title="Ruby" >}}
 {{< hextra/feature-card icon="rust" link="https://www.rust-lang.org" title="Rust" >}}
-{{< hextra/feature-card icon="zabbix" link="https://www.zabbix.com/" title="Zabbix" >}}
 {{< /hextra/feature-grid >}}
 
 ### Configuration/Infrastructure as Code
@@ -38,4 +36,15 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-grid >}}
 {{< hextra/feature-card icon="ansible" link="https://www.ansible.com" title="Ansible" >}}
 {{< hextra/feature-card icon="terraform" link="https://www.terraform.io" title="Terraform" >}}
+{{< /hextra/feature-grid >}}
+
+### Monitoring & Observability 
+<br />
+{{< hextra/feature-grid >}}
+
+
+{{< hextra/feature-card icon="ansible" link="https://www.ansible.com" title="OTEL" >}}
+
+{{< hextra/feature-card icon="grafana" link="https://grafana.com/" title="Grafana" >}}
+{{< hextra/feature-card icon="zabbix" link="https://www.zabbix.com/" title="Zabbix" >}}
 {{< /hextra/feature-grid >}}
