@@ -22,15 +22,3 @@ module:
   hugoVersion:
     extended: true
     min: "0.112.0"
-   
-outputs:
-  home:
-    - HTML 
-    - RSS 
-    - JsonFeed
-  page:
-    - HTML 
-  section:
-    - HTML 
-    - RSS
-    
