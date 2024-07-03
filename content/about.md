@@ -23,9 +23,9 @@ I'm a Dev(Sec)Ops that loves to automate everything with an obsession to securit
 {{< hextra/feature-card icon="html" link="https://html.spec.whatwg.org/" title="HTML" >}}
 {{< hextra/feature-card icon="java" link="https://www.java.com/" title="Java" >}}
 {{< hextra/feature-card icon="jenkins" link="https://www.jenkins.io/" title="Jenkins" >}}
-{{< hextra/feature-card icon="kubernetes" title="Kubernetes" >}}
-{{< hextra/feature-card icon="mongodb" title="MongoDB" >}}
-{{< hextra/feature-card icon="postgresql" title="Postgresql" >}}
+{{< hextra/feature-card icon="kubernetes" link="https://kubernetes.io/" title="Kubernetes" >}}
+{{< hextra/feature-card icon="mongodb" link="https://www.mongodb.com/" title="MongoDB" >}}
+{{< hextra/feature-card icon="postgresql" link="https://www.postgresql.org/" title="Postgresql" >}}
 {{< hextra/feature-card icon="prometheus" title="Prometheus" >}}
 {{< hextra/feature-card icon="python" title="Python" >}}
 {{< hextra/feature-card icon="ruby" title="Ruby" >}}
