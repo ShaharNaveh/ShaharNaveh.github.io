@@ -120,6 +120,8 @@ You can get a base `default.css` here:
 
 {{% details title="Base `default.css`" closed="true" %}}
 ```css {filename="css/default.css"}
+{{< readfile file="assets/default.css" >}}
+
 @import "normalize.css";
 
 @charset "UTF-8";
