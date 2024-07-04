@@ -126,7 +126,7 @@ You can get a base `default.css` here:
 
 {{% details title="Base `default.css`" closed="true" %}}
 ```css {filename="css/default.css"}
-{{% include "assets/default.css" %}}
+{{% include "blog/cicd-your-cv/assets/default.css" %}}
 ```
 {{% /details %}}
 
