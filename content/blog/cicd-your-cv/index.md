@@ -119,7 +119,9 @@ It's recommended to import `normalize.css` from `default.css` like this:
 You can get a base `default.css` here:
 
 {{% details title="Base `default.css`" closed="true" %}}
-```css {filename="css/default.css"} {{< readfile file="assets/default.css" >}}```
+```css {filename="css/default.css"}
+{{< readfile file="assets/default.css" >}}
+```
 {{% /details %}}
 
 ### Justfile 
