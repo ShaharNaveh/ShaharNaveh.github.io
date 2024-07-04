@@ -124,6 +124,13 @@ You can get a base `default.css` here:
 ```
 {{% /details %}}
 
+{{% details title="Base `default.css`" closed="true" %}}
+```css {filename="css/default.css"}
+{{% include "assets/default.css" %}}
+```
+{{% /details %}}
+
+
 ### Justfile 
 The [just](https://github.com/casey/just) utility allows us to save and run predefined commands easily.
 
