@@ -23,15 +23,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     # env:
-    #  HUGO_VERSION: 0.128.0 
-    env:
-      HUGO_VERSION: 0.128.0
+    #  HUGO_VERSION: v0.128.0 
     steps: 
       - name: Get latest Hugo version 
         if: ${{ env.HUGO_VERSION == '' }}
         run: |
-          jq --version
-          exit 1
+          #HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep -oP '"tag_name": "\K(.*)(?=")')
+          HUGO_LATEST_RELEASE=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest)
+          HUGO_VERSION=${{ fromJSON(HUGO_LATEST_RELEASE) }}
+          echo $HUGO_VERSION
 
       - name: stop 
         run: exit 1
