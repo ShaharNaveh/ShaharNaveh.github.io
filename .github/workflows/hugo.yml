@@ -43,14 +43,18 @@ jobs:
           path: ${{ env.RUNNER_TOOL_CACHE }}/hugo/
           key: ${{ runner.os }}-${{ env.HUGO_VERSION }}-hugo
 
-      - name: Install Hugo CLI
+      - name: Install Hugo CLI 
+        # if: cache miss
         run: | 
           declare -A oses=( ["Linux"]="linux" ["macOS"]="darwin" ) 
           _os="${oses[$RUNNER_OS]}"
           
           declare -A arches=( ["X64"]="amd64" ["ARM"]="arm64" ["ARM64"]="arm64" )
           _arch="${arches[$RUNNER_ARCH]}"
-          wget -O ${{ runner.temp }}/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${HUGO_VERSION#v}_${_os}-${_arch}.tar.gz
+          dest="${{ runner.temp }}/hugo.tar.gz"
+          wget -O ${dest} https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${HUGO_VERSION#v}_${_os}-${_arch}.tar.gz
+          tar xzvf ${dest}
+          ls -Alhr ${{ runner.temp }}
           # sudo dpkg -i ${{ runner.temp }}/hugo.deb 
           
       - name: debug 
