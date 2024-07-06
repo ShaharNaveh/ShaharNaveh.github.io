@@ -57,7 +57,7 @@ jobs:
           _arch="${arches[$RUNNER_ARCH]}"
           output_file="${{ runner.temp }}/hugo.tar.gz"
           wget -O ${output_file} https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${HUGO_VERSION#v}_${_os}-${_arch}.tar.gz
-          tar -C "${{ runner.temp }} -xzf ${output_file}
+          tar -C "${{ runner.temp }}" -xzf ${output_file}
           find "${{ runner.temp }}"
           echo
           ls -Alh
