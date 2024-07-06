@@ -49,7 +49,7 @@ jobs:
 
       - name: Install Hugo CLI 
         if: steps.cache-hugo.outputs.cache-hit != 'true'
-        run: | 
+        run: |
           declare -A oses=( ["Linux"]="linux" ["macOS"]="darwin" ) 
           _os="${oses[$RUNNER_OS]}"
           
