@@ -30,7 +30,7 @@ jobs:
         run: |
           #HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep -oP '"tag_name": "\K(.*)(?=")')
           HUGO_LATEST_RELEASE=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest)
-          HUGO_VERSION=${{ fromJSON(HUGO_LATEST_RELEASE) }}
+          HUGO_VERSION=${{ fromJSON(env.HUGO_LATEST_RELEASE) }}
           echo $HUGO_VERSION
 
       - name: stop 
