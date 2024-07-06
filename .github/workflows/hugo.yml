@@ -34,10 +34,9 @@ jobs:
 
       - name: Create Hugo Directory 
         id: hugo-dir
-        continue-on-error: false
+        continue-on-error: true
         run: |
-          echo $RUNNER_TOOL_CACHE
-          target_dir="${RUNNER_TOOL_CACHE}/hugo"
+          target_dir="$RUNNER_TOOL_CACHE/hugo"
           echo "target_dir=${target_dir}" >> $GITHUB_OUTPUT
           mkdir -p "${target_dir}"
           
@@ -45,7 +44,7 @@ jobs:
         id: hugo-cache
         uses: actions/cache@v4
         with:
-          path: ${{ env.RUNNER_TOOL_CACHE }}/hugo/
+          path: ${{ env.RUNNER_TOOL_CACHE }}/hugo/hugo
           key: ${{ runner.os }}-${{ env.HUGO_VERSION }}-hugo
 
       - name: Install Hugo CLI 
