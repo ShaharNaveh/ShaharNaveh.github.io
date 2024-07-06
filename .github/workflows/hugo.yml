@@ -36,7 +36,7 @@ jobs:
         id: hugo-dir
         continue-on-error: true
         run: |
-          target_dir="$RUNNER_TOOL_CACHE/hugo"
+          target_dir="${{ runner.tool_cache }}/hugo"
           echo "target_dir=${target_dir}" >> $GITHUB_OUTPUT
           mkdir -p "${target_dir}"
           
