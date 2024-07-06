@@ -44,7 +44,7 @@ jobs:
         id: hugo-cache
         uses: actions/cache@v4
         with:
-          path: ${{ env.RUNNER_TOOL_CACHE }}/hugo/hugo
+          path: ${{ runner.tool_cache }}/hugo/hugo
           key: ${{ runner.os }}-${{ env.HUGO_VERSION }}-hugo
 
       - name: Install Hugo CLI 
@@ -62,7 +62,7 @@ jobs:
           mv "${{ runner.temp }}/hugo" "${{ steps.hugo-dir.outputs.target_dir }}"
           
       - name: Add Hugo to PATH
-        run: echo "${{ env.RUNNER_TOOL_CACHE }}/hugo" >> $GITHUB_PATH 
+        run: echo "${{ runner.tool_cache }}/hugo" >> $GITHUB_PATH 
         
       - name: debug 
         run: hugo --version
