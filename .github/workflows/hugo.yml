@@ -45,10 +45,12 @@ jobs:
 
       - name: Install Hugo CLI
         run: | 
-       #   hugo_extended_0.128.2_linux-amd64.tar.gz 
           declare -A oses=( ["Linux"]="linux" ["macOS"]="darwin" ) 
-          os="${oses[$RUNNER_OS]}"
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${HUGO_VERSION#v}_${os}-amd64.deb
+          _os="${oses[$RUNNER_OS]}"
+          
+          declare -A arches=( ["X64"]="amd64" ["ARM"]="arm64" ["ARM64"]="arm64" )
+          _arch="${arches[$RUNNER_ARCH]}"
+          wget -O ${{ runner.temp }}/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${HUGO_VERSION#v}_${_os}-${_arch}.tar.gz
           # sudo dpkg -i ${{ runner.temp }}/hugo.deb 
           
       - name: debug 
