@@ -43,6 +43,13 @@ jobs:
           path: ${{ env.RUNNER_TOOL_CACHE }}/hugo/
           key: ${{ runner.os }}-${{ env.HUGO_VERSION }}-hugo
 
+      - name: Download Hugo
+        run: |
+          hugo_version=${{ env.HUGO_VERSION }}
+          hugo_version=${hugo_version#"v"}
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_extended_${hugo_version}_linux-amd64.deb
+          # sudo dpkg -i ${{ runner.temp }}/hugo.deb 
+          
       - name: debug 
         run: hugo --version
         
