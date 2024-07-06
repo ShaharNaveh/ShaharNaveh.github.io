@@ -37,7 +37,7 @@ jobs:
         continue-on-error: true
         run: |
           target_dir="${{ env.RUNNER_TOOL_CACHE }}/hugo"
-          echo "${target_dir}" >> $GITHUB_OUTPUT
+          echo "target_dir=${target_dir}" >> $GITHUB_OUTPUT
           mkdir -p "${target_dir}"
           
       - name: Cache Hugo
@@ -58,7 +58,7 @@ jobs:
           output_file="${{ runner.temp }}/hugo.tar.gz"
           wget -O ${output_file} https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${HUGO_VERSION#v}_${_os}-${_arch}.tar.gz
           tar xzf ${output_file}
-          mv "${{ runner.temp }}/hugo" the outpur
+          mv "${{ runner.temp }}/hugo" ${{ steps.hugo-dir.outputs.target_dir }}
           
       - name: Add Hugo to PATH
         run: echo "${{ env.RUNNER_TOOL_CACHE }}/hugo" >> $GITHUB_PATH 
