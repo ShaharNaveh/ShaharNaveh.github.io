@@ -63,27 +63,6 @@ jobs:
           
       - name: Add Hugo to PATH
         run: echo "${{ runner.tool_cache }}/hugo" >> $GITHUB_PATH 
-        
-      - name: debug 
-        run: hugo --version
-        
-      - name: stop
-        run: exit 1
-      - name: Setup Hugo
-        run: |
-          if which hugo >/dev/null 2>&1; then
-            echo "Hugo already installed"
-          else
-            HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep -oP '"tag_name": "\K(.*)(?=")')
-            wget https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_${HUGO_VERSION#v}_Linux-64bit.tar.gz
-            tar -xzf hugo_${HUGO_VERSION#v}_Linux-64bit.tar.gz
-            sudo mv hugo $(go env GOPATH)/bin/
-          fi
-
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb 
           
       - name: Install Dart Sass
         run: sudo snap install dart-sass
