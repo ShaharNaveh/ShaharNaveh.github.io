@@ -28,7 +28,7 @@ jobs:
       - name: Get latest Hugo version 
         if: ${{ env.HUGO_VERSION == '' }}
         run: |
-          HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq '.tag_name')
+          HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name')
           echo $HUGO_VERSION 
           echo $HUGO_VERSIONA
       - name: stop
