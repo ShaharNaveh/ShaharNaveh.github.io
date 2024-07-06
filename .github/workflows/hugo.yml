@@ -22,13 +22,17 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: latest
+    # env:
+    #  HUGO_VERSION: 0.128.0
     steps: 
-      - name: test 
+      - name: Get latest Hugo version 
+        if: ${{ env.HUGO_VERSION == '' }}
         run: |
           jq --version
           exit 1
+
+      - name: stop 
+        run: exit 1
       - name: Setup Hugo
         run: |
           if which hugo >/dev/null 2>&1; then
