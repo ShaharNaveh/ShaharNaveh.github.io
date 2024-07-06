@@ -33,9 +33,13 @@ jobs:
           echo "Latest Hugo version: ${HUGO_VERSION}"
 
       - name: Create Hugo Directory 
+        id: hugo-dir
         continue-on-error: true
-        run: mkdir -p "${RUNNER_TOOL_CACHE}/hugo/"
-
+        run: |
+          target_dir="${{ env.RUNNER_TOOL_CACHE }}/hugo"
+          echo "${target_dir}" >> $GITHUB_OUTPUT
+          mkdir -p "${target_dir}"
+          
       - name: Cache Hugo
         id: hugo-cache
         uses: actions/cache@v4
@@ -51,12 +55,14 @@ jobs:
           
           declare -A arches=( ["X64"]="amd64" ["ARM"]="arm64" ["ARM64"]="arm64" )
           _arch="${arches[$RUNNER_ARCH]}"
-          dest="${{ runner.temp }}/hugo.tar.gz"
-          wget -O ${dest} https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${HUGO_VERSION#v}_${_os}-${_arch}.tar.gz
-          tar xzvf ${dest}
-          ls -Alhr ${{ runner.temp }}
-          # sudo dpkg -i ${{ runner.temp }}/hugo.deb 
+          output_file="${{ runner.temp }}/hugo.tar.gz"
+          wget -O ${output_file} https://github.com/gohugoio/hugo/releases/download/${HUGO_VERSION}/hugo_extended_${HUGO_VERSION#v}_${_os}-${_arch}.tar.gz
+          tar xzf ${output_file}
+          mv "${{ runner.temp }}/hugo" the outpur
           
+      - name: Add Hugo to PATH
+        run: echo "${{ env.RUNNER_TOOL_CACHE }}/hugo" >> $GITHUB_PATH 
+        
       - name: debug 
         run: hugo --version
         
