@@ -36,14 +36,16 @@ jobs:
         continue-on-error: true
         run: mkdir -p "${RUNNER_TOOL_CACHE}/hugo/"
 
-
       - name: Cache Hugo
-        id: hugo
+        id: hugo-cache
         uses: actions/cache@v4
         with:
-          path: ${{ env.RUNNER_TOOL_CACHE}}/hugo/
+          path: ${{ env.RUNNER_TOOL_CACHE }}/hugo/
           key: ${{ runner.os }}-${{ env.HUGO_VERSION }}-hugo
 
+      - name: debug 
+        run: hugo --version
+        
       - name: stop
         run: exit 1
       - name: Setup Hugo
