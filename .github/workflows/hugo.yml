@@ -34,8 +34,9 @@ jobs:
 
       - name: Create Hugo Directory 
         id: hugo-dir
-        continue-on-error: true
+        continue-on-error: false
         run: |
+          echo $RUNNER_TOOL_CACHE
           target_dir="${RUNNER_TOOL_CACHE}/hugo"
           echo "target_dir=${target_dir}" >> $GITHUB_OUTPUT
           mkdir -p "${target_dir}"
