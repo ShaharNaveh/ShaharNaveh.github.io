@@ -41,14 +41,14 @@ jobs:
           mkdir -p "${target_dir}"
           
       - name: Cache Hugo
-        id: hugo-cache
+        id: cache-hugo
         uses: actions/cache@v4
         with:
           path: ${{ runner.tool_cache }}/hugo/hugo
           key: ${{ runner.os }}-${{ env.HUGO_VERSION }}-hugo
 
       - name: Install Hugo CLI 
-        # if: cache miss
+        if: steps.cache-hugo.outputs.cache-hit != 'true'
         run: | 
           declare -A oses=( ["Linux"]="linux" ["macOS"]="darwin" ) 
           _os="${oses[$RUNNER_OS]}"
