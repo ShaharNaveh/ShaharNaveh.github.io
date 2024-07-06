@@ -22,14 +22,15 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # env:
-    #  HUGO_VERSION: v0.128.0 
+    env:
+      HUGO_VERSIONA: v0.128.0 
     steps: 
       - name: Get latest Hugo version 
         if: ${{ env.HUGO_VERSION == '' }}
         run: |
           HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq '.tag_name')
-          echo $HUGO_VERSION
+          echo $HUGO_VERSION 
+          echo $HUGO_VERSIONA
       - name: stop
         run: exit 1
       - name: Setup Hugo
