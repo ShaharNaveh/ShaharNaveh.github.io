@@ -29,11 +29,9 @@ jobs:
         if: ${{ env.HUGO_VERSION == '' }}
         run: |
           #HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep -oP '"tag_name": "\K(.*)(?=")')
-          HUGO_LATEST_RELEASE=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest)
-          HUGO_VERSION=${{ fromJSON(env.HUGO_LATEST_RELEASE) }}
+          HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq '.tag_name')
           echo $HUGO_VERSION
-
-      - name: stop 
+      - name: stop
         run: exit 1
       - name: Setup Hugo
         run: |
