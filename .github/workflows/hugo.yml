@@ -25,14 +25,16 @@ jobs:
     # env:
     #   HUGO_VERSION: v0.128.2
     steps: 
-      - name: Get latest Hugo version 
+      - name: Get Latest Hugo Version 
         if: ${{ env.HUGO_VERSION == '' }}
         run: |
           HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name')
           echo "HUGO_VERSION=$HUGO_VERSION" >> $GITHUB_ENV 
           echo "Latest Hugo version: ${HUGO_VERSION}"
-      - name: test 
-        run: echo ${{ env.HUGO_VERSION }}
+      - name: Create Hugo Directory 
+        continue-on-error: true
+        run: mkdir -p "${RUNNER_TOOL_CACHE}/hugo/"
+
       - name: stop
         run: exit 1
       - name: Setup Hugo
