@@ -128,8 +128,7 @@ SSH will use the settings provided:
 The general flow is:
 
 {{% steps %}}
-
-### Copy the SSH Public Key to Your Clipboard.
+### Copy the SSH Public Key to Your Clipboard
 
 ```shell
 cat ~/.ssh/keys/github.pub
@@ -140,14 +139,12 @@ cat ~/.ssh/keys/github.pub
 Alternatively, locate the hidden `.ssh` folder, open the file in a text editor, and copy it to your clipboard.
 {{% /details %}}
 
-### Add the Public Key to Your User's SSH Keys.
-
+### Add the Public Key to Your User's SSH Keys
 {{% /steps %}}
 
 Follow the instructions for your provider:
 
 {{< hextra/feature-grid >}}
-
 {{< hextra/feature-card icon="bitbucket" link="https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-linux/#Provide-Bitbucket-Cloud-with-your-public-key" title="Bitbucket" >}}
 {{< hextra/feature-card icon="codeberg" link="https://docs.codeberg.org/security/ssh-key/" title="Codeberg" >}}
 {{< hextra/feature-card icon="github" link="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account" title="Github" >}}
@@ -198,7 +195,6 @@ If you don't get any errors, the setup is successful. 🥳
 You can omit the `--global` flag while inside a git repository to configure that repository only 
 {{< /callout >}}
 
-
 ## Tips & Tricks
 ### Set Private Key File Permissions
 If you encounter:
@@ -235,7 +231,6 @@ To switch providers, change the `Hostname` and `IdentityFile` in the SSH config 
 All existing repositories will point to the new provider, and new repositories will work as expected.
 
 {{< details title="Migrate from Github to Codeberg Config Example" >}}
-
 ```ssh-config {filename=".ssh/config"}
 # Edit old "Host" block to
 # automatically push code to new git hosting provider
@@ -250,5 +245,4 @@ Host codeberg.org
   IdentityFile %d/.ssh/keys/codeberg
   # Rest of parameters
 ```
-
 {{< /details >}}
