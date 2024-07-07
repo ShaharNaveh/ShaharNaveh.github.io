@@ -128,6 +128,7 @@ SSH will use the settings provided:
 The general flow is:
 
 {{% steps %}}
+
 ### Copy the SSH Public Key to Your Clipboard
 
 ```shell
@@ -140,8 +141,6 @@ Alternatively, locate the hidden `.ssh` folder, open the file in a text editor, 
 {{% /details %}}
 
 ### Add the Public Key to Your User's SSH Keys
-{{% /steps %}}
-
 Follow the instructions for your provider:
 
 {{< hextra/feature-grid >}}
@@ -154,6 +153,8 @@ Follow the instructions for your provider:
 {{< callout type="warning" >}}
 If your provider is not listed, please refer to their official documentation.
 {{< /callout >}}
+
+{{% /steps %}}
 
 ### Verify SSH Access
 Run:
