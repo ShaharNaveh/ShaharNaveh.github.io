@@ -96,14 +96,14 @@ Read more about available configuration options for `ssh-keygen` [here](https://
 
 ### Create the SSH Config File
 ```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
-  Host github.com
-    Hostname github.com
-    User git
-    IdentityFile "%d/.ssh/keys/github"
-    AddKeysToAgent yes
-    RequestTTY no
-    SessionType none
-  ```
+Host github.com
+  Hostname github.com
+  User git
+  IdentityFile "%d/.ssh/keys/github"
+  AddKeysToAgent yes
+  RequestTTY no
+  SessionType none
+```
 
 {{< callout type="info" >}}
 Read more about available configuration options for `ssh_config` [here](https://man.openbsd.org/ssh_config).
@@ -154,17 +154,8 @@ Follow the instructions for your provider:
     link="https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-linux/#Provide-Bitbucket-Cloud-with-your-public-key"
 >}}
 
-{{< hextra/feature-card
-    title="Codeberg"
-    icon="codeberg"
-    link="https://docs.codeberg.org/security/ssh-key/"
-  >}}
-
-{{< hextra/feature-card
-    title="Github"
-    icon="github"
-    link="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account"
->}}
+{{< hextra/feature-card icon="codeberg" title="Codeberg" link="https://docs.codeberg.org/security/ssh-key/" >}}
+{{< hextra/feature-card icon="github" link="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account" title="Github" >}}
 
 {{< hextra/feature-card
     title="Gitlab"
