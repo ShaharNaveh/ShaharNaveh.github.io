@@ -148,21 +148,10 @@ Follow the instructions for your provider:
 
 {{< hextra/feature-grid >}}
 
-{{< hextra/feature-card
-    title="Bitbucket"
-    icon="bitbucket"
-    link="https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-linux/#Provide-Bitbucket-Cloud-with-your-public-key"
->}}
-
-{{< hextra/feature-card icon="codeberg" title="Codeberg" link="https://docs.codeberg.org/security/ssh-key/" >}}
+{{< hextra/feature-card icon="bitbucket" link="https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-linux/#Provide-Bitbucket-Cloud-with-your-public-key" title="Bitbucket" >}}
+{{< hextra/feature-card icon="codeberg" link="https://docs.codeberg.org/security/ssh-key/" title="Codeberg" >}}
 {{< hextra/feature-card icon="github" link="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account" title="Github" >}}
-
-{{< hextra/feature-card
-    title="Gitlab"
-    icon="gitlab"
-    link="https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account"
->}}
-
+{{< hextra/feature-card icon="gitlab" link="https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account" title="Gitlab" >}}
 {{< /hextra/feature-grid >}}
 
 {{< callout type="warning" >}}
