@@ -95,11 +95,11 @@ Read more about available configuration options for `ssh-keygen` [here](https://
 {{< /callout >}}
 
 ### Create the SSH Config File
-```xorg.conf {linenos=table,linenostart=1,filename=".ssh/config"}
+```xorg {linenos=table,filename=".ssh/config"}
 Host github.com
   Hostname github.com
   User git
-  IdentityFile "%d/.ssh/keys/github"
+  IdentityFile %d/.ssh/keys/github
   AddKeysToAgent yes
   RequestTTY no
   SessionType none
@@ -156,8 +156,6 @@ Follow the instructions for your provider:
 {{< callout type="warning" >}}
 If your provider is not listed, please refer to their official documentation.
 {{< /callout >}}
-
-
 
 ### Verify SSH Access
 Run:
