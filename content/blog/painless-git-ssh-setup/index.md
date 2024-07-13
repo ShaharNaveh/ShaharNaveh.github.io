@@ -213,7 +213,7 @@ Run the following:
   {{< /tab >}}
 
   {{< tab >}}
-  ```powershell {title="PowerShell"}
+  ```powershell
   New-Variable -Name Key -Value "$env:UserProfile\.ssh\keys\github"
   Icacls $Key /c /t /Inheritance:d
   Icacls $Key /c /t /Grant ${env:UserName}:F
