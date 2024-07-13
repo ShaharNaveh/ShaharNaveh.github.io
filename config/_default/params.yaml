@@ -1,6 +1,7 @@
 description: Explore unconventional applications of technology to broaden your perspectives and enhance efficiency
 displayUpdatedDate: false
-dateFormat: "January 2, 2006"
+dateFormat: January 2, 2006
+
 navbar:
   displayTitle: true
   displayLogo: false
@@ -23,8 +24,8 @@ theme:
 
 footer:
   enable: true
-  displayCopyright: false
-  displayPoweredBy: false
+  displayCopyright: true
+  displayPoweredBy: true
   width: normal
   
 # Search
@@ -42,7 +43,7 @@ search:
 
 editURL:
   enable: true
-  base: "https://github.com/ShaharNaveh/ShaharNaveh.github.io/edit/main/content"
+  base: https://github.com/ShaharNaveh/ShaharNaveh.github.io/edit/main/content
 
 blog:
   list:
