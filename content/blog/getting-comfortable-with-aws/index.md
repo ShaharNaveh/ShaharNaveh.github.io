@@ -7,3 +7,6 @@ tags:
   - aws
 ---
 
+AWS is the worlds leading public cloud provider[^1]
+
+[^1]: Based on [this chart from statista.com](https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/)
