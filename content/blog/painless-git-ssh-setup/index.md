@@ -95,7 +95,7 @@ Read more about available configuration options for `ssh-keygen` [here](https://
 {{< /callout >}}
 
 ### Create the SSH Config File
-```ssh-config {linenos=table,linenostart=1,filename=".ssh/config"}
+```ssh-config {lineNos=true,linenostart=1,filename=".ssh/config"}
 Host github.com
   Hostname github.com
   User git
