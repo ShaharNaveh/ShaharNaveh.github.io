@@ -95,7 +95,7 @@ Read more about available configuration options for `ssh-keygen` [here](https://
 {{< /callout >}}
 
 ### Create the SSH Config File
-```xorg {linenos=table,filename=".ssh/config"}
+```xorg {filename=".ssh/config",linenos=table}
 Host github.com
   Hostname github.com
   User git
@@ -229,7 +229,7 @@ To switch providers, change the `Hostname` and `IdentityFile` in the SSH config 
 All existing repositories will point to the new provider, and new repositories will work as expected.
 
 {{< details title="Migrate from Github to Codeberg Config Example" >}}
-```xorg {linenos=table,filename=".ssh/config"}
+```xorg {filename=".ssh/config",linenos=table}
 # Edit old "Host" block to
 # automatically push code to new git hosting provider
 Host github.com
