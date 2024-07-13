@@ -1,11 +1,13 @@
 goldmark:
   renderer:
-    unsafe: true 
+    unsafe: true
+  parser:
+    attribute:
+      block: true
     
 highlight:
-  noClasses: false 
+  noClasses: false
   
 tableOfContents:
   startLevel: 2
   endLevel: 4
-
