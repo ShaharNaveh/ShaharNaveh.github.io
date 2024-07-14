@@ -14,3 +14,12 @@ As a result, proficiency in AWS is increasingly essential for job seekers, align
 
 ## Why this Post?
 Before exploring various AWS services, it's crucial to understand its core concepts and services. Lacking these fundamentals can create a barrier, leading to a "monkey see, monkey do" approach without true comprehension.
+
+## Networking
+### TL;DR Checklist
+- What is a network
+- Subnetting
+- Route Tables
+- Security Groups
+- Internet Gateway
+- (Optional) NAT
