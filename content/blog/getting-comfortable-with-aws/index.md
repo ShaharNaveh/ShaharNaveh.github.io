@@ -7,6 +7,7 @@ tags:
   - aws
 ---
 
-AWS is the worlds leading public cloud provider[^1]
+Amazon Web Services (AWS) dominates the cloud industry with a substantial market share[^1] and widespread adoption across various sectors.
+As a result, proficiency in AWS is increasingly essential for job seekers, aligning with the demands of many employers who prioritize AWS expertise.
 
 [^1]: Based on [this chart from statista.com](https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/).
