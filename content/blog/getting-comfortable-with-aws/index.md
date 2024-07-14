@@ -27,11 +27,13 @@ Some of the topics here are not AWS specific, but are crucial to understand.
 {{< /callout >}}
 
 ## Networking
-Nothing in the modern world 
+Understanding basic networking concepts is important in today's digital world. It helps people know how data moves, fix connection problems, and keep communications secure.
+Knowing these basics is key to using modern technology.
+
 ### TL;DR Checklist
-- What is a network
+- What is a network (VPC)
 - Subnetting
 - Route Tables
 - Security Groups
-- Internet Gateway
+- Internet Gateway 
 - (Optional) NAT
