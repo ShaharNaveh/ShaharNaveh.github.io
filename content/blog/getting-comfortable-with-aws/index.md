@@ -15,10 +15,18 @@ As a result, proficiency in AWS is increasingly essential for job seekers, align
 ## Why this Post?
 Before exploring various AWS services, it's crucial to understand its core concepts and services. Lacking these fundamentals can create a barrier, leading to a "monkey see, monkey do" approach without true comprehension.
 
+While this post is more than a roadmap; self learning is required.
+
+Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty… I have never in my life envied a human being who led an easy life. I have envied a great many people who led difficult lives and led them well.
+
 ---
 
+{{< callout >}}
+Some of the topics here are not AWS specific, but are crucial to understand.
+{{< /callout >}}
 
 ## Networking
+Nothing in the modern world 
 ### TL;DR Checklist
 - What is a network
 - Subnetting
