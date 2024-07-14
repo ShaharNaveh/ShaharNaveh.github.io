@@ -17,8 +17,8 @@ Before exploring various AWS services, it's crucial to understand its core conce
 
 While this post is more than a roadmap; self learning is required.
 
-Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty… I have never in my life envied a human being who led an easy life. I have envied a great many people who led difficult lives and led them well.
-
+> Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty… I have never in my life envied a human being who led an easy life. I have envied a great many people who led difficult lives and led them well.
+> - <cite>Theodore Roosevelt</cite>
 ---
 
 {{< callout >}}
