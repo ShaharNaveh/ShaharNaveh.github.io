@@ -30,6 +30,8 @@ Some of the topics here are not AWS specific, but are crucial to understand.
 Understanding basic networking concepts is important in today's digital world. It helps people know how data moves, fix connection problems, and keep communications secure.
 Knowing these basics is key to using modern technology.
 
+### 
+
 ### TL;DR Checklist
 - What is a network (VPC)
 - Subnetting
