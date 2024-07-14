@@ -49,9 +49,9 @@ blog:
   list:
     displayTags: true
     # date | lastmod | publishDate | title | weight
-    sortBy: title 
+    sortBy: date
     # asc | desc
-    sortOrder: asc
+    sortOrder: desc
 
 comments:
   enable: false
