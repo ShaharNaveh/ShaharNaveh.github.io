@@ -13,4 +13,5 @@ As a result, proficiency in AWS is increasingly essential for job seekers, align
 [^1]: Based on [this chart from statista.com](https://www.statista.com/chart/18819/worldwide-market-share-of-leading-cloud-infrastructure-service-providers/).
 
 ## Why this Post?
-
+AWS has some core concepts & services that are essential to understand before starting tinkering with other AWS services.
+From what I've seen there's a glass-ceiling for those who don't have the fundamentals when it comes to dealing with unfamiliar AWS services, because they are like "monkey see, monkey do" without understanding what they are doing.
