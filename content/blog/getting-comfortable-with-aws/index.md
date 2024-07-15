@@ -34,8 +34,10 @@ Knowing these basics is key to using modern technology.
 
 ### TL;DR Checklist
 - What is a network (VPC)
+- Private vs Public IPv4 addresses
+- CIDR notation (Know the difference between `/0`, `/8`, `/16`, `/24` and `/32`)
 - Subnetting
 - Route Tables
 - Security Groups
-- Internet Gateway 
+- Internet Gateway
 - (Optional) NAT
