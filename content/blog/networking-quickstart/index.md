@@ -35,5 +35,5 @@ There are many network types, but we are going to focus on two types: `LAN` and 
 
 
 {{< callout type="info" >}}
-You can 
+You can read more about available network types [here](https://en.m.wikipedia.org/wiki/Computer_network#Geographic_scale).
 {{< /callout >}}
