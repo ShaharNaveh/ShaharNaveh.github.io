@@ -26,3 +26,7 @@ A network is a group of two or more computers that are interconnected for the pu
 
 ## Network Types
 There are many network types, but we are going to focus on two types: `LAN` and `WAN`
+
+|            |         LAN        |       WAN         |
+| ---------  | ------------------ | ----------------- |
+| Stands for | Local Area Netowrk | Wide Area Network |
