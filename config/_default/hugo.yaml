@@ -12,3 +12,4 @@ summaryLength: 0
 enableEmoji: true
 hasCJKLanguage: false
 enableInlineShortcodes: true
+refLinksErrorLevel: ERROR
