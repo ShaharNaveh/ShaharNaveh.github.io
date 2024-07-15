@@ -1,7 +1,7 @@
 ---
 title: Getting Comfortable with AWS
 date: 2024-07-13
-draft: true
+draft: false
 description: Quick guide on the core concepts needed to feel comfortable in AWS
 tags:
   - aws
@@ -15,10 +15,12 @@ As a result, proficiency in AWS is increasingly essential for job seekers, align
 ## Why this Post?
 Before exploring various AWS services, it's crucial to understand its core concepts and services. Lacking these fundamentals can create a barrier, leading to a "monkey see, monkey do" approach without true comprehension.
 
-**While this post is more than a roadmap; self learning & practice are required.**
+{{< callout type="warning" >}}
+While this post is more than a roadmap; self learning & practice are required.
 
 > Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty… I have never in my life envied a human being who led an easy life. I have envied a great many people who led difficult lives and led them well.
 > - <cite>Theodore Roosevelt</cite>
+{{< /callout >}}
 
 ---
 
