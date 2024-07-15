@@ -1,6 +1,6 @@
 ---
 title: Should I Attend a Shortcut College for a Technical Role?
-date: 2024-05-03
+date: 2024-05-04
 draft: false 
 description: The short answer is no. But why?
 tags:
