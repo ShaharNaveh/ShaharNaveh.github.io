@@ -29,4 +29,4 @@ There are many network types, but we are going to focus on two types: `LAN` and 
 
 |            |         LAN        |       WAN         |
 | ---------  | ------------------ | ----------------- |
-| Stands for | Local Area Netowrk | Wide Area Network |
+| Stands For | Local Area Netowrk | Wide Area Network |
