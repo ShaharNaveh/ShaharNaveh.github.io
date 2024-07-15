@@ -25,3 +25,4 @@ This post doesn't cover IPv6
 A network is a group of two or more computers that are interconnected for the purpose of exchanging data.
 
 ## Network Types
+There are many network types, but we are going to focus on two types: `LAN` and `WAN`
