@@ -32,3 +32,8 @@ There are many network types, but we are going to focus on two types: `LAN` and 
 | Stands For | Local Area Netowrk | Wide Area Network |
 | What People Actually Mean | Private Network | The Internet |
 | Example | Your Home Network | The Internet |
+
+
+{{< callout type="info" >}}
+You can 
+{{< /callout >}}
