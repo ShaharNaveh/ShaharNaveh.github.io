@@ -24,3 +24,4 @@ This post doesn't cover IPv6
 ## What is a Network?
 A network is a group of two or more computers that are interconnected for the purpose of exchanging data.
 
+## Network Types
