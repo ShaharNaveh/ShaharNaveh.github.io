@@ -11,4 +11,4 @@ Understanding basic networking concepts is important in today's digital world. I
 Knowing these basics is key to using modern technology.
 
 ## Why this Post?
-This post aims to give you just enough information
+This post provides a concise overview of basic networking flow, designed as a "Networking for Dummies" guide rather than a deep dive.
