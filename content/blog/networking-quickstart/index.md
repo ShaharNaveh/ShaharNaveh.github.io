@@ -19,7 +19,9 @@ This post provides a concise overview of basic networking flow, designed as a "N
 There are two main [reference models](https://en.m.wikipedia.org/wiki/Reference_model) when it comes to networking:
 
 1. [OSI Model](https://en.wikipedia.org/wiki/OSI_model)
-2. [TCP/IP Model](https://en.wikipedia.org/wiki/Internet_protocol_suite)
+1. [TCP/IP Model](https://en.wikipedia.org/wiki/Internet_protocol_suite)
+
+They both serve the same purpose for 
 
 ## What is a Network?
 A network is a group of two or more computers that are interconnected for the purpose of exchanging data.
