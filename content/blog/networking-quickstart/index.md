@@ -18,7 +18,7 @@ This post provides a concise overview of basic networking flow, designed as a "N
 ## Networking Ontology
 There are two main [reference models](https://en.m.wikipedia.org/wiki/Reference_model) when it comes to networking:
 
-1. [OSI Model](
+1. [OSI Model](https://en.wikipedia.org/wiki/OSI_model)
 2. [TCP/IP Model]
 
 ## What is a Network?
