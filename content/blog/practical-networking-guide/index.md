@@ -34,23 +34,8 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 
 | IPv4 | Valid? |
 | --- | --- |
-| 0.0.0.0 | {{< icon "x" >}} |
+| 0.0.0.0 | ✔️ |
 | 127.0.0.1 | ✔️ |
-| 255.255.255.255 | {{< icon "check" >}} |
+| 255.255.255.255 | ✔️ |
 | 256.256.256.256 | ✖️ |
 
-```diff
-+ 0.0.0.0 # Valid
-+ 127.0.0.1 # Valid
-+ 255.255.255.255 # Valid
-- 256.256.256.256 # Invalid
-```
-
-<div class="highlight">
-  <div class="chroma">
-    <ul>
-      <li><span class="gi">0.0.0.0</span> # Valid </li>
-      <li><span class="gi">127.0.0.1</span> # Valid </li>
-    </ul>
-  </div>
-</div>
