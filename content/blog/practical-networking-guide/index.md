@@ -35,7 +35,7 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 | IPv4 | Valid? |
 | --- | --- |
 | 0.0.0.0 | :heavy_check_mark: |
-| 127.0.0.1 | :heavy_check_mark: |
+| 127.0.0.1 | :white_check_mark: |
 | 255.255.255.255 | :heavy_check_mark: |
 | 256.256.256.256 | :x: |
 
