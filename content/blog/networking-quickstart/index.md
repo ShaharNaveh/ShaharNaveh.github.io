@@ -41,3 +41,8 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 
 $\textcolor{green}{some text}$
 
+
+```diff
++ foo
+- bar
+```
