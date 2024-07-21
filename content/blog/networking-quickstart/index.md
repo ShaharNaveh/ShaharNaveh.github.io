@@ -15,16 +15,6 @@ This post provides a concise overview of basic networking flow, designed as a "N
 
 ---
 
-## Networking Ontology
-There are two main [reference models](https://en.m.wikipedia.org/wiki/Reference_model) when it comes to networking:
-
-1. [OSI Model](https://en.wikipedia.org/wiki/OSI_model)
-1. [TCP/IP Model](https://en.wikipedia.org/wiki/Internet_protocol_suite)
-
-While both models aim to achieve similar goals, they differ in their approach, layer organization, and practical application within computer networking.
-
-In this post **we will use the TCP/IP model** as its a more practical model that addresses specific communication challenges and relies on standardized protocols.
-
 ## What is a Network?
 A network is a group of two or more computers that are interconnected for the purpose of exchanging data.
 
