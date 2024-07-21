@@ -13,8 +13,6 @@ Knowing these basics is key to using modern technology.
 ## Why this Post?
 This post provides a concise overview of basic networking flow, designed as a "Networking for Dummies" guide rather than a deep dive.
 
----
-
 ## What is a Network?
 A network is a group of two or more computers that are interconnected for the purpose of exchanging data.
 
