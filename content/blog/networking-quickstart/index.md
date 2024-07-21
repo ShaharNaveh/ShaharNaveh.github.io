@@ -1,7 +1,7 @@
 ---
 title: Networking Quickstart
 date: 2024-07-13
-draft: true
+draft: falss
 description: Networking concepts cheatsheet.
 tags:
   - networking
@@ -47,7 +47,9 @@ $\textcolor{green}{some text}$
 
 
 <div class="highlight">
+  <pre class="chroma">
   <code class=language-diff data-lang=diff>
   <span class="line cl gi"> Spam </span>
+  </pre>
   </code>
 </div>
