@@ -47,5 +47,7 @@ $\textcolor{green}{some text}$
 
 
 <div class="highlight">
+  <code class=language-diff data-lang=diff>
   <span class="line cl gi"> Spam </span>
+  </code>
 </div>
