@@ -33,6 +33,8 @@ You can read more about available network types [here](https://en.m.wikipedia.or
 An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can be between 0-255.
 
 ```diff
-+ 241.207.255.1 # Valid
-- 257.99.76.22 # Invalid
++ 0.0.0.0 # Valid
++ 127.0.0.1 # Valid
++ 255.255.255.255 # Valid
+- 256.256.256.256 # Invalid
 ```
