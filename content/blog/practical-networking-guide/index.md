@@ -37,7 +37,7 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 | 0.0.0.0 | {{< icon "x" >}} |
 | 127.0.0.1 | ✔️ |
 | 255.255.255.255 | {{< icon "check" >}} |
-| 256.256.256.256 | X |
+| 256.256.256.256 | ✖️ |
 
 ```diff
 + 0.0.0.0 # Valid
