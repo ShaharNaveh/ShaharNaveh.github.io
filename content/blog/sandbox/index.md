@@ -9,3 +9,9 @@ draft: false
 hello 
 
 {{< /box >}}
+
+{{< box "important" >}}
+
+hello 
+
+{{< /box >}}
