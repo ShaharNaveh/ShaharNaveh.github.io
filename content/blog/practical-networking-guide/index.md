@@ -1,7 +1,7 @@
 ---
 title: Practical Networking Guide
 date: 2024-07-13
-draft: true
+draft: false
 description: Networking concepts cheatsheet.
 tags:
   - networking
@@ -38,3 +38,6 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 + 255.255.255.255 # Valid
 - 256.256.256.256 # Invalid
 ```
+
+
+<span class="chroma gi"> Foo </span>
