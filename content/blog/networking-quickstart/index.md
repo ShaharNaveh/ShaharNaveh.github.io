@@ -32,24 +32,7 @@ You can read more about available network types [here](https://en.m.wikipedia.or
 ## IP Addressing
 An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can be between 0-255.
 
-```
-241.207.255.1 # Valid 
-```
-
-
-$\textcolor{green}{some text}$
-
-
 ```diff
-+ foo
-- bar
++ 241.207.255.1 # Valid
+- 257.99.76.22 # Invalid
 ```
-
-
-<div class="highlight">
-  <pre class="chroma">
-  <code class=language-diff data-lang=diff>
-  <span class="line cl gi"> Spam </span>
-  </pre>
-  </code>
-</div>
