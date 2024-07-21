@@ -25,14 +25,18 @@ There are many network types, but we are going to focus on two types: `LAN` and 
 | ---  | --- | --- |
 | Stands For | Local Area Netowrk | Wide Area Network |
 | What People Actually Mean | Private Network | The Internet |
-| Example | Your Home Network | The Internet |
+| Example | Your Home/Office Network | The Internet |
 
 {{< callout type="info" >}}
 You can read more about available network types [here](https://en.m.wikipedia.org/wiki/Computer_network#Geographic_scale).
 {{< /callout >}}
 
 ## IP Addressing
+An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can be between 0-255.
 
+```
+241.207.255.1 # Valid 
+```
 
 
 
