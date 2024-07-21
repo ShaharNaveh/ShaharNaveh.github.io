@@ -1,7 +1,7 @@
 ---
 title: Practical Networking Guide
 date: 2024-07-13
-draft: true
+draft: false
 description: Networking concepts cheatsheet.
 tags:
   - networking
@@ -41,6 +41,9 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 
 <div class="highlight">
   <div class="chroma">
-    <span class="gi">0.0.0.0</span>
+    <ul>
+      <li><span class="gi">0.0.0.0</span> # Valid </li>
+      <li><span class="gi">127.0.0.1</span> # Valid </li>
+    </ul>
   </div>
 </div>
