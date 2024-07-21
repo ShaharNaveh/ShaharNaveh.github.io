@@ -46,3 +46,8 @@ $\textcolor{green}{some text}$
 + foo
 - bar
 ```
+
+
+<div class="highlight">
+  <span class="line cl gi"> Spam </span>
+</div>
