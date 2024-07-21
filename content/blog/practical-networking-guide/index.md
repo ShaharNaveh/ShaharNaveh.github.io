@@ -41,7 +41,6 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 
 <div class="highlight">
   <div class="chroma">
-    <span class="gd">Meep</span>
+    <span class="gi">0.0.0.0</span>
   </div>
 </div>
-<span class="highlight chroma gd"> Foo </span>
