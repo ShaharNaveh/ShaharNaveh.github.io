@@ -1,7 +1,7 @@
 ---
 title: Practical Networking Guide
 date: 2024-07-13
-draft: true
+draft: false
 description: Networking concepts cheatsheet.
 tags:
   - networking
@@ -31,6 +31,10 @@ You can read more about available network types [here](https://en.m.wikipedia.or
 
 ## IP Addressing
 An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can be between 0-255.
+
+| IPv4 | Valid? |
+| --- | --- |
+| 0.0.0.0 | {{< icon "x" >}} |
 
 ```diff
 + 0.0.0.0 # Valid
