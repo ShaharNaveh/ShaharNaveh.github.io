@@ -29,7 +29,8 @@ There are many network types, but we are going to focus on two types: `LAN` and 
 You can read more about available network types [here](https://en.m.wikipedia.org/wiki/Computer_network#Geographic_scale).
 {{< /callout >}}
 
-## IP Addressing
+## IP Addressing 
+Everything in a network must have an address, 
 An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can be between 0-255.
 
 | IPv4 | Valid? |
