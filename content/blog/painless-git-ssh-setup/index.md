@@ -6,13 +6,16 @@ tags:
   - git
   - ssh
 ---
+
 {{< hextra/hero-subtitle >}}
 How to configure SSH for git in an easy, painless way.
 {{< /hextra/hero-subtitle >}}
 
+<!---
 In this guide, we'll walk you through the steps to generate an SSH key pair, add it to your Git account, and configure your local Git setup for seamless integration. 
 
 By the end, you'll have a more efficient and secure Git environment that enhances your productivity and protects your code.
+--->
 
 ## Why?
 Setting up Git to use SSH can significantly enhance your workflow by providing a secure and convenient method for authenticating your repositories.
