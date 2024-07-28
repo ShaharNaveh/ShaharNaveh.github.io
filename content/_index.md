@@ -1,7 +1,5 @@
 ---
 title: Shahar Naveh
-cascade:
-  type: docs
 ---
 
 ## Hey, I'm Shahar 👋
