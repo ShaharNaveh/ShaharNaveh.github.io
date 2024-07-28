@@ -1,8 +1,5 @@
 ---
-cascade:
-  type: docs
 title: Shahar Naveh
-type: hextra-home
 ---
 
 ## Hey, I'm Shahar 👋
