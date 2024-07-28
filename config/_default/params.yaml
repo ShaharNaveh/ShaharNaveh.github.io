@@ -51,7 +51,7 @@ blog:
     # date | lastmod | publishDate | title | weight
     sortBy: title
     # asc | desc
-    sortOrder: desc
+    sortOrder: asc
 
 comments:
   enable: false
