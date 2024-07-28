@@ -5,7 +5,6 @@ draft: false
 tags:
   - miscellaneous
 title: Should I Attend a Shortcut College for a Technical Role?
-type: docs
 ---
 
 ## What Are Shortcut Colleges?
