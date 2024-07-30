@@ -24,7 +24,12 @@ jobs:
     runs-on: ubuntu-latest
     # env:
     #   HUGO_VERSION: v0.128.2
-    steps: 
+    steps:
+      - name: Debug
+        run: |
+          printenv 
+          sudo snap info dart-saas 
+          exit 1
       - name: Get Latest Hugo Version
         if: ${{ env.HUGO_VERSION == '' }}
         run: |
