@@ -28,7 +28,7 @@ jobs:
       - name: Debug
         run: |
           printenv 
-          sudo snap info dart-saas 
+          sudo snap info dart-sass
           exit 1
       - name: Get Latest Hugo Version
         if: ${{ env.HUGO_VERSION == '' }}
