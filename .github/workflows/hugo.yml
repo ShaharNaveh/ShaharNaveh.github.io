@@ -27,7 +27,7 @@ jobs:
     steps:
       - name: Debug
         run: |
-          printenv 
+          printenv | grep -i snap
           sudo snap info dart-sass
           exit 1
       - name: Get Latest Hugo Version
