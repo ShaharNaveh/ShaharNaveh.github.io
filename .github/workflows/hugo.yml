@@ -23,13 +23,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     # env:
-    #   HUGO_VERSION: v0.128.2
+    #   HUGO_VERSION: v0.130.0
     steps:
-      - name: Debug
-        run: |
-          printenv | grep -i snap
-          sudo snap info dart-sass
-          exit 1
       - name: Get Latest Hugo Version
         if: ${{ env.HUGO_VERSION == '' }}
         run: |
