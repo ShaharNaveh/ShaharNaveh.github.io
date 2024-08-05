@@ -1,6 +1,5 @@
 ---
-title: About 
-type: hextra-home
+title: About
 ---
 
 ## Career
