@@ -38,9 +38,9 @@ I began my career as a [penetration tester](https://en.m.wikipedia.org/wiki/Pene
 {{< hextra/feature-grid >}}
 {{< hextra/feature-card icon="fluentbit" link="https://fluentbit.io/" title="Fluentbit" >}}
 {{< hextra/feature-card icon="fluentd" link="https://fluentd.org/" title="Fluentd" >}}
+{{< hextra/feature-card icon="grafana" link="https://grafana.com/" title="Grafana" >}}
 {{< hextra/feature-card icon="opentelemetry" link="https://opentelemetry.io/" title="OpenTelemetry" >}}
 {{< hextra/feature-card icon="prometheus" link="https://prometheus.io/" title="Prometheus" >}}
-{{< hextra/feature-card icon="grafana" link="https://grafana.com/" title="Grafana" >}}
 {{< hextra/feature-card icon="zabbix" link="https://www.zabbix.com/" title="Zabbix" >}}
 {{< /hextra/feature-grid >}}
 
@@ -64,7 +64,7 @@ I began my career as a [penetration tester](https://en.m.wikipedia.org/wiki/Pene
 {{< hextra/feature-grid >}}
 {{< hextra/feature-card icon="bitbucket-colored" link="https://bitbucket.org/product/features/pipelines" title="Bitbucket Pipelines" >}}
 {{< hextra/feature-card icon="git" link="https://git-scm.com/" title="Git" >}}
-{{< hextra/feature-card icon="gitlab-colored" link="https://docs.gitlab.com/ee/ci/pipelines/" title="GitLab CI/CD Pipelines" >}}
 {{< hextra/feature-card icon="github-actions" link="https://docs.github.com/en/actions" title="GitHub Actions" >}}
+{{< hextra/feature-card icon="gitlab-colored" link="https://docs.gitlab.com/ee/ci/pipelines/" title="GitLab CI/CD Pipelines" >}}
 {{< hextra/feature-card icon="jenkins" link="https://www.jenkins.io/" title="Jenkins" >}}
 {{< /hextra/feature-grid >}}
