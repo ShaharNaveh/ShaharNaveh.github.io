@@ -52,6 +52,12 @@ blog:
     sortBy: title
     # asc | desc
     sortOrder: asc
+    
+highlight:
+  copy:
+    enable: true
+    # hover | always
+    display: hover
 
 comments:
   enable: false
