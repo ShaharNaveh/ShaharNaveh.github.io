@@ -28,6 +28,8 @@ jobs:
       - name: Debug 
         run: |
           ls -Alr /snap/
+          sudo snap install dart-sass 
+          ls -Alr /snap/
           exit 1
       - name: Get Latest Hugo Version
         if: ${{ env.HUGO_VERSION == '' }}
