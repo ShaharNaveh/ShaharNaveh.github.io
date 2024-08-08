@@ -25,6 +25,10 @@ jobs:
     # env:
     #   HUGO_VERSION: v0.130.0
     steps:
+      - name: Debug 
+        run: |
+          ls -Alr /snap/
+          exit 1
       - name: Get Latest Hugo Version
         if: ${{ env.HUGO_VERSION == '' }}
         run: |
