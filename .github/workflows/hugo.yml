@@ -42,7 +42,7 @@ jobs:
           
       - name: Cache Hugo
         id: cache-hugo
-        uses: actions/cache@v4
+        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
         with:
           path: ${{ runner.tool_cache }}/hugo/hugo
           key: ${{ runner.os }}-${{ env.HUGO_VERSION }}-hugo
