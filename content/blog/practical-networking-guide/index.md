@@ -51,20 +51,16 @@ Every network can be divided to 3 logical parts:
 
 ```mermaid
 block-beta
-columns 1
-  db(("DB"))
-  blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
-  block:ID
-    A
-    B["A wide one in the middle"]
-    C
+columns 3
+  netrange(("Some netrange text"))
+  block:segments
+    network["Some netowrk text"]
+    host["some host txt"]
+    broadcast["Some broad text"]
   end
   space
-  D
-  ID --> D
-  C --> D
-  style B fill:#969,stroke:#333,stroke-width:4px
-
+  segments --> netrange
+  netrange --> host
 ```
 
 1. **Network Address**: The first IP address of the network, it is not owned by 
