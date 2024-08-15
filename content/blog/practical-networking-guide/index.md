@@ -49,23 +49,13 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 ## Network Definition
 Every network can be divided to 3 logical parts:
 
-```mermaid
-block-beta
-columns 1
-  netrange["Some netrange text"]
-  block:segments
-    network["Some netowrk text"]
-    host["some host txt"]
-    broadcast["Some broad text"]
-  end
-  space
-  space
-  netrange --> network
-  netrange --> host
-  netrange --> broadcast
-```
 
-1. **Network Address**: The first IP address of the network, it is not owned by 
+1. **Network Address**: The first IP address of the network, it is not owned by any device.
+
+1. 
+
+
+
 ## Netmasks
 In order 
 
