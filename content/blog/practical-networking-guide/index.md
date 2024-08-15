@@ -46,7 +46,12 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 | 255.255.255.255 | :white_check_mark: |
 | 256.256.256.256 | :x: |
 
+## Network Definition
+Every network can be divided to 3 logical parts:
+
+| Name |
+1. **Network Address**: The first IP address of the network, it is not owned by 
 ## Netmasks
+In order 
 
-
-## Network CIDR Notation
+### Network CIDR Notation
