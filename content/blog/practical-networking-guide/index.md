@@ -49,7 +49,24 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 ## Network Definition
 Every network can be divided to 3 logical parts:
 
-| Name |
+```mermaid
+block-beta
+columns 1
+  db(("DB"))
+  blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
+  block:ID
+    A
+    B["A wide one in the middle"]
+    C
+  end
+  space
+  D
+  ID --> D
+  C --> D
+  style B fill:#969,stroke:#333,stroke-width:4px
+
+```
+
 1. **Network Address**: The first IP address of the network, it is not owned by 
 ## Netmasks
 In order 
