@@ -52,12 +52,13 @@ Every network can be divided to 3 logical parts:
 ```mermaid
 block-beta
 columns 1
-  netrange(("Some netrange text"))
+  netrange["Some netrange text"]
   block:segments
     network["Some netowrk text"]
     host["some host txt"]
     broadcast["Some broad text"]
   end
+  space
   space
   netrange --> network
   netrange --> host
