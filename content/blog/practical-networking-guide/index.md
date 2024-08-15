@@ -51,7 +51,7 @@ Every network can be divided to 3 logical parts:
 
 ```mermaid
 block-beta
-columns 3
+columns 1
   netrange(("Some netrange text"))
   block:segments
     network["Some netowrk text"]
@@ -59,8 +59,9 @@ columns 3
     broadcast["Some broad text"]
   end
   space
-  segments --> netrange
+  netrange --> network
   netrange --> host
+  netrange --> broadcast
 ```
 
 1. **Network Address**: The first IP address of the network, it is not owned by 
