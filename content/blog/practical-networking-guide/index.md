@@ -32,9 +32,9 @@ You can read more about available network types [here](https://en.m.wikipedia.or
 ## IP Addressing
 Every device on a network must be addressable. This means that it can be reached by referencing its address (usually an IPv4 address).
 
-This IP address allows a device to communicate with another device using its remote IP address, assuming that they are on the same network.
-An IP address is associated with a computer's network interface 
+This IP address allows a device to communicate with another device using its remote IP address, assuming that they are on the same network. Every IP address must unique on its own network, meaning no two devices has the same IP address. 
 
+### IPv4 Structure
 An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can be between 0-255.
 
 | IPv4 | Valid? |
