@@ -50,9 +50,9 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 Every network can be divided to 3 logical parts:
 
 
-1. **Network Address**: The first IP address of the network, it is not owned by any device.
-
-1. 
+1. **Network Address**: The first IP address of the network. Not owned by any device.
+1. **Broadcast Address**: Last IP address of the network. Not owned by any device. 
+1. **Host Address(es)**: All IP addresses in between.
 
 
 
