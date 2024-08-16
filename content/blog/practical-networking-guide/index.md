@@ -53,7 +53,7 @@ Every network can be divided to 3 logical parts:
 1. **Broadcast Address**: Last IP address of the network. Not owned by any device. 
 1. **Host Address(es)**: All IP addresses in between.
 
-## Netmasks
-In order 
+## Netmask
+In order to know 
 
 ### Network CIDR Notation
