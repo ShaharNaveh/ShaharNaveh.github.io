@@ -6,7 +6,14 @@ description: Networking concepts cheatsheet.
 tags:
   - networking
 ---
+```mermaid
+sankey-beta
 
+%% source,target,value
+192.168.0.0 - 192.168.0.255,Network Adress,192.168.0.0
+192.168.0.0 - 192.168.0.255,Host Addresses,192.168.0.1 - 192.168.0.254
+ggg,H2 conversion,27.14
+```
 Understanding basic networking concepts is important in today's digital world. It helps people know how data moves, fix connection problems, and keep communications secure.
 Knowing these basics is key to using modern technology.
 
