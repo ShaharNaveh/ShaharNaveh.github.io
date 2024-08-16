@@ -163,7 +163,7 @@ init:
         mkdir -p {{out_dir}}
 
 clean:
-        rm -f {{out_dir}}
+        rm -r {{out_dir}}
 ```
 
 #### Explanation 
