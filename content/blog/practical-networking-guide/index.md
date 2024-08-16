@@ -15,9 +15,13 @@ config:
 ---
 sankey-beta
 
-Network,Network Address - First Address,25
-Network,Hosts - Everything in Between,50
-Network,Broadcast Address - Last Address,25
+Network,Network Address - First Address,2.5
+
+
+Network,Hosts - Everything in Between,5
+
+
+Network,Broadcast Address - Last Address,2.5
 ```
 
 Understanding basic networking concepts is important in today's digital world. It helps people know how data moves, fix connection problems, and keep communications secure.
