@@ -7,20 +7,6 @@ tags:
   - networking
 ---
 
-```mermaid
----
-config:
-  sankey:
-    showValues: false
----
-sankey-beta
-
-Network,Network Address - First Address,1
-
-Network,Hosts - Everything in Between,10
-
-Network,Broadcast Address - Last Address,1
-```
 
 Understanding basic networking concepts is important in today's digital world. It helps people know how data moves, fix connection problems, and keep communications secure.
 Knowing these basics is key to using modern technology.
@@ -67,6 +53,22 @@ Every network can be divided to 3 logical parts:
 1. **Network Address**: The first IP address of the network. Not owned by any device.
 1. **Broadcast Address**: Last IP address of the network. Not owned by any device. 
 1. **Host Address(es)**: All IP addresses in between.
+
+
+```mermaid
+---
+config:
+  sankey:
+    showValues: false
+---
+sankey-beta
+
+Network,Network Address - First Address,1
+
+Network,Hosts - Everything in Between,10
+
+Network,Broadcast Address - Last Address,1
+```
 
 ## Netmask
 In order to know 
