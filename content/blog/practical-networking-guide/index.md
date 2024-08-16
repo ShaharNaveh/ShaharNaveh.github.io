@@ -49,12 +49,9 @@ An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can 
 ## Network Definition
 Every network can be divided to 3 logical parts:
 
-
 1. **Network Address**: The first IP address of the network. Not owned by any device.
 1. **Broadcast Address**: Last IP address of the network. Not owned by any device. 
 1. **Host Address(es)**: All IP addresses in between.
-
-
 
 ## Netmasks
 In order 
