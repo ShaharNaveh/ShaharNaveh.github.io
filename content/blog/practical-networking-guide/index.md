@@ -6,14 +6,20 @@ description: Networking concepts cheatsheet.
 tags:
   - networking
 ---
+
 ```mermaid
+---
+config:
+  sankey:
+    showValues: false
+---
 sankey-beta
 
-%% source,target,value
-"192.168.0.0 - 192.168.0.255",Network Adress,"192.168.0.0"
-"192.168.0.0 - 192.168.0.255",Host Addresses,"192.168.0.1 - 192.168.0.254"
-"192.168.0.0 - 192.168.0.255",Broadcast Address,"192.168.0.255"
+Network,Network Address - First Address,1
+Network,Hosts - Everything in Between,2
+Network,Broadcast Address - Last Address,3
 ```
+
 Understanding basic networking concepts is important in today's digital world. It helps people know how data moves, fix connection problems, and keep communications secure.
 Knowing these basics is key to using modern technology.
 
