@@ -7,15 +7,11 @@ tags:
   - networking
 ---
 
-
 Understanding basic networking concepts is important in today's digital world. It helps people know how data moves, fix connection problems, and keep communications secure.
 Knowing these basics is key to using modern technology.
 
 ## Why this Post?
 This post provides a concise overview of basic networking flow, designed as a "Networking for Dummies" guide rather than a deep dive.
-
-{{< ip-calculator >}}
-
 
 ## What is a Network?
 A network is a group of two or more computers that are interconnected for the purpose of exchanging data.
@@ -57,7 +53,6 @@ Every network can be divided to 3 logical parts:
 1. **Broadcast Address**: Last IP address of the network. Not owned by any device. 
 1. **Host Address(es)**: All IP addresses in between.
 
-
 ```mermaid
 ---
 config:
@@ -68,12 +63,12 @@ sankey-beta
 
 Network,Network Address - First Address,1
 
-Network,Hosts - Everything in Between,10
+Network,Hosts - Everything in Between,2
 
 Network,Broadcast Address - Last Address,1
 ```
 
 ## Netmask
-In order to know 
+
 
 ### Network CIDR Notation
