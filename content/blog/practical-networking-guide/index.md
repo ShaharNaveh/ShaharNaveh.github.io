@@ -79,8 +79,15 @@ For example:
 | 192.168.0.0 | 255.255.255.0 | 192.168.0.0 - 192.168.0.255 | 256 |
 | 10.0.0.0 | 255.0.0.0 | 10.0.0.0 - 10.255.255.255 | 16,777,216 |
 
+{{< callout type="warning" >}}
+There are 32 possible netmasks, you don't need to remember all of them.
+Just use an [IP/subnet calculator](https://www.solarwinds.com/free-tools/advanced-subnet-calculator).
+{{< /callout >}}
+
 ### Network CIDR Notation
 It can be tedious to write both the network address and the netmask, and that's why we have the CIDR notation.
 Instead of writing: `192.168.0.0 - 192.168.0.255` we just write `192.168.0.0/24`.
 
-There are 4 CIDR notations you need to know by heart, for the rest just use an [IP calculator](
+There are 4 CIDR notations you need to know by heart:
+
+
