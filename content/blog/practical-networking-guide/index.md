@@ -69,6 +69,6 @@ Network,Broadcast Address - Last Address,1
 ```
 
 ## Netmask
-
+This is what defines the network address range.
 
 ### Network CIDR Notation
