@@ -1,47 +1,21 @@
-var count = document.getElementById('count');
-var input = document.getElementById('input');
-var globalWordCounter = 0;
-var WORD_LIMIT = 100000;
-
-input.addEventListener('keydown', function(e) {
-  if (globalWordCounter > WORD_LIMIT && e.code !== "Backspace") {
-    e.preventDefault();
-    return alert("You have reached the word limit");
-  }
-});
-
-input.addEventListener('keyup', function(e) {
-  wordCounter(e.target.value);
-});
-
-function isWord(str) {
-  var alphaNumericFound = false;
-  for (var i = 0; i < str.length; i++) {
-    var code = str.charCodeAt(i);
-    if ((code > 47 && code < 58) || // numeric (0-9)
-        (code > 64 && code < 91) || // upper alpha (A-Z)
-        (code > 96 && code < 123)) { // lower alpha (a-z)
-      alphaNumericFound = true;
-      return alphaNumericFound;
-    }
-  }
-  return alphaNumericFound;
-}
-
-function wordCounter(text) {
-  var text = input.value.replace(/\n/g, " ");
-  var charCount = 0;
-  for (var i = 0; i < text.length; i++) {
-    charCount++;
-  }
-  text = text.split(' ');
-  var wordCount = 0;
-  for (var i = 0; i < text.length; i++) {
-    if (!text[i] == ' ' && isWord(text[i])) {
-      wordCount++;
-    }
-  }
-  var wordcharCount = wordCount.toString() + " Character Count: " + charCount.toString();
-  globalWordCounter = wordcharCount;
-  count.innerText = wordcharCount;
+function calculateSubnet() {
+    let ip = document.getElementById("ip-address").value;
+    let subnet = document.getElementById("subnet-mask").value;
+    
+    // Convert IP and subnet to binary
+    let ipBin = ip.split('.').map(Number).map(num => num.toString(2).padStart(8, '0')).join('');
+    let subnetBin = subnet.split('.').map(Number).map(num => num.toString(2).padStart(8, '0')).join('');
+    
+    // Calculate network and broadcast addresses
+    let networkAddressBin = ipBin.substring(0, subnetBin.indexOf('0')).padEnd(32, '0');
+    let broadcastAddressBin = ipBin.substring(0, subnetBin.indexOf('0')).padEnd(32, '1');
+    
+    let networkAddress = networkAddressBin.match(/.{1,8}/g).map(bin => parseInt(bin, 2)).join('.');
+    let broadcastAddress = broadcastAddressBin.match(/.{1,8}/g).map(bin => parseInt(bin, 2)).join('.');
+    
+    // Display results
+    document.getElementById("result").innerHTML = `
+        <p>Network Address: ${networkAddress}</p>
+        <p>Broadcast Address: ${broadcastAddress}</p>
+    `;
 }
