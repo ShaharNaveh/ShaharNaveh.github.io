@@ -75,6 +75,6 @@ For example:
 
 | Network Address | Netmask | Address Range |
 | --- | --- | --- |
-| 192.168.0.0 | 
+| 192.168.0.0 | 255.255.255.0 | 192.168.0.0 - 192.168.0.255 |
 
 ### Network CIDR Notation
