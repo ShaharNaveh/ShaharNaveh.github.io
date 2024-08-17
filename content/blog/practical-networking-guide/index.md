@@ -69,6 +69,12 @@ Network,Broadcast Address - Last Address,1
 ```
 
 ## Netmask
-This is what defines the network address range.
+Netmask are used to define a range of IP addresses of a network.
+
+For example:
+
+| Network Address | Netmask | Address Range |
+| --- | --- | --- |
+| 192.168.0.0 | 
 
 ### Network CIDR Notation
