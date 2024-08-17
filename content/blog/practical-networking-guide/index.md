@@ -80,3 +80,7 @@ For example:
 | 10.0.0.0 | 255.0.0.0 | 10.0.0.0 - 10.255.255.255 | 16,777,216 |
 
 ### Network CIDR Notation
+It can be tedious to write both the network address and the netmask, and that's why we have the CIDR notation.
+Instead of writing: `192.168.0.0 - 192.168.0.255` we just write `192.168.0.0/24`.
+
+There are 4 CIDR notations you need to know by heart, for the rest just use an [IP calculator](
