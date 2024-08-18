@@ -68,7 +68,7 @@ Allows you to define multiple versions of your CV.
 
 For example, you might have a CV for a developer role and another for a sysadmin role. While you can use separate git branches, it's more convenient to edit shared assets like CSS or workflow files without dealing with branches.
 
-#### `John_Doe.md` 
+#### `markdown/John_Doe.md` 
 This is where your CV content goes. Simply write your CV in markdown format.
 
 For example:
@@ -98,10 +98,10 @@ Screamed at screens to get things done.
 ### CSS
 The [repository layout](#repository-layout) includes two `.css` files:
 
-#### `normalize.css` 
+#### `css/normalize.css` 
 Ensures all components render the same, regardless of the browser. You can get the latest version [here](https://necolas.github.io/normalize.css/).
 
-#### `default.css` 
+#### `css/default.css` 
 Contains the actual styling for your CV, including:
 
 - Background color
