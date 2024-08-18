@@ -125,7 +125,10 @@ While there are 32 possible CIDR notations, you need to remember only 5 by heart
 | /20 |
 | /21 |
 | /22 |
+| /23 |
 | /24 | 255.255.255.0 | 192.168.0.0 - 192.168.0.255 | 256 |
+| /25 | 
+| /26 |
 | /32 | 255.255.255.255 | 127.0.0.1 - 127.0.0.1 | 1 |
 
 {{% /details %}}
