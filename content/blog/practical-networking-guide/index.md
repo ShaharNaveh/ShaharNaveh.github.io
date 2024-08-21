@@ -1,7 +1,7 @@
 ---
 title: Practical Networking Guide
 date: 2024-07-13
-draft: true
+draft: false
 description: Networking concepts cheatsheet.
 tags:
   - networking
@@ -15,6 +15,9 @@ This post provides a concise overview of basic networking flow, designed as a "N
 
 ## What is a Network?
 A network is a group of two or more computers that are interconnected for the purpose of exchanging data.
+
+{{< csv-to-table file="assets/cidrs.csv" >}}
+
 
 ## Network Types
 There are many network types, but we are going to focus on two types: `LAN` and `WAN`
