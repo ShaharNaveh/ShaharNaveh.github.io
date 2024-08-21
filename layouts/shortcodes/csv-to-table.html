@@ -1,5 +1,5 @@
 {{ with $file := (path.Join $.Page.File.Dir (.Get "file")) }}
-  {{ with resources.Get $file }}
+  {{ with ( $file | readFile ) }}
     {{ with . | transform.Unmarshal }}
       <table>
         <thead>
