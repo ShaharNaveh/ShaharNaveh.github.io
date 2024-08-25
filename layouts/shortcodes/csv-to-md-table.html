@@ -3,7 +3,7 @@
   {{ with ( $file | readFile ) }}
     {{ with . | transform.Unmarshal }}
       {{ headers := range index . 0 }}
-      {{- print $sep (delimit $headers $sep) $sep -}}
+      {{- print "|" (delimit $headers $sep) "|" -}}
 
       {{ header_count := $headers | len }}
         </th
