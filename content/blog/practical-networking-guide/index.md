@@ -100,5 +100,5 @@ While there are 32 possible CIDR notations, you need to remember only 5 by heart
 
 
 
-{{< csv-to-table file="assets/cidrs.csv" >}}
+{{< csv-to-md-table file="assets/cidrs.csv" >}}
 
