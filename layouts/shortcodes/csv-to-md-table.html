@@ -1,4 +1,4 @@
-{{ sep := " | " }}
+{{- sep := " | " -}}
 {{ with $file := (path.Join $.Page.File.Dir (.Get "file")) }}
   {{ with ( $file | readFile ) }}
     {{ with . | transform.Unmarshal }}
