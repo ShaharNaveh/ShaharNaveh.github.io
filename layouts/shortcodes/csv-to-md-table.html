@@ -9,16 +9,10 @@
       {{ header_data_sep := strings.Repeat $header_count " --- |" }}
       {{- print $sep $header_data_sep -}}
         
-        <tbody>
-          {{ range after 1 . }}
-            <tr>
-              {{ range . }}
-                <td>{{ . }}</td>
-              {{ end }}
-            </tr>
-          {{ end }}
-        </tbody>
-      </table>
+      {{ range after 1 . }}
+        {{ data := range . }}
+        {{- print $sep (delimit $data $sep) $sep }}
+      {{ end }}
     {{ end }}
   {{ else }}
     {{ errorf "The %q shortcode was unable to find %s. See %s" $.Name $file $.Position }}
