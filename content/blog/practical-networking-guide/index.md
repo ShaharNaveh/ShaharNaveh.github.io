@@ -13,7 +13,7 @@ Knowing these basics is key to using modern technology.
 ## Why this Post?
 This post provides a concise overview of basic networking flow, designed as a "Networking for Dummies" guide rather than a deep dive.
 
-{{< csv-to-md-table file="assets/cidrs.csv" >}}
+{{< csv-to-table file="assets/cidrs.csv" >}}
 
 
 ## What is a Network?
