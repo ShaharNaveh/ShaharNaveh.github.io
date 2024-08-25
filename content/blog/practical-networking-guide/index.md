@@ -13,12 +13,6 @@ Knowing these basics is key to using modern technology.
 ## Why this Post?
 This post provides a concise overview of basic networking flow, designed as a "Networking for Dummies" guide rather than a deep dive.
 
-{{< custom-details >}}
-
-{{< csv-to-table file="assets/cidrs.csv" >}}
-
-{{< /custom-details >}}
-
 ## What is a Network?
 A network is a group of two or more computers that are interconnected for the purpose of exchanging data.
 
@@ -104,7 +98,8 @@ While there are 32 possible CIDR notations, you need to remember only 5 by heart
 | /24 | 255.255.255.0 | 192.168.0.0 - 192.168.0.255 | 256 |
 | /32 | 255.255.255.255 | 127.0.0.1 - 127.0.0.1 | 1 |
 
-
+{{< custom-details >}}
 
 {{< csv-to-table file="assets/cidrs.csv" >}}
 
+{{< /custom-details >}}
