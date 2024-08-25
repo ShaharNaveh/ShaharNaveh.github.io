@@ -2,12 +2,13 @@
 {{ with $file := (path.Join $.Page.File.Dir (.Get "file")) }}
   {{ with ( $file | readFile ) }}
     {{ with . | transform.Unmarshal }}
-      {{ headers := range index . 0 }}
+      {{- headers := range index . 0 -}}
       {{- print $sep (delimit $headers $sep) $sep -}}
 
       {{ header_count := $headers | len }}
-      {{ 
-        </th
+      {{ header_data_sep := strings.Repeat $header_count " --- |" }}
+      {{- print $sep $header_data_sep -}}
+        
         <tbody>
           {{ range after 1 . }}
             <tr>
