@@ -1,16 +1,16 @@
-{{- sep := " | " -}}
+{{ $sep := " | " }}
 {{ with $file := (path.Join $.Page.File.Dir (.Get "file")) }}
   {{ with ( $file | readFile ) }}
     {{ with . | transform.Unmarshal }}
-      {{- headers := range index . 0 -}}
+      {{- $headers := range index . 0 -}}
       {{- print $sep (delimit $headers $sep) $sep -}}
 
-      {{ header_count := $headers | len }}
-      {{ header_data_sep := strings.Repeat $header_count " --- |" }}
+      {{ $header_count := $headers | len }}
+      {{ $header_data_sep := strings.Repeat $header_count " --- |" }}
       {{- print $sep $header_data_sep -}}
         
       {{ range after 1 . }}
-        {{ data := range . }}
+        {{ $data := range . }}
         {{- print $sep (delimit $data $sep) $sep }}
       {{ end }}
     {{ end }}
