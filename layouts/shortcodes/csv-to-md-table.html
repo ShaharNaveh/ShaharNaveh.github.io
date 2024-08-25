@@ -1,14 +1,12 @@
+{{ sep := " | " }}
 {{ with $file := (path.Join $.Page.File.Dir (.Get "file")) }}
   {{ with ( $file | readFile ) }}
     {{ with . | transform.Unmarshal }}
-      <table>
-        <thead>
-          <tr>
-            {{ range index . 0 }}
-              <th>{{ . }}</th>
-            {{ end }}
-          </tr>
-        </thead>
+      {{ headers := range index . 0 }}
+      {{- delimit $headers $sep -}}
+
+      {{ header_count := $headers | len }}
+        </th
         <tbody>
           {{ range after 1 . }}
             <tr>
