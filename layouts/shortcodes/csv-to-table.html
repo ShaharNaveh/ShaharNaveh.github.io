@@ -1,3 +1,5 @@
+{{% details title="All Possible CIDRs" closed="true" %}}
+
 {{ with $file := (path.Join $.Page.File.Dir (.Get "file")) }}
   {{ with ( $file | readFile ) }}
     {{ with . | transform.Unmarshal }}
@@ -26,3 +28,5 @@
 {{ else }}
   {{ errorf "The %q shortcode requires one positional argument, the path to the CSV file relative to the assets directory. See %s" .Name .Position }}
 {{ end }}
+
+{{% /details %}}
