@@ -99,7 +99,6 @@ While there are 32 possible CIDR notations, you need to remember only 5 by heart
 | /32 | 255.255.255.255 | 127.0.0.1 - 127.0.0.1 | 1 |
 
 {{< custom-details title="All Possible CIDRs" closed="true" >}}
-
 {{< csv-to-table file="assets/cidrs.csv" >}}
-
 {{< /custom-details >}}
+
