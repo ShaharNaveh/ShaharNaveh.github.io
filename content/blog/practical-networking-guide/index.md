@@ -73,7 +73,7 @@ Netmask are used to define a range of IP addresses of a network.
 
 For example:
 
-| Network Address | Netmask | Address Range | Number of Addresses |
+| Network Address | Netmask | Address Range | Total Number of Addresses |
 | --- | --- | --- | --- |
 | 127.0.0.1 | 255.255.255.255 | 127.0.0.1 - 127.0.0.1 | 1 |
 | 192.168.0.0 | 255.255.255.0 | 192.168.0.0 - 192.168.0.255 | 256 |
@@ -84,13 +84,13 @@ There are 32 possible netmasks, you don't need to remember all of them.
 Just use an [IP/subnet calculator](https://www.solarwinds.com/free-tools/advanced-subnet-calculator).
 {{< /callout >}}
 
-### Network CIDR Notation
+### Network CIDR Notation (aka subnetmask)
 It can be tedious to write both the network address and the netmask, and that's why we have the CIDR notation.
 Instead of writing: `192.168.0.0 - 192.168.0.255` we just write `192.168.0.0/24`.
 
 While there are 32 possible CIDR notations, you need to remember only 5 by heart:
 
-| CIDR | Netmask | Address Range Example | Number of Addresses |
+| CIDR | Netmask | Address Range Example | Total Number of Addresses |
 | --- | --- | --- | --- |
 | /0 | 0.0.0.0 | 0.0.0.0 - 255.255.255.255 | 4,294,967,296 |
 | /8 | 255.0.0.0 | 10.0.0.0 - 10.255.255.255 | 16,777,216 |
@@ -101,4 +101,7 @@ While there are 32 possible CIDR notations, you need to remember only 5 by heart
 {{< custom-details title="All Possible CIDRs" closed="true" >}}
 {{< csv-to-table file="assets/cidrs.csv" >}}
 {{< /custom-details >}}
+
+## Subnetting
+
 
