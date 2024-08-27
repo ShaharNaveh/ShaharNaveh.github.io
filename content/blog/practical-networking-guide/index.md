@@ -1,7 +1,7 @@
 ---
 title: Practical Networking Guide
 date: 2024-07-13
-draft: true
+draft: false
 description: Networking concepts cheatsheet.
 tags:
   - networking
@@ -94,9 +94,9 @@ While there are 32 possible CIDR notations, you need to remember only 5 by heart
 | /24 | 255.255.255.0 | 192.168.0.0 - 192.168.0.255 | 256 |
 | /32 | 255.255.255.255 | 127.0.0.1 - 127.0.0.1 | 1 |
 
-{{< custom-details title="All Possible CIDRs" closed="true" >}}
-{{< csv-to-table file="assets/cidrs.csv" >}}
-{{< /custom-details >}}
+{{< details title="All Possible CIDRs" closed="true" >}}
+{{< readfile file="assets/cidrs.md" >}}
+{{< /details >}}
 
 ## Subnetting
 
