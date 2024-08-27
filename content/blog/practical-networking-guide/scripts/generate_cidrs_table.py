@@ -17,10 +17,11 @@ CIDRS = range(ipaddress.IPV4LENGTH + 1)
 @contextlib.contextmanager
 def write_ro_file(path: pathlib.Path) -> "Iterator[pathlib.Path]":
     try:
-      path.chmod(0o644)  # Allow write
+        path.chmod(0o644)  # Allow write
     except FileNotFoundError:
-      # We don't care if file doesn't exists yet
-      pass
+        # We don't care if file doesn't exists yet
+        pass
+
     yield path
     path.chmod(0o444)  # Set to readonly
 
@@ -54,12 +55,13 @@ def ip_cidr_info(cidr: int) -> dict[str, str]:
     return info
 
 
-
 def cidr_info_md_rows():
-  for cidr in CIDRS:
-    cidr_info = ip_cidr_info(cidr)
-    row = "{sep}{data}{sep}".format(sep=SEP, data = SEP.join(cidr_info.values())).strip()
-    yield row
+    for cidr in CIDRS:
+        cidr_info = ip_cidr_info(cidr)
+        row = "{sep}{data}{sep}".format(
+            sep=SEP, data=SEP.join(cidr_info.values())
+        ).strip()
+        yield row
 
 
 headers = ip_cidr_info(ipaddress.IPV4LENGTH).keys()
@@ -72,4 +74,4 @@ table_rows = "\n".join(cidr_info_md_rows())
 table = "\n".join([table_headers, table_sep, table_rows])
 
 with write_ro_file(OUTPUT_FILE) as path:
-  path.write_text(table)
+    path.write_text(table)
