@@ -32,6 +32,10 @@ You can read more about available network types [here](https://en.m.wikipedia.or
 ## IP Addressing 
 Every machine, server and end-user device that connects to the internet has a unique number, called an IP address, associated with it. Devices find and communicate with one another by using these IP addresses.
 
+An IP address has two parts:
+1. The network address is a series of numerical digits pointing to the network's unique identifier
+1. The host address is a series of numbers indicating the host or individual device identifier on the network
+
 ### IPv4 Structure
 An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can be between 0-255.
 
