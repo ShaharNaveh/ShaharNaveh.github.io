@@ -1,4 +1,4 @@
-description: Explore unconventional applications of technology to broaden your perspectives and enhance efficiency
+descriptiondescription: Explore unconventional applications of technology to broaden your perspectives and enhance efficiency
 displayUpdatedDate: false
 dateFormat: January 2, 2006
 
@@ -24,7 +24,7 @@ theme:
 
 footer:
   enable: true
-  displayCopyright: false
+  displayCopyright: true
   displayPoweredBy: false
   width: normal
   
