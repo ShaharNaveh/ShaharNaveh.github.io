@@ -17,7 +17,7 @@ Whether you're a seasoned developer or new to version control, configuring Git w
 
 ## How?
 {{< callout type="info" >}}
-Although I will use GitHub as my Git hosting provider in this guide, this setup works for any other Git hosting provider. Just replace "github" with "gitlab," "bitbucket," etc.
+Although I will use GitHub as my Git hosting provider in this guide, this setup works for any other Git hosting provider. Just replace "github" with "gitlab", "bitbucket", etc.
 {{< /callout >}}
 
 ### Create the `.ssh` Directory and SSH config
