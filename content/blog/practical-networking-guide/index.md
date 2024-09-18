@@ -23,8 +23,9 @@ An IP address has two parts:
 1. The network address is a series of numerical digits pointing to the network's unique identifier
 1. The host address is a series of numbers indicating the host or individual device identifier on the network
 
-### IPv4 Structure
-An IPv4 is comprised of 4 numbers separated by a dot, each of those numbers can be between 0-255.
+### IPv4 Structure 
+An IPv4 address consists of 32 bits.
+Each string of numbers separated by the period consists of 8 bits, represented by 0 to 255 in numerical forms.
 
 | IPv4 | Valid? |
 | --- | --- |
@@ -72,8 +73,10 @@ Just use an [IP/subnet calculator](https://www.solarwinds.com/free-tools/advance
 {{< /callout >}}
 
 ### Network CIDR Notation (aka subnetmask)
-It can be tedious to write both the network address and the netmask, and that's why we have the CIDR notation.
-Instead of writing: `192.168.0.0 - 192.168.0.255` we just write `192.168.0.0/24`.
+Instead of writing both the network IPv4 addresses & netmask when we want to describe a network, we can use a CIDR notation.
+
+The CIDR notation is a suffix appended to the network address stating the number of bits allocated for the network address.
+For example, instead of writing: `192.168.0.0 - 192.168.0.255` we can write `192.168.0.0/24`.
 
 While there are 32 possible CIDR notations, you need to remember only 5 by heart:
 
