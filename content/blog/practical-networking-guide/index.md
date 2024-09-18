@@ -16,19 +16,6 @@ This post provides a concise overview of basic networking flow, designed as a "N
 ## What is a Network?
 A network is a group of two or more computers that are interconnected for the purpose of exchanging data.
 
-## Network Types
-There are many network types, but we are going to focus on two types: `LAN` and `WAN`
-
-| | LAN | WAN |
-| ---  | --- | --- |
-| Stands For | Local Area Netowrk | Wide Area Network |
-| What People Actually Mean | Private Network | The Internet |
-| Example | Your Home/Office Network | The Internet |
-
-{{< callout type="info" >}}
-You can read more about available network types [here](https://en.m.wikipedia.org/wiki/Computer_network#Geographic_scale).
-{{< /callout >}}
-
 ## IP Addressing 
 Every machine, server and end-user device that connects to the internet has a unique number, called an IP address, associated with it. Devices find and communicate with one another by using these IP addresses.
 
@@ -103,5 +90,20 @@ While there are 32 possible CIDR notations, you need to remember only 5 by heart
 {{< /details >}}
 
 ## Subnetting
+
+## Terminology
+### Network Types
+There are many network types, but we are going to focus on two types: `LAN` and `WAN`
+
+| | LAN | WAN |
+| ---  | --- | --- |
+| Stands For | Local Area Netowrk | Wide Area Network |
+| What People Actually Mean | Private Network | The Internet |
+| Example | Your Home/Office Network | The Internet |
+
+{{< callout type="info" >}}
+You can read more about available network types [here](https://en.m.wikipedia.org/wiki/Computer_network#Geographic_scale).
+{{< /callout >}}
+
 
 
