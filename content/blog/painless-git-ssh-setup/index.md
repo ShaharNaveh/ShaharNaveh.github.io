@@ -55,7 +55,7 @@ Creating the `.ssh/keys` directory helps manage multiple SSH keys if needed.
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```shell
-  ssh-keygen -t ed25519 -b 4096 -a 100 -C private-pc -f ~/.ssh/keys/githb
+  ssh-keygen -t ed25519 -b 4096 -a 100 -C private-pc -f ~/.ssh/keys/github
   ```
   {{< /tab >}}
 
