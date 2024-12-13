@@ -106,7 +106,7 @@ Host github.com
 ```
 
 {{< callout type="info" >}}
-Read more about available configuration options for `ssh_config` [here](https://man.openbsd.org/ssh_config).
+You can read more about the configuration options of the `ssh_config` file at [official `ssh_config` man page](https://man.openbsd.org/ssh_config).
 {{< /callout >}}
 
 #### Explanation
