@@ -91,7 +91,7 @@ Now your `.ssh` tree will look like:
   * `.ssh/keys/github.pub`: Public key.
 
 {{< callout type="info" >}}
-Read more about available configuration options for `ssh-keygen` [here](https://www.man7.org/linux/man-pages/man1/ssh-keygen.1.html).
+You can read more about the available configuration options of `ssh-keygen` at the [`ssh-keygen` man page](https://www.man7.org/linux/man-pages/man1/ssh-keygen.1.html).
 {{< /callout >}}
 
 ### Create the SSH Config File
