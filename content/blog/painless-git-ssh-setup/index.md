@@ -99,7 +99,7 @@ You can read more about the available configuration options of `ssh-keygen` at t
 Host github.com
   Hostname github.com
   User git
-  IdentityFile %d/.ssh/keys/github
+  IdentityFile ~/.ssh/keys/github
   AddKeysToAgent yes
   RequestTTY no
   SessionType none
@@ -119,7 +119,7 @@ ssh github.com
 SSH will use the settings provided:
 - `Hostname`: The address to connect to.
 - `User`: The user to authenticate as, usually "git".
-- `IdentityFile`: Path to the private key, `%d` is the user home directory.
+- `IdentityFile`: Path to the private key.
 - `AddKeysToAgent`: Adds the key to the ssh-agent, usful if the SSH key is password protected.
 - `RequestTTY`: Set to `no` as no shell is needed.
 - `SessionType`: Set to `none` since no commands are executed on the Git hosting provider.
@@ -166,7 +166,7 @@ Run:
 ssh github.com
 ```
 
-If you don't get any errors, the setup is successful. 🥳
+If you don't get any errors, the setup is successful. :partying_face:
 
 ### Configure Git to Use SSH Instead of HTTPS
 {{< tabs items="Bitbucket,Codeberg,Github,Gitlab" >}}
@@ -235,13 +235,13 @@ All existing repositories will point to the new provider, and new repositories w
 # Edit old "Host" block to automatically push code to new git hosting provider
 Host github.com
   Hostname codeberg.org
-  IdentityFile %d/.ssh/keys/codeberg
+  IdentityFile ~/.ssh/keys/codeberg
   # Rest of parameters
 
 # New "Host" block to support new repositories
 Host codeberg.org
   Hostname codeberg.org
-  IdentityFile %d/.ssh/keys/codeberg
+  IdentityFile ~/.ssh/keys/codeberg
   # Rest of parameters
 ```
 {{< /details >}}
