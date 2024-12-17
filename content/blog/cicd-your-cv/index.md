@@ -108,13 +108,12 @@ Contains the actual styling for your CV, including:
 - Font family
 - Font size
 
-{{< callout type="info" >}}
-It's recommended to import `normalize.css` from `default.css` like this:
-
-```css {filename="css/default.css"}
-@import "normalize.css";
-```
-{{< /callout >}}
+> [!TIP]
+> It's recommended to import `normalize.css` from `default.css` like this:
+>
+> ```css {filename="css/default.css"}
+> @import "normalize.css";
+> ```
 
 You can get a base `default.css` here:
 
