@@ -16,9 +16,10 @@ Setting up Git to use SSH can significantly enhance your workflow by providing a
 Whether you're a seasoned developer or new to version control, configuring Git with SSH keys streamlines the process of pushing and pulling code, eliminating the need to repeatedly enter your username and password.
 
 ## How?
-{{< callout type="info" >}}
-Although I will use GitHub as my Git hosting provider in this guide, this setup works for any other Git hosting provider. Just replace "github" with "gitlab", "bitbucket", etc.
-{{< /callout >}}
+
+> [!NOTE]
+> Although I will use GitHub as my Git hosting provider in this guide, this setup works for any other Git hosting provider.
+> Replace "github" with "gitlab", "bitbucket", etc.
 
 ### Create the `.ssh` Directory and SSH config
 {{< tabs items="Linux/MacOS,Windows" >}}
