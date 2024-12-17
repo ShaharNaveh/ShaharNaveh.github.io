@@ -90,9 +90,8 @@ Now your `.ssh` tree will look like:
   * `.ssh/keys/github`: Private key.
   * `.ssh/keys/github.pub`: Public key.
 
-{{< callout type="info" >}}
-You can read more about the available configuration options of `ssh-keygen` at the [`ssh-keygen` man page](https://www.man7.org/linux/man-pages/man1/ssh-keygen.1.html).
-{{< /callout >}}
+> [!NOTE]
+> You can read more about the available configuration options of `ssh-keygen` at the [`ssh-keygen` man page](https://www.man7.org/linux/man-pages/man1/ssh-keygen.1.html).
 
 ### Create the SSH Config File
 ```xorg {filename=".ssh/config",linenos=table}
@@ -105,9 +104,8 @@ Host github.com
   SessionType none
 ```
 
-{{< callout type="info" >}}
-You can read more about the configuration options of the `ssh_config` file at [official `ssh_config` man page](https://man.openbsd.org/ssh_config).
-{{< /callout >}}
+> [!NOTE]
+> You can read more about the configuration options of the `ssh_config` file at [official `ssh_config` man page](https://man.openbsd.org/ssh_config).
 
 #### Explanation
 The key to the configuration is the first line: `Host github.com`. This tells SSH to use the defined settings whenever you connect to `github.com`:
@@ -155,9 +153,8 @@ Follow the instructions for your provider:
   {{< hextra/feature-card icon="gitlab" link="https://docs.gitlab.com/ee/user/ssh.html#add-an-ssh-key-to-your-gitlab-account" title="Gitlab" >}}
 {{< /hextra/feature-grid >}}
 
-{{< callout type="warning" >}}
-If your provider is not listed, please refer to their official documentation.
-{{< /callout >}}
+> [!WARNING]
+> If your provider is not listed, please refer to their official documentation.
 
 ### Verify SSH Access
 Run:
@@ -195,9 +192,8 @@ If you don't get any errors, the setup is successful. :partying_face:
   {{< /tab >}}
 {{< /tabs >}}
 
-{{< callout type="info" >}}
-You can omit the `--global` flag while inside a git repository to configure that repository only.
-{{< /callout >}}
+> [!TIP]
+> You can omit the `--global` flag while inside a git repository to configure that repository only.
 
 ## Tips & Tricks
 ### Set Private Key File Permissions
