@@ -48,9 +48,8 @@ If everything went successfully, the `.ssh` directory tree will look like:
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
-{{< callout type="info" >}}
-Creating the `.ssh/keys` directory helps manage multiple SSH keys if needed.
-{{< /callout >}}
+> [!TIP]
+> Creating the `.ssh/keys` directory helps manage multiple SSH keys if needed, it's completely optional.
 
 ## Generate an SSH Key Pair
 {{< tabs items="Linux/MacOS,Windows" >}}
@@ -67,9 +66,9 @@ Creating the `.ssh/keys` directory helps manage multiple SSH keys if needed.
   {{< /tab >}}
 {{< /tabs >}}
 
-{{< callout type="info" >}}
-You can set a password (recommended) or skip it by pressing `<Enter>` twice.
-{{< /callout >}}
+> [!IMPORTANT]
+> It is recommended that you set a password on your SSH key.
+> But you can skip setting a password by pressing `<Enter>` twice.
 
 Now your `.ssh` tree will look like:
 {{< filetree/container >}}
