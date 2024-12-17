@@ -99,7 +99,7 @@ Screamed at screens to get things done.
 The [repository layout](#repository-layout) includes two `.css` files:
 
 #### `css/normalize.css` 
-Ensures all components render the same, regardless of the browser. You can get the latest version [here](https://necolas.github.io/normalize.css/).
+Ensures all components render the same, regardless of the browser. You can get the latest version from [the official `normalize.css` website](https://necolas.github.io/normalize.css/).
 
 #### `css/default.css` 
 Contains the actual styling for your CV, including:
@@ -115,7 +115,7 @@ Contains the actual styling for your CV, including:
 > @import "normalize.css";
 > ```
 
-You can get a base `default.css` here:
+You can get a base `default.css` by expanding the section below:
 
 {{% details title="Base `default.css`" closed="true" %}}
 ```css {filename="css/default.css"}
