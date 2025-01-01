@@ -1,11 +1,14 @@
 home:
-  - HTML 
-  - RSS 
-  - JsonFeed 
+  - html
+  - json
+  - rss
 
 page:
-  - HTML
+  - html
+  - json
+  - rss
 
 section:
-  - HTML 
-  - RSS
+  - html
+  - json
+  - rss
