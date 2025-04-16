@@ -61,7 +61,7 @@ If everything went successfully, the `.ssh` directory tree will look like:
 
   {{< tab >}}
   ```powershell
-  ssh-keygen.exe -t ed25519 -b 4096 -a 100 -C private-pc -f "$env:UserProfile\.ssh\keys\github" 
+  ssh-keygen.exe -t ed25519 -b 4096 -a 100 -C "private-pc" -f "$env:UserProfile\.ssh\keys\github" 
   ```
   {{< /tab >}}
 {{< /tabs >}}
