@@ -7,6 +7,10 @@ goldmark:
     
 highlight:
   noClasses: false
+  codeFences: true
+  linenos: true
+  anchorLineNos: true
+  lineNumbersInTable: false
   
 tableOfContents:
   startLevel: 2
