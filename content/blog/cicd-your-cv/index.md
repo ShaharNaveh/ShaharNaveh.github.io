@@ -13,33 +13,32 @@ In this guide I will show you how to setup [Github Actions](https://docs.github.
 ## How does it Work?
 When you push changes to the `main` branch, a workflow starts. This workflow uses [pandoc](https://pandoc.org/) to convert `markdown` to `pdf`.
 
+
 ```mermaid
 ---
 title: CV CI/CD Workflow
 ---
 flowchart TD
   user([User])
-  repository([Repository])
-  action([Github Action])
-  dependencies["Install Dependencies"]
-  pandoc([Pandoc])
-  markdown_css([Markdown + CSS])
-  pdf([PDF file])
-  release([Github Release])
-  
-  subgraph action [Github Actions]
-    dependencies-->pandoc
-    pandoc-- Converts -->pdf
-    pdf-- Uploads -->release
+  repo([GitHub Repository])
+  gh_action([GitHub Action Runner])
 
-    subgraph assets [Assets]
-      markdown_css
-    end
+  subgraph GitHub Actions
+    deps[Install Dependencies]
+    md_css[Markdown + CSS]
+    pandoc[Pandoc]
+    pdf[Generate PDF]
+    release[Create GitHub Release]
+
+    deps --> pandoc
+    md_css --> pandoc
+    pandoc --> pdf
+    pdf --> release
   end
 
-user-- git push -->repository
-repository-- trigger -->action
-assets-->pandoc
+  user -- Push CV --> repo
+  repo -- Triggers --> gh_action
+  gh_action --> deps
 ```
 
 ## Repository Layout
