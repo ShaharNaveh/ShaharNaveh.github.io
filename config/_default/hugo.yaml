@@ -2,6 +2,8 @@ baseURL: https://shaharnaveh.github.io/
 title: Shahar Naveh
 theme: hextra
 
+cleanDestinationDir: true
+
 defaultContentLanguage: en
 languageCode: en-us
 
