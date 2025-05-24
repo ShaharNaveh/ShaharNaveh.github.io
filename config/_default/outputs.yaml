@@ -1,11 +1,13 @@
+# NOTE: The order of the items matters.
 home:
   - html
   - rss
-
+  - json
 page:
   - html
   - rss
-
+  - json
 section:
   - html
   - rss
+  - json
