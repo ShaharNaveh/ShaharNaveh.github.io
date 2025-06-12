@@ -105,7 +105,7 @@ Host github.com
 ```
 
 > [!NOTE]
-> You can read more about the configuration options of the `ssh_config` file at the [official `ssh_config` man page](https://man.openbsd.org/ssh_config).
+> You can read more about the configuration options of the `ssh_config` file at the [`ssh_config` man page](https://man.openbsd.org/ssh_config).
 
 #### Explanation
 The key to the configuration is the first line: `Host github.com`. This tells SSH to use the defined settings whenever you connect to `github.com`:
