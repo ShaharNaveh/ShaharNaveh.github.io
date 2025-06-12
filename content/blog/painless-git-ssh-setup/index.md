@@ -130,8 +130,7 @@ The general flow is:
 ### Copy the SSH Public Key to Your Clipboard
 
 ```shell
-cat ~/.ssh/keys/github.pub
-# Then select and copy the displayed contents
+cat ~/.ssh/keys/github.pub # Then select and copy the displayed contents
 ```
 
 {{% details title="Alternative Way" %}}
