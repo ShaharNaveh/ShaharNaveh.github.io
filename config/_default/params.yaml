@@ -52,8 +52,9 @@ blog:
     sortBy: date
     # asc | desc
     sortOrder: desc
-  toc:
-    displayTags: true
+    
+toc:
+  displayTags: true
     
 highlight:
   copy:
