@@ -1,6 +1,7 @@
 # NOTE: The order of the items matters.
 home:
   - html
+  - llms
   - rss
 page:
   - html
