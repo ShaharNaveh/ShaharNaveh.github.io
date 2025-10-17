@@ -10,17 +10,17 @@ In this guide, we'll walk you through the steps to generate an SSH key pair, add
 
 By the end, you'll have a more efficient and secure Git environment that enhances your productivity and protects your code.
 
-## Why?
+### Why?
 Setting up Git to use SSH can significantly enhance your workflow by providing a secure and convenient method for authenticating your repositories.
 Whether you're a seasoned developer or new to version control, configuring Git with SSH keys streamlines the process of pushing and pulling code, eliminating the need to repeatedly enter your username and password.
 
-## How?
+### How?
 
 > [!NOTE]
 > Although I will use GitHub as my Git hosting provider in this guide, this setup works for any other Git hosting provider.
 > Replace "github" with "gitlab", "bitbucket", etc.
 
-### Create the `.ssh` Directory and SSH config
+#### Create the `.ssh` Directory and SSH config
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```shell
@@ -50,7 +50,7 @@ If everything went successfully, the `.ssh` directory tree will look like:
 > [!TIP]
 > Creating the `.ssh/keys` directory helps manage multiple SSH keys if needed, it's completely optional.
 
-## Generate an SSH Key Pair
+### Generate an SSH Key Pair
 {{< tabs items="Linux/MacOS,Windows" >}}
   {{< tab >}}
   ```shell
@@ -80,7 +80,7 @@ Now your `.ssh` tree will look like:
   {{< /filetree/folder >}}
 {{< /filetree/container >}}
 
-#### Explanation
+##### Explanation
 - `-t`: Type of key, here `ed25519`.
 - `-b`: Number of bits, here 4096.
 - `-a`: Number of [KDF](https://en.m.wikipedia.org/wiki/Key_derivation_function) rounds, here 100.
@@ -92,7 +92,7 @@ Now your `.ssh` tree will look like:
 > [!NOTE]
 > You can read more about the available configuration options of `ssh-keygen` at the [`ssh-keygen` man page](https://www.man7.org/linux/man-pages/man1/ssh-keygen.1.html).
 
-### Create the SSH Config File
+#### Create the SSH Config File
 ```xorg {filename=".ssh/config",linenos=table}
 Host github.com
   Hostname github.com
@@ -106,7 +106,7 @@ Host github.com
 > [!NOTE]
 > You can read more about the configuration options of the `ssh_config` file at the [`ssh_config` man page](https://man.openbsd.org/ssh_config).
 
-#### Explanation
+##### Explanation
 The key to the configuration is the first line: `Host github.com`. This tells SSH to use the defined settings whenever you connect to `github.com`:
 
 ```shell
@@ -121,12 +121,12 @@ SSH will use the settings provided:
 - `RequestTTY`: Set to `no` as no shell is needed.
 - `SessionType`: Set to `none` since no commands are executed on the Git hosting provider.
 
-### Add Your Key to the Git Hosting Provider
+#### Add Your Key to the Git Hosting Provider
 The general flow is:
 
 {{% steps %}}
 
-### Copy the SSH Public Key to Your Clipboard
+#### Copy the SSH Public Key to Your Clipboard
 
 ```shell
 cat ~/.ssh/keys/github.pub # Then select and copy the displayed contents
@@ -136,7 +136,7 @@ cat ~/.ssh/keys/github.pub # Then select and copy the displayed contents
 Alternatively, locate the hidden `.ssh` folder, open the file in a text editor, and copy it to your clipboard.
 {{% /details %}}
 
-### Add the Public Key to Your User's SSH Keys
+#### Add the Public Key to Your User's SSH Keys
 
 {{% /steps %}}
 
@@ -154,7 +154,7 @@ Follow the instructions for your provider:
 > [!WARNING]
 > If your provider is not listed, please refer to their official documentation.
 
-### Verify SSH Access
+#### Verify SSH Access
 Run:
 
 ```shell
@@ -163,7 +163,7 @@ ssh github.com
 
 If you don't get any errors, the setup is successful. :partying_face:
 
-### Configure Git to Use SSH Instead of HTTPS
+#### Configure Git to Use SSH Instead of HTTPS
 {{< tabs items="Bitbucket,Codeberg,Github,Gitlab" >}}
   {{< tab >}}
   ```shell
@@ -193,8 +193,8 @@ If you don't get any errors, the setup is successful. :partying_face:
 > [!TIP]
 > You can omit the `--global` flag while inside a git repository to configure that repository only.
 
-## Tips & Tricks
-### Set Private Key File Permissions
+### Tips & Tricks
+#### Set Private Key File Permissions
 If you encounter:
 
 > Permissions for 'private-key' are too open.
@@ -219,7 +219,7 @@ Run the following:
   {{< /tab >}}
 {{< /tabs >}}
 
-### Migrating to a Different Git Hosting Provider
+#### Migrating to a Different Git Hosting Provider
 To switch providers, change the `Hostname` and `IdentityFile` in the SSH config to the new provider and add a new `Host` block for it.
 
 All existing repositories will point to the new provider, and new repositories will work as expected.
