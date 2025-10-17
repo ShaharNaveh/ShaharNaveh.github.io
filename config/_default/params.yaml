@@ -66,3 +66,10 @@ highlight:
 
 comments:
   enable: false
+
+analytics:
+  umami:
+    serverURL: "https://cloud.umami.is/script.js"
+    websiteID: "741a89fe-ed67-43ff-b22a-fe3354b2ef8d"
+    autoTrack: true
+    doNotTrack: true
