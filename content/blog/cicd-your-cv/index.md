@@ -7,10 +7,9 @@ tags:
   - git
   - gitops
 ---
-
 In this guide I will show you how to setup [Github Actions](https://docs.github.com/en/actions) to generate your CV and upload it to your [project release](https://docs.github.com/en/repositories/releasing-projects-on-github).
 
-## How does it Work?
+### How does it Work?
 When you push changes to the `main` branch, a workflow starts. This workflow uses [pandoc](https://pandoc.org/) to convert `markdown` to `pdf`.
 
 ```mermaid
@@ -40,7 +39,7 @@ flowchart TD
   end
 ```
 
-## Repository Layout
+### Repository Layout
 The basic file tree we will create looks like: 
 
 {{< filetree/container >}}
@@ -61,12 +60,12 @@ The basic file tree we will create looks like:
 
 Let's discuss each file and directory in more details:
 
-### `markdown` Directory 
+#### `markdown` Directory 
 Allows you to define multiple versions of your CV.
 
 For example, you might have a CV for a developer role and another for a sysadmin role. While you can use separate git branches, it's more convenient to edit shared assets like CSS or workflow files without dealing with branches.
 
-#### `markdown/John_Doe.md` 
+##### `markdown/John_Doe.md` 
 This is where your CV content goes. Simply write your CV in markdown format.
 
 For example:
@@ -93,13 +92,13 @@ Screamed at screens to get things done.
 - Languages: English(native), Italian(fluent)
 ```
 
-### CSS
+#### CSS
 The [repository layout](#repository-layout) includes two `.css` files:
 
-#### `css/normalize.css` 
+##### `css/normalize.css` 
 Ensures all components render the same, regardless of the browser. You can get the latest version from [the official `normalize.css` website](https://necolas.github.io/normalize.css/).
 
-#### `css/default.css` 
+##### `css/default.css` 
 Contains the actual styling for your CV, including:
 
 - Background color
@@ -121,7 +120,7 @@ You can get a base `default.css` by expanding the section below:
 ```
 {{% /details %}}
 
-### Justfile 
+#### Justfile 
 The [just](https://github.com/casey/just) utility allows us to save and run predefined commands easily.
 
 Our `Justfile`:
@@ -163,7 +162,7 @@ clean:
     rm -r {{out_dir}}
 ```
 
-#### Explanation 
+##### Explanation 
 This Justfile automates the process of converting Markdown files to both HTML and PDF formats. Here's a brief overview of the commands:
 
 - **build**: Runs the init command to create the output directory, then processes each Markdown file in the input directory:
@@ -183,7 +182,7 @@ Key `pandoc` flags:
 - `--metadata title=...`: Sets the document title.
 - `--output`: Defines the output file path.
 
-### Github Action 
+#### Github Action 
 This workflow will be triggered on any `git push` to the `main` branch, you can push via your PC/phone/etc, and it will automatically generate your CV.
 
 Our `build.yaml`:
@@ -247,7 +246,7 @@ jobs:
           files: ${{ env.PDF_FILES }}
 ```
 
-## Wrap Up 
+### Wrap Up 
 If everything is set up correctly, you should see a new release on the main repository page:
 
 ![Repository Releases](img/repository_releases.jpg)
@@ -255,7 +254,6 @@ If everything is set up correctly, you should see a new release on the main repo
 Clicking on it, you will see your PDF file(s) under "Assets":
 
 ![CV Release](img/CV_release.jpg)
-
 
 PDF output:
 {{< pdf "assets/John_Doe.pdf" >}}
