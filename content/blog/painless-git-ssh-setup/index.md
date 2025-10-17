@@ -22,15 +22,15 @@ Whether you're a seasoned developer or new to version control, configuring Git w
 > Replace "github" with "gitlab", "bitbucket", etc.
 
 #### Create the `.ssh` Directory and SSH config
-{{< tabs items="Linux/MacOS,Windows" >}}
-  {{< tab >}}
+{{< tabs >}}
+  {{< tab name="Linux/MacOS" >}}
   ```shell
   mkdir -p ~/.ssh/keys/
   touch ~/.ssh/config
   ```
   {{< /tab >}}
 
-  {{< tab >}}
+  {{< tab name="Windows">}}
   ```powershell
   New-Item -ItemType Directory -Path "$env:UserProfile\.ssh\keys"
   New-Item -ItemType File -Path "$env:UserProfile\.ssh\config"
@@ -52,14 +52,14 @@ If everything went successfully, the `.ssh` directory tree will look like:
 > Creating the `.ssh/keys` directory helps manage multiple SSH keys if needed, it's completely optional.
 
 ### Generate an SSH Key Pair
-{{< tabs items="Linux/MacOS,Windows" >}}
-  {{< tab >}}
+{{< tabs >}}
+  {{< tab name="Linux/MacOS" >}}
   ```shell
   ssh-keygen -t ed25519 -b 4096 -a 100 -C private-pc -f ~/.ssh/keys/github
   ```
   {{< /tab >}}
 
-  {{< tab >}}
+  {{< tab name="Windows" >}}
   ```powershell
   ssh-keygen.exe -t ed25519 -b 4096 -a 100 -C "private-pc" -f "$env:UserProfile\.ssh\keys\github" 
   ```
@@ -165,26 +165,26 @@ ssh github.com
 If you don't get any errors, the setup is successful. :partying_face:
 
 #### Configure Git to Use SSH Instead of HTTPS
-{{< tabs items="Bitbucket,Codeberg,Github,Gitlab" >}}
-  {{< tab >}}
+{{< tabs >}}
+  {{< tab name="Bitbucket" >}}
   ```shell
   git config --global url.ssh://git@bitbucket.org/.insteadOf https://bitbucket.org/
   ```
   {{< /tab >}}
   
-  {{< tab >}}
+  {{< tab name="Codeberg" >}}
   ```shell
   git config --global url.ssh://git@codeberg.org/.insteadOf https://codeberg.org/
   ```
   {{< /tab >}}
   
-  {{< tab >}}
+  {{< tab name="Github" >}}
   ```shell
   git config --global url.ssh://git@github.com/.insteadOf https://github.com/
   ```
   {{< /tab >}}
   
-  {{< tab >}}
+  {{< tab name="Gitlab" >}}
   ```shell
   git config --global url.ssh://git@gitlab.com/.insteadOf https://gitlab.com/
   ```
@@ -202,14 +202,14 @@ If you encounter:
 
 Run the following:
 
-{{< tabs items="Linux/MacOS,Windows" >}}
-  {{< tab >}}
+{{< tabs >}}
+  {{< tab name="Linux/MacOS" >}}
   ```shell
   chmod 400 ~/.ssh/keys/github
   ```
   {{< /tab >}}
 
-  {{< tab >}}
+  {{< tab name="Windows" >}}
   ```powershell
   New-Variable -Name Key -Value "$env:UserProfile\.ssh\keys\github"
   Icacls $Key /c /t /Inheritance:d
